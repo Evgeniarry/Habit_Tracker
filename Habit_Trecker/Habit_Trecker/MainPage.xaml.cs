@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace Habit_Trecker
+namespace Habit_Tracker
 {
     public partial class MainPage : ContentPage
     {

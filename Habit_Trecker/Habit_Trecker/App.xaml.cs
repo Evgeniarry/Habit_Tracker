@@ -2,7 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Habit_Trecker
+namespace Habit_Tracker
 {
     public partial class App : Application
     {

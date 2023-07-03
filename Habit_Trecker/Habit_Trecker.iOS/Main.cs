@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Habit_Trecker.iOS
+namespace Habit_Tracker.iOS
 {
     public class Application
     {
