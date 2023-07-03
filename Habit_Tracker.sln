@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habit_Trecker.Android", "Habit_Trecker\Habit_Trecker.Android\Habit_Trecker.Android.csproj", "{6313467B-6860-4CDA-A009-E71ABFEADD83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habit_Tracker.Android", "Habit_Trecker\Habit_Trecker.Android\Habit_Tracker.Android.csproj", "{6313467B-6860-4CDA-A009-E71ABFEADD83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habit_Trecker.iOS", "Habit_Trecker\Habit_Trecker.iOS\Habit_Trecker.iOS.csproj", "{80C1C53F-51FF-47FD-9C4A-C98ADAEE5072}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habit_Tracker.iOS", "Habit_Trecker\Habit_Trecker.iOS\Habit_Tracker.iOS.csproj", "{80C1C53F-51FF-47FD-9C4A-C98ADAEE5072}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Habit_Trecker", "Habit_Trecker\Habit_Trecker\Habit_Trecker.csproj", "{36A8ED7D-09AA-46BC-847E-CBAEC008D367}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Habit_Tracker", "Habit_Trecker\Habit_Trecker\Habit_Tracker.csproj", "{36A8ED7D-09AA-46BC-847E-CBAEC008D367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

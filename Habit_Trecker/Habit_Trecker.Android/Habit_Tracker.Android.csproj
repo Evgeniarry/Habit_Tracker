@@ -85,9 +85,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Habit_Trecker\Habit_Trecker.csproj">
-      <Project>{53BC7E01-3996-4D22-9600-8FE31A71E5CD}</Project>
-      <Name>Habit_Trecker</Name>
+    <ProjectReference Include="..\Habit_Trecker\Habit_Tracker.csproj">
+      <Project>{36A8ED7D-09AA-46BC-847E-CBAEC008D367}</Project>
+      <Name>Habit_Tracker</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
