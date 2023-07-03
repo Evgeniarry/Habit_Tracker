@@ -9,7 +9,7 @@
             <Label Text="Привычки" FontSize="24" FontFamily="Roboto" TextColor="Black" FontAttributes="Bold"/>
         </StackLayout>
         <StackLayout>
-            <Label x:Name="labelDate" Text="Июнь 2023" FontFamily="Roboto" FontSize="18" TextColor="#616161" 
+            <Label x:Name="labelDate" Text="" FontFamily="Roboto" FontSize="18" TextColor="#616161" 
                    FontAttributes="Bold" Margin="28, 0"/>
         </StackLayout>
     </StackLayout>
