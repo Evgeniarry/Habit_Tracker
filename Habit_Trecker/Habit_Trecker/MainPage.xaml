@@ -6,7 +6,7 @@
     <StackLayout BackgroundColor="#F5F5F5">
         <StackLayout Margin="20, 10" Orientation="Horizontal">
             <Image Source="Resources/image2.png"  Margin="8, 6" VerticalOptions="StartAndExpand"/>
-            <Label Text="Привычки" FontSize="24" FontFamily="Roboto" TextColor="Black" FontAttributes="Bold"/>
+            <Label Text="Habit Doodle " FontSize="24" FontFamily="Mochiy pop one" TextColor="Black" FontAttributes="Bold"/>
         </StackLayout>
         <StackLayout>
             <Label x:Name="labelDate" Text="" FontFamily="Roboto" FontSize="18" TextColor="#616161" 
