@@ -4,7 +4,7 @@
              x:Class="Habit_Tracker.MainPage">
 
     <StackLayout BackgroundColor="#F5F5F5">
-        <StackLayout Margin="20, 10" Orientation="Horizontal">
+        <StackLayout Margin="0, 0" Orientation="Horizontal">
             <Image Source="Resources/image2.png"  Margin="8, 6" VerticalOptions="StartAndExpand"/>
             <Label Text="Habit Doodle " FontSize="24" FontFamily="Mochiy pop one" TextColor="Black" FontAttributes="Bold"/>
         </StackLayout>
@@ -12,6 +12,16 @@
             <Label x:Name="labelDate" Text="" FontFamily="Roboto" FontSize="18" TextColor="#616161" 
                    FontAttributes="Bold" Margin="28, 0"/>
         </StackLayout>
+        <Button x:Name="AddButton" Text="+"
+                FontAttributes="Bold"
+                FontSize="35"
+                BackgroundColor="#663ABA"
+                CornerRadius="300"
+                VerticalOptions="EndAndExpand"
+                HorizontalOptions="EndAndExpand"
+                WidthRequest="50"
+                HeightRequest="50"
+                Clicked="OnButtonClicked"/>
     </StackLayout>
     
 </ContentPage>
