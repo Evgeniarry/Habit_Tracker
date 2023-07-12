@@ -4,6 +4,7 @@
              x:Class="Habit_Tracker.AddHabit">
     <StackLayout Margin="15">
         <Entry x:Name="NameHabit" Placeholder="Название привычки"/>
-        <Entry x:Name="Description" Placeholder="Описание привычки"/>
+        <Editor x:Name="Description" Placeholder="Описание привычки" HeightRequest="200"/>
+        <Button Text="Добавить привычку" Clicked="AddHabitButton"/>
     </StackLayout>
 </ContentPage>

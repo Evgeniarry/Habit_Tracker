@@ -16,6 +16,14 @@ namespace Habit_Tracker
             InitializeComponent();
             Load();
         }
+        protected override void OnAppearing()
+        {
+            ShowHabits();
+        }
+        private void ShowHabits()
+        {
+            habitsCollection.ItemsSource = App.DB.GetHabit();
+        }
         public void Load()
         {
             string s = DateTime.Now.ToString("MMMM yyyy", CultureInfo.GetCultureInfo("ru"));
