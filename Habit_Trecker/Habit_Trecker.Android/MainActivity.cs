@@ -6,7 +6,7 @@ using Android.OS;
 
 namespace Habit_Tracker.Droid
 {
-    [Activity(Label = "Doodle Habit", Theme = "@style/MyTheme.Splash", MainLauncher = true, 
+    [Activity(Label = "Doodle Habit", Theme = "@style/MainTheme", MainLauncher = false, 
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode 
         | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize )]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity

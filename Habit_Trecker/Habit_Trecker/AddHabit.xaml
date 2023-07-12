@@ -1,10 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Habit_Tracker.AddHabit">
+             x:Class="Habit_Tracker.AddHabit"
+             Title="Новая привычка">
     <StackLayout Margin="15">
         <Entry x:Name="NameHabit" Placeholder="Название привычки"/>
         <Editor x:Name="Description" Placeholder="Описание привычки" HeightRequest="200"/>
+        
+        <StackLayout Orientation="Horizontal">
+            <CheckBox x:Name="Yellow" BackgroundColor="Yellow" CheckedChanged="Yellow_CheckedChanged"/>
+            <Button x:Name="Red" BackgroundColor="#F44236" CornerRadius="300" WidthRequest="50" HeightRequest="50" Clicked="Red_Clicked"/>
+            <Button x:Name="Blue" BackgroundColor="#00BCD5" CornerRadius="300" WidthRequest="50" HeightRequest="50" Clicked="Blue_Clicked"/>
+            <Button x:Name="Black" BackgroundColor="#000000" CornerRadius="300" WidthRequest="50" HeightRequest="50" Clicked="Black_Clicked"/>
+            <Button x:Name="White" BackgroundColor="#FFFFFF" CornerRadius="300" WidthRequest="50" HeightRequest="50" Clicked="White_Clicked"/>
+        </StackLayout>
+        
         <Button Text="Добавить привычку" Clicked="AddHabitButton"/>
     </StackLayout>
 </ContentPage>

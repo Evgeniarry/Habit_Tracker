@@ -5,16 +5,14 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using AndroidX.AppCompat.App;
 using Habit_Tracker.Droid;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using AndroidX.AppCompat.App;
-using Android.Nfc;
-using System.Threading.Tasks;
 
-namespace Habit_Trecker.Droid
+namespace HabitsTracker.Droid
 {
     [Activity(Label = "Habit Tracker", Theme = "@style/MyTheme.Splash", MainLauncher = true, NoHistory = true)]
     public class SplashActivity : AppCompatActivity
@@ -31,18 +29,7 @@ namespace Habit_Trecker.Droid
         protected override void OnResume()
         {
             base.OnResume();
-            Task startupWork = new Task(() => { SimulateStartup(); });
-            startupWork.Start();
-        }
-        async void SimulateStartup()
-        {
-            Log.Debug(TAG, "Performing some startup work that takes a bit of time.");
-            await Task.Delay(8000); // Simulate a bit of startup work.
-            Log.Debug(TAG, "Startup work is finished - starting MainActivity.");
             StartActivity(new Intent(Application.Context, typeof(MainActivity)));
         }
-
     }
 }
-
-

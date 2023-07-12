@@ -3,23 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Habit_Tracker.MainPage"
              Title="Doodle Habit">
-
-    <StackLayout BackgroundColor="#F5F595">
-        <StackLayout Margin="0, 0" Orientation="Horizontal">
+    
+    <StackLayout BackgroundColor="#FFBDFC">
+        <!--<StackLayout Margin="0, 0" Orientation="Horizontal">
             <Image Source="Resources/image2.png"  Margin="8, 6" VerticalOptions="StartAndExpand"/>
             <Label Text="Habit Doodle " FontSize="24" FontFamily="Mochiy pop one" TextColor="Black" FontAttributes="Bold"/>
-        </StackLayout>
-        
-        <StackLayout>
-            <Label x:Name="labelDate" Text="" FontFamily="Roboto" FontSize="18" TextColor="#616161" 
-                   FontAttributes="Bold" Margin="28, 0"/>
+        </StackLayout>-->
+
+        <StackLayout Margin="10, 10">
+            <Label x:Name="labelDate" Text="" FontFamily="Roboto" FontSize="22" TextColor="#616161" 
+                   FontAttributes="Bold"/>
         </StackLayout>
         
         <CollectionView x:Name="habitsCollection">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout>
-                        <Label Text="{Binding Name}"/>
+                    <StackLayout Orientation="Horizontal" >
+                        <Label Text="{Binding Name}" FontSize="20" Margin="30, 10"/>
+                        <Switch VerticalOptions="Center" OnColor="{Binding Color}" HorizontalOptions="EndAndExpand" IsToggled="False" Toggled="Switch_Toggled"/>
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

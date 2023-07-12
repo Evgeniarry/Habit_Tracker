@@ -16,29 +16,60 @@ namespace Habit_Tracker
         {
             InitializeComponent();
         }
+        string color = "#000000";
+        private void Red_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Blue_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Black_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void White_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Yellow_CheckedChanged(object sender, CheckedChangedEventArgs e)
+        {
+            color = "#FFB800";
+        }
+
         private async void AddHabitButton (object sender, EventArgs e)
         {
             string title = NameHabit.Text.Trim();
             string desc = Description.Text.Trim();
-            if (title.Length < 5)
+            
+            if (title.Length < 3)
             {
-                await DisplayAlert("Error", "Минимальная длина названия 5 символов", "OK");
+                await DisplayAlert("Error", "Введите название", "OK");
                 return;
             }
-            else if (desc.Length < 5)
+            if (desc.Length < 10)
             {
-                await DisplayAlert("Error", "Минимальная длина описания 10 символов", "OK");
+                await DisplayAlert("Error", "Введите описание", "OK");
                 return;
             }
             Habit habit = new Habit
             {
                 Name = title,
-                Description = desc
+                Description = desc,
+                Color = color
+                
             };
             App.DB.SaveHabit(habit);
 
             NameHabit.Text = "";
             Description.Text = "";
         }
+
+        
     }
 }

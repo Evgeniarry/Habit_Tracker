@@ -1,6 +1,7 @@
 ﻿using SQLite;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Text;
 
 namespace Habit_Tracker
@@ -12,6 +13,7 @@ namespace Habit_Tracker
         public string Name {get; set;}
         public string Description { get; set;}
         public int Progress { get; set;}
+        public string Color { get; set;}
 
     }
 

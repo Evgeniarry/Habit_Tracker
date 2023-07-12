@@ -26,14 +26,17 @@ namespace Habit_Tracker
         }
         public void Load()
         {
-            string s = DateTime.Now.ToString("MMMM yyyy", CultureInfo.GetCultureInfo("ru"));
-            labelDate.Text = s[0].ToString().ToUpper() + s.Substring(1);
+            labelDate.Text = DateTime.Now.ToString("d MMMM yyyy", CultureInfo.GetCultureInfo("ru"));
+            //labelDate.Text = s[0].ToString().ToUpper() + s.Substring(1);
         }
         async void OnButtonClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new AddHabit());
-            
+            await Navigation.PushAsync(new AddHabit());  
         }
 
+        private void Switch_Toggled(object sender, ToggledEventArgs e)
+        {
+            
+        }
     }
 }
