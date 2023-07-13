@@ -1,4 +1,5 @@
 ﻿using SQLite;
+using System.Collections.Generic;
 
 namespace Habit_Tracker.Model
 {
@@ -10,6 +11,6 @@ namespace Habit_Tracker.Model
         public string Description { get; set; }
         public int Progress { get; set; }
         public string Color { get; set; }
-
+        
     }
 }

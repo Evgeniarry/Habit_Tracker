@@ -12,6 +12,7 @@ namespace Habit_Tracker
         {
             _connection = new SQLiteAsyncConnection (path);
             _connection.CreateTableAsync<Habit>().Wait();
+            //_connection.CreateTableAsync<DayModel>().Wait();
         }
 
         public Task<List<Habit>> GetHabitsAsync()
@@ -41,13 +42,10 @@ namespace Habit_Tracker
         {
             return _connection.DeleteAsync(habit);
         }
-        //public List<Habit> GetHabit() 
+        
+        //public Task<List<DayModel>> GetDaysAsync(int chosehabit) 
         //{
-        //    return _connection.Table<Habit>().ToList();
-        //}
-        //public int SaveHabit(Habit habit)
-        //{
-        //    return _connection.Insert(habit);
+        //    return _connection.Table<DayModel>().Where(i => i.Habit.ID == chosehabit).ToListAsync();
         //}
     }
 }

@@ -16,16 +16,11 @@ namespace Habit_Tracker
         public MainPage()
         {
             InitializeComponent();
-            Load();
+            labelDate.Text = DateTime.Now.ToString("d MMMM yyyy", CultureInfo.GetCultureInfo("ru"));
         }
         protected override async void OnAppearing()
         {
             habitsCollection.ItemsSource = await App.DB.GetHabitsAsync();
-        }
-        public void Load()
-        {
-            labelDate.Text = DateTime.Now.ToString("d MMMM yyyy", CultureInfo.GetCultureInfo("ru"));
-            //labelDate.Text = s[0].ToString().ToUpper() + s.Substring(1);
         }
         async void OnButtonClicked(object sender, EventArgs e)
         {
@@ -34,7 +29,7 @@ namespace Habit_Tracker
 
         private void Switch_Toggled(object sender, ToggledEventArgs e)
         {
-            
+
         }
 
         private async void OnSelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -42,10 +37,7 @@ namespace Habit_Tracker
             if (e.CurrentSelection != null) 
             {
                 Habit habit = (Habit)e.CurrentSelection.FirstOrDefault();
-                await Shell.Current.GoToAsync($"{nameof(EditPage)}?{nameof(EditPage.ItemID)}=" +
-                    $"{habit.ID.ToString()}");
-                //await DisplayAlert(habit.Name, habit.Description, "OK");
-                //await Navigation. ($"{nameof(AddHabit)}?{nameof(AddHabit.ItemID)}={habit.ID.ToString()}"); 
+                await Navigation.PushAsync(new EditPage(habit.ID));
             }
         }
     }

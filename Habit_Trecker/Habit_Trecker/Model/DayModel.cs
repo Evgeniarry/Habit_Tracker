@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace Habit_Tracker.Model
 {
     public class DayModel
@@ -10,15 +11,12 @@ namespace Habit_Tracker.Model
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
 
-        private bool IsSelected { get; set; }
+        public bool IsSelected { get; set; }
 
         public int Day { get; set; }
 
         public string Month { get; set; }
 
-        public override string ToString()
-        {
-            return $"{Day}-{Month}-{IsSelected}";
-        }
+        public Habit Habit { get; set; } = new Habit();
     }
 }

@@ -8,6 +8,12 @@
         <StackLayout Margin="10, 10">
             <Label x:Name="labelDate" Text="" FontFamily="Roboto" FontSize="22" TextColor="#616161" 
                    FontAttributes="Bold"/>
+            <Label x:Name="label"
+                   
+           BindingContext="{x:Reference Name=entryBox}"
+           Text="{Binding Path=Text}"
+           FontSize="Large" />
+            <Entry x:Name="entryBox" />
         </StackLayout>
         
         <CollectionView x:Name="habitsCollection" 
@@ -23,11 +29,28 @@
                         <Label Text="{Binding Name}" 
                                FontSize="20" 
                                Margin="30, 10"/>
-                        <Switch VerticalOptions="Center" 
+                        <!--<Switch x:Name="styleSwitch" />
+                        <Label Text="aaa">
+                            <Label.Triggers>
+                                <DataTrigger TargetType="Label"
+                                             Binding="{Binding Source={x:Reference styleSwitch}, Path=IsToggled}"
+                                             Value="true">
+                                    <Setter Property="FontAttributes"
+                                            Value="Italic, Bold" />
+                                    <Setter Property="FontSize"
+                                            Value="Large" />
+                                </DataTrigger>
+                            </Label.Triggers>
+                        </Label>-->
+                        
+                        <Switch 
+                                VerticalOptions="Center" 
                                 OnColor="{Binding Color}" 
                                 HorizontalOptions="EndAndExpand" 
-                                IsToggled="False" 
+                                 
                                 Toggled="Switch_Toggled"/>
+                        
+                        
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

@@ -3,13 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Habit_Tracker.View.EditPage">
     <StackLayout Margin="15">
-        <Entry x:Name="NameHabit" Placeholder="Название привычки"/>
-        <Editor x:Name="Description" Placeholder="Описание привычки" HeightRequest="200"/>
-
-        
+        <Entry x:Name="NameHabit" 
+               Placeholder="Название привычки"
+               Text="{Binding Name}"/>
+        <Editor x:Name="Description" 
+                Placeholder="Описание привычки" 
+                HeightRequest="200"
+                Text="{Binding Description}"/>
 
         <Button Text="Сохранить привычку" 
-                Clicked="AddHabitButton"/>
+                Clicked="SaveHabitButton"/>
         <Button Text="Удалить привычку"
                 Clicked="DeliteHabitButton"/>
     </StackLayout>

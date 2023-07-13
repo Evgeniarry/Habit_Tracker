@@ -1,47 +1,30 @@
 ﻿using Habit_Tracker.Model;
 using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace Habit_Tracker.View
 {
-    [QueryProperty(nameof(ItemID), nameof(ItemID))]
     public partial class EditPage : ContentPage
     { 
-       
-            public string ItemID
-            {
-                set
-                {
-                    LoadHabit(value);
-                }
-            }
-            public EditPage()
+        public EditPage(int ID)
         {
             InitializeComponent();
 
-            BindingContext = new Habit();
+            LoadHabit(ID);
         }
 
-        private async void LoadHabit(string value)
+        private async void LoadHabit(int value)
         {
             try
             {
-                int id = Convert.ToInt32(value);
-                Habit habit = await App.DB.GetHabitAsync(id);
+                Habit habit = await App.DB.GetHabitAsync(value);
                 BindingContext = habit;
             }
             catch { }
         }
 
         string color = "#000000";
-        private async void AddHabitButton(object sender, EventArgs e)
+        private async void SaveHabitButton(object sender, EventArgs e)
         {
             Habit habit = (Habit)BindingContext;
 
@@ -59,7 +42,8 @@ namespace Habit_Tracker.View
         {
             Habit habit = (Habit)BindingContext;
             await App.DB.DeliteHabitAsync(habit);
-
+            await Navigation.PopAsync();
+            await Navigation.PushAsync(new MainPage());
         }
     }
 }
