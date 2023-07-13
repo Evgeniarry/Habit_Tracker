@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Habit_Tracker.Model;
+using Habit_Tracker.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Globalization;
@@ -16,13 +18,9 @@ namespace Habit_Tracker
             InitializeComponent();
             Load();
         }
-        protected override void OnAppearing()
+        protected override async void OnAppearing()
         {
-            ShowHabits();
-        }
-        private void ShowHabits()
-        {
-            habitsCollection.ItemsSource = App.DB.GetHabit();
+            habitsCollection.ItemsSource = await App.DB.GetHabitsAsync();
         }
         public void Load()
         {
@@ -37,6 +35,18 @@ namespace Habit_Tracker
         private void Switch_Toggled(object sender, ToggledEventArgs e)
         {
             
+        }
+
+        private async void OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (e.CurrentSelection != null) 
+            {
+                Habit habit = (Habit)e.CurrentSelection.FirstOrDefault();
+                await Shell.Current.GoToAsync($"{nameof(EditPage)}?{nameof(EditPage.ItemID)}=" +
+                    $"{habit.ID.ToString()}");
+                //await DisplayAlert(habit.Name, habit.Description, "OK");
+                //await Navigation. ($"{nameof(AddHabit)}?{nameof(AddHabit.ItemID)}={habit.ID.ToString()}"); 
+            }
         }
     }
 }

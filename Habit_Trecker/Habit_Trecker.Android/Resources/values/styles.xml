@@ -3,7 +3,6 @@
   <style name="MainTheme" parent="MainTheme.Base">
     <item name="colorPrimary">#8196F3</item>
     <item name="android:colorPrimaryDark">#1976D2</item>
-	<item name="colorPrimaryVariant">#111111</item>
       <item name="colorAccent">#FF9081</item>
 	  <item name="android:windowBackground">@drawable/gradient</item>
   </style>

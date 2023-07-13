@@ -14,7 +14,8 @@
             <Button x:Name="Black" BackgroundColor="#000000" CornerRadius="300" WidthRequest="50" HeightRequest="50" Clicked="Black_Clicked"/>
             <Button x:Name="White" BackgroundColor="#FFFFFF" CornerRadius="300" WidthRequest="50" HeightRequest="50" Clicked="White_Clicked"/>
         </StackLayout>
-        
-        <Button Text="Добавить привычку" Clicked="AddHabitButton"/>
+
+        <Button Text="Добавить привычку" 
+                Clicked="AddHabitButton"/>
     </StackLayout>
 </ContentPage>

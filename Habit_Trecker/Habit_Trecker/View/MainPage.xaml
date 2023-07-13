@@ -3,24 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Habit_Tracker.MainPage"
              Title="Doodle Habit">
-    
-    <StackLayout BackgroundColor="#FFBDFC">
-        <!--<StackLayout Margin="0, 0" Orientation="Horizontal">
-            <Image Source="Resources/image2.png"  Margin="8, 6" VerticalOptions="StartAndExpand"/>
-            <Label Text="Habit Doodle " FontSize="24" FontFamily="Mochiy pop one" TextColor="Black" FontAttributes="Bold"/>
-        </StackLayout>-->
 
+    <StackLayout>
         <StackLayout Margin="10, 10">
             <Label x:Name="labelDate" Text="" FontFamily="Roboto" FontSize="22" TextColor="#616161" 
                    FontAttributes="Bold"/>
         </StackLayout>
         
-        <CollectionView x:Name="habitsCollection">
+        <CollectionView x:Name="habitsCollection" 
+                        SelectionMode="Single"
+                        SelectionChanged="OnSelectionChanged">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical"
+                                   ItemSpacing="10"/>
+            </CollectionView.ItemsLayout>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout Orientation="Horizontal" >
-                        <Label Text="{Binding Name}" FontSize="20" Margin="30, 10"/>
-                        <Switch VerticalOptions="Center" OnColor="{Binding Color}" HorizontalOptions="EndAndExpand" IsToggled="False" Toggled="Switch_Toggled"/>
+                        <Label Text="{Binding Name}" 
+                               FontSize="20" 
+                               Margin="30, 10"/>
+                        <Switch VerticalOptions="Center" 
+                                OnColor="{Binding Color}" 
+                                HorizontalOptions="EndAndExpand" 
+                                IsToggled="False" 
+                                Toggled="Switch_Toggled"/>
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

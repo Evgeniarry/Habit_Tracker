@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Habit_Tracker.View.EditPage">
+    <StackLayout Margin="15">
+        <Entry x:Name="NameHabit" Placeholder="Название привычки"/>
+        <Editor x:Name="Description" Placeholder="Описание привычки" HeightRequest="200"/>
+
+        
+
+        <Button Text="Сохранить привычку" 
+                Clicked="AddHabitButton"/>
+        <Button Text="Удалить привычку"
+                Clicked="DeliteHabitButton"/>
+    </StackLayout>
+</ContentPage>

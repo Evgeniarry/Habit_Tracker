@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Habit_Tracker
+namespace Habit_Tracker.Model
 {
     public class MonthModel
     {
