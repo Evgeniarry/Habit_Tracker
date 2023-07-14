@@ -14,7 +14,7 @@ using System.Text;
 
 namespace HabitsTracker.Droid
 {
-    [Activity(Label = "Habit Tracker", Theme = "@style/MyTheme.Splash", MainLauncher = true, NoHistory = true)]
+    [Activity(Label = "Habit Doodle", Theme = "@style/MyTheme.Splash", MainLauncher = true, NoHistory = true)]
     public class SplashActivity : AppCompatActivity
     {
         static readonly string TAG = "X:" + typeof(SplashActivity).Name;
@@ -25,7 +25,6 @@ namespace HabitsTracker.Droid
             Log.Debug(TAG, "SplashActivity.OnCreate");
         }
 
-        // Launches the startup task
         protected override void OnResume()
         {
             base.OnResume();

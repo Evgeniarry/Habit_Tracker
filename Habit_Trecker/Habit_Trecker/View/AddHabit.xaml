@@ -3,16 +3,102 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Habit_Tracker.AddHabit"
              Title="Новая привычка">
+    <ContentPage.Resources>
+        <ControlTemplate x:Key="RadioButtonTemplate">
+            <Frame BorderColor="#F3F2F1"
+                   BackgroundColor="#F3F2F1"
+                   HasShadow="False"
+                   HeightRequest="100"
+                   WidthRequest="100"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"
+                   Padding="0">
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CheckedStates">
+                            <VisualState x:Name="Checked">
+                                <VisualState.Setters>
+                                    <Setter Property="BorderColor"
+                                            Value="#FF3300" />
+                                    <Setter TargetName="check"
+                                            Property="Opacity"
+                                            Value="1" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Unchecked">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor"
+                                            Value="#F3F2F1" />
+                                    <Setter Property="BorderColor"
+                                            Value="#F3F2F1" />
+                                    <Setter TargetName="check"
+                                            Property="Opacity"
+                                            Value="0" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </VisualStateManager.VisualStateGroups>
+                <Grid Margin="4"
+                      WidthRequest="100">
+                    <Grid WidthRequest="18"
+                          HeightRequest="18"
+                          HorizontalOptions="End"
+                          VerticalOptions="Start">
+                        <Ellipse Stroke="Blue"
+                                 Fill="White"
+                                 WidthRequest="16"
+                                 HeightRequest="16"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="Center" />
+                        <Ellipse x:Name="check"
+                                 Fill="Blue"
+                                 WidthRequest="8"
+                                 HeightRequest="8"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="Center" />
+                    </Grid>
+                    <ContentPresenter />
+                </Grid>
+            </Frame>
+        </ControlTemplate>
+        
+
+        <Style TargetType="RadioButton">
+            <Setter Property="ControlTemplate"
+                    Value="{StaticResource RadioButtonTemplate}" />
+        </Style>
+        
+    </ContentPage.Resources>
+        
     <StackLayout Margin="15">
         <Entry x:Name="NameHabit" Placeholder="Название привычки"/>
         <Editor x:Name="Description" Placeholder="Описание привычки" HeightRequest="200"/>
-        
-        <StackLayout Orientation="Horizontal">
-            <CheckBox x:Name="Yellow" BackgroundColor="Yellow" CheckedChanged="Yellow_CheckedChanged"/>
-            <Button x:Name="Red" BackgroundColor="#F44236" CornerRadius="300" WidthRequest="50" HeightRequest="50" Clicked="Red_Clicked"/>
-            <Button x:Name="Blue" BackgroundColor="#00BCD5" CornerRadius="300" WidthRequest="50" HeightRequest="50" Clicked="Blue_Clicked"/>
-            <Button x:Name="Black" BackgroundColor="#000000" CornerRadius="300" WidthRequest="50" HeightRequest="50" Clicked="Black_Clicked"/>
-            <Button x:Name="White" BackgroundColor="#FFFFFF" CornerRadius="300" WidthRequest="50" HeightRequest="50" Clicked="White_Clicked"/>
+        <Label Text="Иконка" />
+
+        <StackLayout RadioButtonGroup.GroupName="animals"
+                 Orientation="Horizontal">
+            <RadioButton Value="Cat" x:Name="Cat" CheckedChanged="ImageChanged">
+                <RadioButton.Content>
+                    <Image Source="cat.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Value="Dog" x:Name="Dog" CheckedChanged="ImageChanged">
+                <RadioButton.Content>
+                    <Image Source="dog.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Value="Elephant" x:Name="Elephant" CheckedChanged="ImageChanged" IsChecked="True">
+                <RadioButton.Content>
+                    <Image Source="elephant.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand" />
+                </RadioButton.Content>
+            </RadioButton>
         </StackLayout>
 
         <Button Text="Добавить привычку" 

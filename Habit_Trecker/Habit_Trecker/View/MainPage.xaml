@@ -2,18 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Habit_Tracker.MainPage"
-             Title="Doodle Habit">
+             Title="Habit Doodle">
 
     <StackLayout>
         <StackLayout Margin="10, 10">
             <Label x:Name="labelDate" Text="" FontFamily="Roboto" FontSize="22" TextColor="#616161" 
                    FontAttributes="Bold"/>
-            <Label x:Name="label"
-                   
-           BindingContext="{x:Reference Name=entryBox}"
-           Text="{Binding Path=Text}"
-           FontSize="Large" />
-            <Entry x:Name="entryBox" />
+         
         </StackLayout>
         
         <CollectionView x:Name="habitsCollection" 
@@ -26,6 +21,10 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout Orientation="Horizontal" >
+                        <Image Source="{Binding Image}"
+                               HeightRequest="40"
+                               WidthRequest="40"
+                               Margin="10,0"/>
                         <Label Text="{Binding Name}" 
                                FontSize="20" 
                                Margin="30, 10"/>
@@ -47,7 +46,7 @@
                                 VerticalOptions="Center" 
                                 OnColor="{Binding Color}" 
                                 HorizontalOptions="EndAndExpand" 
-                                 
+                                
                                 Toggled="Switch_Toggled"/>
                         
                         
@@ -55,17 +54,12 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        
         <Button x:Name="AddButton" Text="+"
-                FontAttributes="Bold"
-                FontSize="35"
-                BackgroundColor="#663ABA"
-                CornerRadius="300"
-                VerticalOptions="EndAndExpand"
-                HorizontalOptions="EndAndExpand"
-                WidthRequest="50"
-                HeightRequest="50"
-                Clicked="OnButtonClicked"/>
+                Clicked="OnButtonClicked" IsVisible="True"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="1, 1, AutoSize, AutoSize"
+                Style="{StaticResource FABPrimary}"/>
+
     </StackLayout>
     
 </ContentPage>

@@ -23,14 +23,12 @@ namespace Habit_Tracker.View
             catch { }
         }
 
-        string color = "#000000";
         private async void SaveHabitButton(object sender, EventArgs e)
         {
             Habit habit = (Habit)BindingContext;
 
             habit.Name = NameHabit.Text.Trim();
             habit.Description = Description.Text.Trim();
-            habit.Color = color;
 
             if ((!string.IsNullOrWhiteSpace(habit.Name)) && (!string.IsNullOrWhiteSpace(habit.Description)))
             {

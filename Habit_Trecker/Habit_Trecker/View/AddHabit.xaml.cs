@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -18,33 +19,7 @@ namespace Habit_Tracker
             InitializeComponent();
             
         }
-
-        string color = "#000000";
-        private void Red_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Blue_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Black_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void White_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Yellow_CheckedChanged(object sender, CheckedChangedEventArgs e)
-        {
-            color = "#FFB800";
-        }
-
+        string image;
         private async void AddHabitButton (object sender, EventArgs e)
         {
             //Habit habit = (Habit)BindingContext;
@@ -63,7 +38,7 @@ namespace Habit_Tracker
             }
             habit.Name = NameHabit.Text.Trim();
             habit.Description = Description.Text.Trim();
-            habit.Color = color;
+            habit.Image = image;
 
             //if ((!string.IsNullOrWhiteSpace(habit.Name))&&(!string.IsNullOrWhiteSpace(habit.Description)))
             //{
@@ -75,8 +50,10 @@ namespace Habit_Tracker
             Description.Text = "";
         }
 
-        
-
-        
+        private void ImageChanged(object sender, CheckedChangedEventArgs e)
+        {
+            RadioButton radio = (RadioButton)sender;
+            image = $"{(string)radio.Value}.png";
+        }
     }
 }
