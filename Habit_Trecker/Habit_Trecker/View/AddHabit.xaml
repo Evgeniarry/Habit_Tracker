@@ -19,7 +19,7 @@
                             <VisualState x:Name="Checked">
                                 <VisualState.Setters>
                                     <Setter Property="BorderColor"
-                                            Value="#FF3300" />
+                                            Value="#663ABA" />
                                     <Setter TargetName="check"
                                             Property="Opacity"
                                             Value="1" />
@@ -28,9 +28,9 @@
                             <VisualState x:Name="Unchecked">
                                 <VisualState.Setters>
                                     <Setter Property="BackgroundColor"
-                                            Value="#F3F2F1" />
+                                            Value="#DADADA" />
                                     <Setter Property="BorderColor"
-                                            Value="#F3F2F1" />
+                                            Value="#DADADA" />
                                     <Setter TargetName="check"
                                             Property="Opacity"
                                             Value="0" />
@@ -45,14 +45,14 @@
                           HeightRequest="18"
                           HorizontalOptions="End"
                           VerticalOptions="Start">
-                        <Ellipse Stroke="Blue"
+                        <Ellipse Stroke="#663ABA"
                                  Fill="White"
                                  WidthRequest="16"
                                  HeightRequest="16"
                                  HorizontalOptions="Center"
                                  VerticalOptions="Center" />
                         <Ellipse x:Name="check"
-                                 Fill="Blue"
+                                 Fill="#663ABA"
                                  WidthRequest="8"
                                  HeightRequest="8"
                                  HorizontalOptions="Center"
