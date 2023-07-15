@@ -5,8 +5,8 @@
              Title="Новая привычка">
     <ContentPage.Resources>
         <ControlTemplate x:Key="RadioButtonTemplate">
-            <Frame BorderColor="#F3F2F1"
-                   BackgroundColor="#F3F2F1"
+            <Frame BorderColor="#00F3F2F1"
+                   BackgroundColor="#00F3F2F1"
                    HasShadow="False"
                    HeightRequest="100"
                    WidthRequest="100"
@@ -28,9 +28,9 @@
                             <VisualState x:Name="Unchecked">
                                 <VisualState.Setters>
                                     <Setter Property="BackgroundColor"
-                                            Value="#DADADA" />
+                                            Value="#8bf3f2f1" />
                                     <Setter Property="BorderColor"
-                                            Value="#DADADA" />
+                                            Value="#8bf3f2f1" />
                                     <Setter TargetName="check"
                                             Property="Opacity"
                                             Value="0" />
@@ -46,7 +46,7 @@
                           HorizontalOptions="End"
                           VerticalOptions="Start">
                         <Ellipse Stroke="#663ABA"
-                                 Fill="White"
+                                 Fill="#8bf3f2f1"
                                  WidthRequest="16"
                                  HeightRequest="16"
                                  HorizontalOptions="Center"

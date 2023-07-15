@@ -16,12 +16,15 @@ namespace Habit_Tracker
         public MainPage()
         {
             InitializeComponent();
+            
             labelDate.Text = DateTime.Now.ToString("d MMMM yyyy", CultureInfo.GetCultureInfo("ru"));
         }
         protected override async void OnAppearing()
         {
-            habitsCollection.ItemsSource = await App.DB.GetHabitsAsync();
+            List<Habit> hab= await App.DB.GetHabitsAsync();
+            habitsCollection.ItemsSource = hab;
         }
+        
         async void OnButtonClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AddHabit());  

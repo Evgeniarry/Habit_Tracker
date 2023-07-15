@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Habit_Tracker.HelloPage"
+             NavigationPage.HasNavigationBar="false"
+             BackgroundImageSource="@drawable/backgroundHello">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="@drawable/labeldood"
+                   HeightRequest="300"
+                   WidthRequest="300"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"/>
+            <ImageButton Source="@drawable/Button"
+                         Background="#00000000"
+                         Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

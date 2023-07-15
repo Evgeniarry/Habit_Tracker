@@ -47,5 +47,13 @@ namespace Habit_Tracker
         {
             return _connection.Table<DayModel>().Where(i => i.HabitID == chosehabit).ToListAsync();
         }
+        public Task<int> GetDaysCount()
+        {
+            return _connection.Table<DayModel>().CountAsync();
+        }
+        public Task<int> GetHabitCount()
+        {
+            return _connection.Table<Habit>().CountAsync();
+        }
     }
 }

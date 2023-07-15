@@ -9,10 +9,9 @@
 				android:endColor="#ABF5FF" />
 		</shape>
 	</item>
-	<item >
-		<bitmap
-			android:src="@drawable/queen"
-			android:tileMode="disabled"
-			android:gravity="center"/>
-	</item>
+	<item
+    android:width="250dp"
+    android:height="311dp"
+    android:drawable="@drawable/queenlabel"
+    android:gravity="center" />
 </layer-list>
