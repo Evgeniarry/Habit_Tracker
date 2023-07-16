@@ -1,7 +1,4 @@
 ﻿using SQLite;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 
 namespace Habit_Tracker.Model
@@ -20,6 +17,5 @@ namespace Habit_Tracker.Model
         [Indexed]
         public int HabitID { get; set; }
 
-        //public Habit Habit { get; set; } = new Habit();
     }
 }

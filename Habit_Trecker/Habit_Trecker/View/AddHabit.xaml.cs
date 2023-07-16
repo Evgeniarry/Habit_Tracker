@@ -19,12 +19,12 @@ namespace Habit_Tracker
 
             if (NameHabit.Text.Trim().Length < 1)
             {
-                await DisplayAlert("Error", "Минимальная длина названия 5 символов", "OK");
+                await DisplayAlert("Error", "Минимальная длина названия 1 символов", "OK");
                 return;
             }
             else if (Description.Text.Trim().Length < 1)
             {
-                await DisplayAlert("Error", "Минимальная длина описания 10 символов", "OK");
+                await DisplayAlert("Error", "Минимальная длина описания 1 символов", "OK");
                 return;
             }
             habit.Name = NameHabit.Text.Trim();

@@ -2,7 +2,6 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Habit_Tracker.MainPage"
-             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
              NavigationPage.HasNavigationBar="false">
     <RelativeLayout>
         <Image
@@ -11,7 +10,7 @@
             RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,
             Property=Height,Factor=0.268}" 
             Source="MainBackground.png"/>
-        
+
         <Grid RelativeLayout.WidthConstraint=
               "{ConstraintExpression Type=RelativeToParent, Property=Width}"
             RelativeLayout.HeightConstraint=
@@ -19,101 +18,73 @@
               Margin="0, 220,0,0">
 
             <StackLayout Margin="10, 10">
-
-                <Label x:Name="labelDate" Text="" FontFamily="Roboto" FontSize="22" TextColor="#616161" 
-                   FontAttributes="Bold"/>
-
+                <Label x:Name="labelDate" 
+                       FontFamily="Roboto" 
+                       FontSize="22" 
+                       TextColor="#616161" 
+                       FontAttributes="Bold"/>
             </StackLayout>
 
             <CollectionView x:Name="habitsCollection" 
-                        SelectionMode="Single"
-                        SelectionChanged="OnSelectionChanged">
+                            ItemsSource="{Binding HabitsList}"
+                            SelectionMode="Single"
+                            SelectionChanged="OnSelectionChanged">
                 <CollectionView.ItemsLayout>
                     <LinearItemsLayout Orientation="Vertical"
-                                   ItemSpacing="10"/>
+                                       ItemSpacing="10"/>
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <SwipeView>
-                            <SwipeView.LeftItems>
-                                <SwipeItems>
-                                    <SwipeItem Text="Favorite"
-                                   
-                                   BackgroundColor="LightGreen"
-                                   Command="{Binding Source={x:Reference habitsCollection}, Path=BindingContext.FavoriteCommand}"
-                                   CommandParameter="{Binding}" />
-                                    <SwipeItem Text="Delete"
-                                   
-                                   BackgroundColor="LightPink"
-                                   Command="{Binding Source={x:Reference habitsCollection}, Path=BindingContext.DeleteCommand}"
-                                   CommandParameter="{Binding}" />
-                                </SwipeItems>
-                            </SwipeView.LeftItems>
-                            <Grid BackgroundColor="White"
-                      Padding="10">
-                                <StackLayout Orientation="Horizontal" >
-                                    <Image Source="{Binding Image}"
-                               HeightRequest="40"
-                               WidthRequest="40"
-                               Margin="10,0"/>
-                                    <Label x:Name="x" 
-                            Text="{Binding Name}" 
-                               FontSize="20" 
-                               Margin="30, 10"/>
-                                    <Switch 
-                                BindingContext="{Binding .}"
-                                x:Name="{Binding ID}"
-                                IsToggled="{Binding IsSelected}"
-                                VerticalOptions="Center" 
-                                HorizontalOptions="EndAndExpand"  
-                                Toggled="Switch_Toggled"/>
-                                </StackLayout>
-                            </Grid>
-                        </SwipeView>
+                        <Grid BackgroundColor="White"
+                              Padding="10">
+                           
+                            <StackLayout Orientation="Horizontal" >
+                                
+                                <Image Source="{Binding Image}"
+                                       HeightRequest="40"
+                                       WidthRequest="40"
+                                       Margin="10,0"/>
+                                
+                                <Label Text="{Binding Name}" 
+                                       FontSize="20" 
+                                       Margin="30, 10"/>
+
+                                <Switch BindingContext="{Binding .}"
+                                        IsToggled="{Binding IsSelected}"
+                                        VerticalOptions="Center" 
+                                        HorizontalOptions="EndAndExpand"  
+                                        Toggled="Switch_Toggled">
+                                </Switch>
+                                
+                            </StackLayout>
+                        </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-           
+
             <Button x:Name="AddButton" Text="+"
                 Clicked="OnButtonClicked" IsVisible="True"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
                 AbsoluteLayout.LayoutBounds="1, 1, AutoSize, AutoSize"
                 Style="{StaticResource FABPrimary}"/>
         </Grid>
-        <!--<Button x:Name="SaveButton" Text="Save" 
-                    HeightRequest="100"
-                    WidthRequest="100"
-                    Clicked="SaveButton_Clicked"/>-->
     </RelativeLayout>
 
 </ContentPage>
-    
-<!--<Switch x:Name="styleSwitch" />
-    <Label Text="aaa">
-    <Label.Triggers>
-        <DataTrigger TargetType="Label"
-                                             Binding="{Binding Source={x:Reference styleSwitch}, Path=IsToggled}"
-                                             Value="true">
-            <Setter Property="FontAttributes"
-                                            Value="Italic, Bold" />
-            <Setter Property="FontSize"
-                                            Value="Large" />
-        </DataTrigger>
-    </Label.Triggers>
-</Label>--> 
-<!--<input:CheckBox Text="{Binding Name}" 
-                                            Type="Check" 
-                                            Color="Wheat" 
-                                            BoxBackgroundColor="Black" 
-                                            TextColor="White" 
-                                            HeightRequest="40"
-                                            CheckChanged="checkbox_CheckChanged" 
-                                            BindingContext="{Binding .}"/>-->
-<!--<CheckBox  Grid.Row="0" Grid.Column="2" 
-                                       HorizontalOptions="End" 
-                                       IsChecked="{Binding , Mode=TwoWay}" 
-                                       CheckedChanged="CheckBox_CheckedChanged" 
-                                       BindingContext="{Binding .}"/>-->
-<!--<Button Text="Click Me" 
-                                    CommandParameter="{Binding.}" 
-                                    Clicked="Button_Clicked"></Button>-->
+
+<!--<SwipeView>
+    <SwipeView.LeftItems>
+        <SwipeItems Mode="Execute">
+            <SwipeItem Text="Favorite"
+                                   
+                                   BackgroundColor="LightGreen"
+                                   Command="{Binding Source={x:Reference habitsCollection}, Path=BindingContext.FavoriteCommand}"
+                                   CommandParameter="{Binding}" />
+            <SwipeItem Text="Delete"
+                                   
+                                   BackgroundColor="LightPink"
+                                   Command="{Binding Source={x:Reference habitsCollection}, Path=BindingContext.DeleteCommand}"
+                                   CommandParameter="{Binding}" />
+        </SwipeItems>
+    </SwipeView.LeftItems>
+    </SwipeView>-->

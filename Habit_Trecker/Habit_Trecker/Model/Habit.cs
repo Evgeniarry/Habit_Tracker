@@ -1,6 +1,4 @@
 ﻿using SQLite;
-using System.Collections.Generic;
-using System.Drawing;
 
 namespace Habit_Tracker.Model
 {
@@ -13,9 +11,5 @@ namespace Habit_Tracker.Model
         public int Progress { get; set; }
         public string Image { get; set; }
         public bool IsSelected { get; set; }
-
-        [Ignore]
-        public List<DayModel> Days { get; set; }=new List<DayModel>();
-
     }
 }

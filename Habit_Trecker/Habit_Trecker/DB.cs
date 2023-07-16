@@ -37,6 +37,7 @@ namespace Habit_Tracker
                 return _connection.InsertAsync(habit);
             }
         }
+
         public void SaveHabitsAsync (List<Habit> habits) 
         {
             foreach(Habit h in habits) 

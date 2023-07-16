@@ -27,7 +27,6 @@ namespace Habit_Tracker.View
         private async void SaveHabitButton(object sender, EventArgs e)
         {
             Habit habit = (Habit)BindingContext;
-            //habit.IsSelected = true;
             habit.Name = NameHabit.Text.Trim();
             habit.Description = Description.Text.Trim();
 
