@@ -25,6 +25,2620 @@ namespace Habit_Trecker.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.InputKit.Resource.Animation.abc_fade_in = global::Habit_Trecker.Droid.Resource.Animation.abc_fade_in;
+			global::Plugin.InputKit.Resource.Animation.abc_fade_out = global::Habit_Trecker.Droid.Resource.Animation.abc_fade_out;
+			global::Plugin.InputKit.Resource.Animation.abc_grow_fade_in_from_bottom = global::Habit_Trecker.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_popup_enter = global::Habit_Trecker.Droid.Resource.Animation.abc_popup_enter;
+			global::Plugin.InputKit.Resource.Animation.abc_popup_exit = global::Habit_Trecker.Droid.Resource.Animation.abc_popup_exit;
+			global::Plugin.InputKit.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Habit_Trecker.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_in_bottom = global::Habit_Trecker.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_in_top = global::Habit_Trecker.Droid.Resource.Animation.abc_slide_in_top;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_out_bottom = global::Habit_Trecker.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Plugin.InputKit.Resource.Animation.abc_slide_out_top = global::Habit_Trecker.Droid.Resource.Animation.abc_slide_out_top;
+			global::Plugin.InputKit.Resource.Animation.abc_tooltip_enter = global::Habit_Trecker.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Plugin.InputKit.Resource.Animation.abc_tooltip_exit = global::Habit_Trecker.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Plugin.InputKit.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::Habit_Trecker.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::Habit_Trecker.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::Habit_Trecker.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::Habit_Trecker.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::Habit_Trecker.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::Habit_Trecker.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::Habit_Trecker.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::Habit_Trecker.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::Habit_Trecker.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::Habit_Trecker.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::Habit_Trecker.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Plugin.InputKit.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::Habit_Trecker.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::Plugin.InputKit.Resource.Animation.design_bottom_sheet_slide_in = global::Habit_Trecker.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Plugin.InputKit.Resource.Animation.design_bottom_sheet_slide_out = global::Habit_Trecker.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Plugin.InputKit.Resource.Animation.design_snackbar_in = global::Habit_Trecker.Droid.Resource.Animation.design_snackbar_in;
+			global::Plugin.InputKit.Resource.Animation.design_snackbar_out = global::Habit_Trecker.Droid.Resource.Animation.design_snackbar_out;
+			global::Plugin.InputKit.Resource.Animation.EnterFromLeft = global::Habit_Trecker.Droid.Resource.Animation.EnterFromLeft;
+			global::Plugin.InputKit.Resource.Animation.EnterFromRight = global::Habit_Trecker.Droid.Resource.Animation.EnterFromRight;
+			global::Plugin.InputKit.Resource.Animation.ExitToLeft = global::Habit_Trecker.Droid.Resource.Animation.ExitToLeft;
+			global::Plugin.InputKit.Resource.Animation.ExitToRight = global::Habit_Trecker.Droid.Resource.Animation.ExitToRight;
+			global::Plugin.InputKit.Resource.Animator.design_appbar_state_list_animator = global::Habit_Trecker.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Plugin.InputKit.Resource.Animator.design_fab_hide_motion_spec = global::Habit_Trecker.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Plugin.InputKit.Resource.Animator.design_fab_show_motion_spec = global::Habit_Trecker.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Plugin.InputKit.Resource.Animator.mtrl_btn_state_list_anim = global::Habit_Trecker.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Plugin.InputKit.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Habit_Trecker.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Plugin.InputKit.Resource.Animator.mtrl_chip_state_list_anim = global::Habit_Trecker.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Plugin.InputKit.Resource.Animator.mtrl_fab_hide_motion_spec = global::Habit_Trecker.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Plugin.InputKit.Resource.Animator.mtrl_fab_show_motion_spec = global::Habit_Trecker.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Plugin.InputKit.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::Habit_Trecker.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Plugin.InputKit.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::Habit_Trecker.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Plugin.InputKit.Resource.Attribute.actionBarDivider = global::Habit_Trecker.Droid.Resource.Attribute.actionBarDivider;
+			global::Plugin.InputKit.Resource.Attribute.actionBarItemBackground = global::Habit_Trecker.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Plugin.InputKit.Resource.Attribute.actionBarPopupTheme = global::Habit_Trecker.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Plugin.InputKit.Resource.Attribute.actionBarSize = global::Habit_Trecker.Droid.Resource.Attribute.actionBarSize;
+			global::Plugin.InputKit.Resource.Attribute.actionBarSplitStyle = global::Habit_Trecker.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarStyle = global::Habit_Trecker.Droid.Resource.Attribute.actionBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTabBarStyle = global::Habit_Trecker.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTabStyle = global::Habit_Trecker.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTabTextStyle = global::Habit_Trecker.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionBarTheme = global::Habit_Trecker.Droid.Resource.Attribute.actionBarTheme;
+			global::Plugin.InputKit.Resource.Attribute.actionBarWidgetTheme = global::Habit_Trecker.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Plugin.InputKit.Resource.Attribute.actionButtonStyle = global::Habit_Trecker.Droid.Resource.Attribute.actionButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionDropDownStyle = global::Habit_Trecker.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionLayout = global::Habit_Trecker.Droid.Resource.Attribute.actionLayout;
+			global::Plugin.InputKit.Resource.Attribute.actionMenuTextAppearance = global::Habit_Trecker.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.actionMenuTextColor = global::Habit_Trecker.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Plugin.InputKit.Resource.Attribute.actionModeBackground = global::Habit_Trecker.Droid.Resource.Attribute.actionModeBackground;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCloseButtonStyle = global::Habit_Trecker.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCloseDrawable = global::Habit_Trecker.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCopyDrawable = global::Habit_Trecker.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeCutDrawable = global::Habit_Trecker.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeFindDrawable = global::Habit_Trecker.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModePasteDrawable = global::Habit_Trecker.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModePopupWindowStyle = global::Habit_Trecker.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionModeSelectAllDrawable = global::Habit_Trecker.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeShareDrawable = global::Habit_Trecker.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionModeSplitBackground = global::Habit_Trecker.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Plugin.InputKit.Resource.Attribute.actionModeStyle = global::Habit_Trecker.Droid.Resource.Attribute.actionModeStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionModeWebSearchDrawable = global::Habit_Trecker.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Plugin.InputKit.Resource.Attribute.actionOverflowButtonStyle = global::Habit_Trecker.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionOverflowMenuStyle = global::Habit_Trecker.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Plugin.InputKit.Resource.Attribute.actionProviderClass = global::Habit_Trecker.Droid.Resource.Attribute.actionProviderClass;
+			global::Plugin.InputKit.Resource.Attribute.actionViewClass = global::Habit_Trecker.Droid.Resource.Attribute.actionViewClass;
+			global::Plugin.InputKit.Resource.Attribute.activityChooserViewStyle = global::Habit_Trecker.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogButtonGroupStyle = global::Habit_Trecker.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogCenterButtons = global::Habit_Trecker.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogStyle = global::Habit_Trecker.Droid.Resource.Attribute.alertDialogStyle;
+			global::Plugin.InputKit.Resource.Attribute.alertDialogTheme = global::Habit_Trecker.Droid.Resource.Attribute.alertDialogTheme;
+			global::Plugin.InputKit.Resource.Attribute.allowStacking = global::Habit_Trecker.Droid.Resource.Attribute.allowStacking;
+			global::Plugin.InputKit.Resource.Attribute.alpha = global::Habit_Trecker.Droid.Resource.Attribute.alpha;
+			global::Plugin.InputKit.Resource.Attribute.alphabeticModifiers = global::Habit_Trecker.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Plugin.InputKit.Resource.Attribute.arrowHeadLength = global::Habit_Trecker.Droid.Resource.Attribute.arrowHeadLength;
+			global::Plugin.InputKit.Resource.Attribute.arrowShaftLength = global::Habit_Trecker.Droid.Resource.Attribute.arrowShaftLength;
+			global::Plugin.InputKit.Resource.Attribute.autoCompleteTextViewStyle = global::Habit_Trecker.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeMaxTextSize = global::Habit_Trecker.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeMinTextSize = global::Habit_Trecker.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Plugin.InputKit.Resource.Attribute.autoSizePresetSizes = global::Habit_Trecker.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeStepGranularity = global::Habit_Trecker.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Plugin.InputKit.Resource.Attribute.autoSizeTextType = global::Habit_Trecker.Droid.Resource.Attribute.autoSizeTextType;
+			global::Plugin.InputKit.Resource.Attribute.background = global::Habit_Trecker.Droid.Resource.Attribute.background;
+			global::Plugin.InputKit.Resource.Attribute.backgroundSplit = global::Habit_Trecker.Droid.Resource.Attribute.backgroundSplit;
+			global::Plugin.InputKit.Resource.Attribute.backgroundStacked = global::Habit_Trecker.Droid.Resource.Attribute.backgroundStacked;
+			global::Plugin.InputKit.Resource.Attribute.backgroundTint = global::Habit_Trecker.Droid.Resource.Attribute.backgroundTint;
+			global::Plugin.InputKit.Resource.Attribute.backgroundTintMode = global::Habit_Trecker.Droid.Resource.Attribute.backgroundTintMode;
+			global::Plugin.InputKit.Resource.Attribute.barLength = global::Habit_Trecker.Droid.Resource.Attribute.barLength;
+			global::Plugin.InputKit.Resource.Attribute.behavior_autoHide = global::Habit_Trecker.Droid.Resource.Attribute.behavior_autoHide;
+			global::Plugin.InputKit.Resource.Attribute.behavior_fitToContents = global::Habit_Trecker.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Plugin.InputKit.Resource.Attribute.behavior_hideable = global::Habit_Trecker.Droid.Resource.Attribute.behavior_hideable;
+			global::Plugin.InputKit.Resource.Attribute.behavior_overlapTop = global::Habit_Trecker.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Plugin.InputKit.Resource.Attribute.behavior_peekHeight = global::Habit_Trecker.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Plugin.InputKit.Resource.Attribute.behavior_skipCollapsed = global::Habit_Trecker.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Plugin.InputKit.Resource.Attribute.borderlessButtonStyle = global::Habit_Trecker.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.borderWidth = global::Habit_Trecker.Droid.Resource.Attribute.borderWidth;
+			global::Plugin.InputKit.Resource.Attribute.bottomAppBarStyle = global::Habit_Trecker.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.bottomNavigationStyle = global::Habit_Trecker.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Plugin.InputKit.Resource.Attribute.bottomSheetDialogTheme = global::Habit_Trecker.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Plugin.InputKit.Resource.Attribute.bottomSheetStyle = global::Habit_Trecker.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Plugin.InputKit.Resource.Attribute.boxBackgroundColor = global::Habit_Trecker.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Plugin.InputKit.Resource.Attribute.boxBackgroundMode = global::Habit_Trecker.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Plugin.InputKit.Resource.Attribute.boxCollapsedPaddingTop = global::Habit_Trecker.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Plugin.InputKit.Resource.Attribute.boxCornerRadiusBottomEnd = global::Habit_Trecker.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Plugin.InputKit.Resource.Attribute.boxCornerRadiusBottomStart = global::Habit_Trecker.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Plugin.InputKit.Resource.Attribute.boxCornerRadiusTopEnd = global::Habit_Trecker.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Plugin.InputKit.Resource.Attribute.boxCornerRadiusTopStart = global::Habit_Trecker.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Plugin.InputKit.Resource.Attribute.boxStrokeColor = global::Habit_Trecker.Droid.Resource.Attribute.boxStrokeColor;
+			global::Plugin.InputKit.Resource.Attribute.boxStrokeWidth = global::Habit_Trecker.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarButtonStyle = global::Habit_Trecker.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarNegativeButtonStyle = global::Habit_Trecker.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarNeutralButtonStyle = global::Habit_Trecker.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarPositiveButtonStyle = global::Habit_Trecker.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonBarStyle = global::Habit_Trecker.Droid.Resource.Attribute.buttonBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonCompat = global::Habit_Trecker.Droid.Resource.Attribute.buttonCompat;
+			global::Plugin.InputKit.Resource.Attribute.buttonGravity = global::Habit_Trecker.Droid.Resource.Attribute.buttonGravity;
+			global::Plugin.InputKit.Resource.Attribute.buttonIconDimen = global::Habit_Trecker.Droid.Resource.Attribute.buttonIconDimen;
+			global::Plugin.InputKit.Resource.Attribute.buttonPanelSideLayout = global::Habit_Trecker.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Plugin.InputKit.Resource.Attribute.buttonStyle = global::Habit_Trecker.Droid.Resource.Attribute.buttonStyle;
+			global::Plugin.InputKit.Resource.Attribute.buttonStyleSmall = global::Habit_Trecker.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Plugin.InputKit.Resource.Attribute.buttonTint = global::Habit_Trecker.Droid.Resource.Attribute.buttonTint;
+			global::Plugin.InputKit.Resource.Attribute.buttonTintMode = global::Habit_Trecker.Droid.Resource.Attribute.buttonTintMode;
+			global::Plugin.InputKit.Resource.Attribute.cardBackgroundColor = global::Habit_Trecker.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Plugin.InputKit.Resource.Attribute.cardCornerRadius = global::Habit_Trecker.Droid.Resource.Attribute.cardCornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.cardElevation = global::Habit_Trecker.Droid.Resource.Attribute.cardElevation;
+			global::Plugin.InputKit.Resource.Attribute.cardMaxElevation = global::Habit_Trecker.Droid.Resource.Attribute.cardMaxElevation;
+			global::Plugin.InputKit.Resource.Attribute.cardPreventCornerOverlap = global::Habit_Trecker.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Plugin.InputKit.Resource.Attribute.cardUseCompatPadding = global::Habit_Trecker.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Plugin.InputKit.Resource.Attribute.cardViewStyle = global::Habit_Trecker.Droid.Resource.Attribute.cardViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.checkboxStyle = global::Habit_Trecker.Droid.Resource.Attribute.checkboxStyle;
+			global::Plugin.InputKit.Resource.Attribute.checkedChip = global::Habit_Trecker.Droid.Resource.Attribute.checkedChip;
+			global::Plugin.InputKit.Resource.Attribute.checkedIcon = global::Habit_Trecker.Droid.Resource.Attribute.checkedIcon;
+			global::Plugin.InputKit.Resource.Attribute.checkedIconEnabled = global::Habit_Trecker.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Plugin.InputKit.Resource.Attribute.checkedIconVisible = global::Habit_Trecker.Droid.Resource.Attribute.checkedIconVisible;
+			global::Plugin.InputKit.Resource.Attribute.checkedTextViewStyle = global::Habit_Trecker.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.chipBackgroundColor = global::Habit_Trecker.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Plugin.InputKit.Resource.Attribute.chipCornerRadius = global::Habit_Trecker.Droid.Resource.Attribute.chipCornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.chipEndPadding = global::Habit_Trecker.Droid.Resource.Attribute.chipEndPadding;
+			global::Plugin.InputKit.Resource.Attribute.chipGroupStyle = global::Habit_Trecker.Droid.Resource.Attribute.chipGroupStyle;
+			global::Plugin.InputKit.Resource.Attribute.chipIcon = global::Habit_Trecker.Droid.Resource.Attribute.chipIcon;
+			global::Plugin.InputKit.Resource.Attribute.chipIconEnabled = global::Habit_Trecker.Droid.Resource.Attribute.chipIconEnabled;
+			global::Plugin.InputKit.Resource.Attribute.chipIconSize = global::Habit_Trecker.Droid.Resource.Attribute.chipIconSize;
+			global::Plugin.InputKit.Resource.Attribute.chipIconTint = global::Habit_Trecker.Droid.Resource.Attribute.chipIconTint;
+			global::Plugin.InputKit.Resource.Attribute.chipIconVisible = global::Habit_Trecker.Droid.Resource.Attribute.chipIconVisible;
+			global::Plugin.InputKit.Resource.Attribute.chipMinHeight = global::Habit_Trecker.Droid.Resource.Attribute.chipMinHeight;
+			global::Plugin.InputKit.Resource.Attribute.chipSpacing = global::Habit_Trecker.Droid.Resource.Attribute.chipSpacing;
+			global::Plugin.InputKit.Resource.Attribute.chipSpacingHorizontal = global::Habit_Trecker.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Plugin.InputKit.Resource.Attribute.chipSpacingVertical = global::Habit_Trecker.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Plugin.InputKit.Resource.Attribute.chipStandaloneStyle = global::Habit_Trecker.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Plugin.InputKit.Resource.Attribute.chipStartPadding = global::Habit_Trecker.Droid.Resource.Attribute.chipStartPadding;
+			global::Plugin.InputKit.Resource.Attribute.chipStrokeColor = global::Habit_Trecker.Droid.Resource.Attribute.chipStrokeColor;
+			global::Plugin.InputKit.Resource.Attribute.chipStrokeWidth = global::Habit_Trecker.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Plugin.InputKit.Resource.Attribute.chipStyle = global::Habit_Trecker.Droid.Resource.Attribute.chipStyle;
+			global::Plugin.InputKit.Resource.Attribute.closeIcon = global::Habit_Trecker.Droid.Resource.Attribute.closeIcon;
+			global::Plugin.InputKit.Resource.Attribute.closeIconEnabled = global::Habit_Trecker.Droid.Resource.Attribute.closeIconEnabled;
+			global::Plugin.InputKit.Resource.Attribute.closeIconEndPadding = global::Habit_Trecker.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Plugin.InputKit.Resource.Attribute.closeIconSize = global::Habit_Trecker.Droid.Resource.Attribute.closeIconSize;
+			global::Plugin.InputKit.Resource.Attribute.closeIconStartPadding = global::Habit_Trecker.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Plugin.InputKit.Resource.Attribute.closeIconTint = global::Habit_Trecker.Droid.Resource.Attribute.closeIconTint;
+			global::Plugin.InputKit.Resource.Attribute.closeIconVisible = global::Habit_Trecker.Droid.Resource.Attribute.closeIconVisible;
+			global::Plugin.InputKit.Resource.Attribute.closeItemLayout = global::Habit_Trecker.Droid.Resource.Attribute.closeItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.collapseContentDescription = global::Habit_Trecker.Droid.Resource.Attribute.collapseContentDescription;
+			global::Plugin.InputKit.Resource.Attribute.collapsedTitleGravity = global::Habit_Trecker.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Plugin.InputKit.Resource.Attribute.collapsedTitleTextAppearance = global::Habit_Trecker.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.collapseIcon = global::Habit_Trecker.Droid.Resource.Attribute.collapseIcon;
+			global::Plugin.InputKit.Resource.Attribute.collectionViewStyle = global::Habit_Trecker.Droid.Resource.Attribute.collectionViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.color = global::Habit_Trecker.Droid.Resource.Attribute.color;
+			global::Plugin.InputKit.Resource.Attribute.colorAccent = global::Habit_Trecker.Droid.Resource.Attribute.colorAccent;
+			global::Plugin.InputKit.Resource.Attribute.colorBackgroundFloating = global::Habit_Trecker.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Plugin.InputKit.Resource.Attribute.colorButtonNormal = global::Habit_Trecker.Droid.Resource.Attribute.colorButtonNormal;
+			global::Plugin.InputKit.Resource.Attribute.colorControlActivated = global::Habit_Trecker.Droid.Resource.Attribute.colorControlActivated;
+			global::Plugin.InputKit.Resource.Attribute.colorControlHighlight = global::Habit_Trecker.Droid.Resource.Attribute.colorControlHighlight;
+			global::Plugin.InputKit.Resource.Attribute.colorControlNormal = global::Habit_Trecker.Droid.Resource.Attribute.colorControlNormal;
+			global::Plugin.InputKit.Resource.Attribute.colorError = global::Habit_Trecker.Droid.Resource.Attribute.colorError;
+			global::Plugin.InputKit.Resource.Attribute.colorPrimary = global::Habit_Trecker.Droid.Resource.Attribute.colorPrimary;
+			global::Plugin.InputKit.Resource.Attribute.colorPrimaryDark = global::Habit_Trecker.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Plugin.InputKit.Resource.Attribute.colorSecondary = global::Habit_Trecker.Droid.Resource.Attribute.colorSecondary;
+			global::Plugin.InputKit.Resource.Attribute.colorSwitchThumbNormal = global::Habit_Trecker.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Plugin.InputKit.Resource.Attribute.commitIcon = global::Habit_Trecker.Droid.Resource.Attribute.commitIcon;
+			global::Plugin.InputKit.Resource.Attribute.contentDescription = global::Habit_Trecker.Droid.Resource.Attribute.contentDescription;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetEnd = global::Habit_Trecker.Droid.Resource.Attribute.contentInsetEnd;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetEndWithActions = global::Habit_Trecker.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetLeft = global::Habit_Trecker.Droid.Resource.Attribute.contentInsetLeft;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetRight = global::Habit_Trecker.Droid.Resource.Attribute.contentInsetRight;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetStart = global::Habit_Trecker.Droid.Resource.Attribute.contentInsetStart;
+			global::Plugin.InputKit.Resource.Attribute.contentInsetStartWithNavigation = global::Habit_Trecker.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Plugin.InputKit.Resource.Attribute.contentPadding = global::Habit_Trecker.Droid.Resource.Attribute.contentPadding;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingBottom = global::Habit_Trecker.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingLeft = global::Habit_Trecker.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingRight = global::Habit_Trecker.Droid.Resource.Attribute.contentPaddingRight;
+			global::Plugin.InputKit.Resource.Attribute.contentPaddingTop = global::Habit_Trecker.Droid.Resource.Attribute.contentPaddingTop;
+			global::Plugin.InputKit.Resource.Attribute.contentScrim = global::Habit_Trecker.Droid.Resource.Attribute.contentScrim;
+			global::Plugin.InputKit.Resource.Attribute.controlBackground = global::Habit_Trecker.Droid.Resource.Attribute.controlBackground;
+			global::Plugin.InputKit.Resource.Attribute.coordinatorLayoutStyle = global::Habit_Trecker.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Plugin.InputKit.Resource.Attribute.cornerRadius = global::Habit_Trecker.Droid.Resource.Attribute.cornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.counterEnabled = global::Habit_Trecker.Droid.Resource.Attribute.counterEnabled;
+			global::Plugin.InputKit.Resource.Attribute.counterMaxLength = global::Habit_Trecker.Droid.Resource.Attribute.counterMaxLength;
+			global::Plugin.InputKit.Resource.Attribute.counterOverflowTextAppearance = global::Habit_Trecker.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.counterTextAppearance = global::Habit_Trecker.Droid.Resource.Attribute.counterTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.customNavigationLayout = global::Habit_Trecker.Droid.Resource.Attribute.customNavigationLayout;
+			global::Plugin.InputKit.Resource.Attribute.defaultQueryHint = global::Habit_Trecker.Droid.Resource.Attribute.defaultQueryHint;
+			global::Plugin.InputKit.Resource.Attribute.dialogCornerRadius = global::Habit_Trecker.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.dialogPreferredPadding = global::Habit_Trecker.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Plugin.InputKit.Resource.Attribute.dialogTheme = global::Habit_Trecker.Droid.Resource.Attribute.dialogTheme;
+			global::Plugin.InputKit.Resource.Attribute.displayOptions = global::Habit_Trecker.Droid.Resource.Attribute.displayOptions;
+			global::Plugin.InputKit.Resource.Attribute.divider = global::Habit_Trecker.Droid.Resource.Attribute.divider;
+			global::Plugin.InputKit.Resource.Attribute.dividerHorizontal = global::Habit_Trecker.Droid.Resource.Attribute.dividerHorizontal;
+			global::Plugin.InputKit.Resource.Attribute.dividerPadding = global::Habit_Trecker.Droid.Resource.Attribute.dividerPadding;
+			global::Plugin.InputKit.Resource.Attribute.dividerVertical = global::Habit_Trecker.Droid.Resource.Attribute.dividerVertical;
+			global::Plugin.InputKit.Resource.Attribute.drawableBottomCompat = global::Habit_Trecker.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Plugin.InputKit.Resource.Attribute.drawableEndCompat = global::Habit_Trecker.Droid.Resource.Attribute.drawableEndCompat;
+			global::Plugin.InputKit.Resource.Attribute.drawableLeftCompat = global::Habit_Trecker.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Plugin.InputKit.Resource.Attribute.drawableRightCompat = global::Habit_Trecker.Droid.Resource.Attribute.drawableRightCompat;
+			global::Plugin.InputKit.Resource.Attribute.drawableSize = global::Habit_Trecker.Droid.Resource.Attribute.drawableSize;
+			global::Plugin.InputKit.Resource.Attribute.drawableStartCompat = global::Habit_Trecker.Droid.Resource.Attribute.drawableStartCompat;
+			global::Plugin.InputKit.Resource.Attribute.drawableTint = global::Habit_Trecker.Droid.Resource.Attribute.drawableTint;
+			global::Plugin.InputKit.Resource.Attribute.drawableTintMode = global::Habit_Trecker.Droid.Resource.Attribute.drawableTintMode;
+			global::Plugin.InputKit.Resource.Attribute.drawableTopCompat = global::Habit_Trecker.Droid.Resource.Attribute.drawableTopCompat;
+			global::Plugin.InputKit.Resource.Attribute.drawerArrowStyle = global::Habit_Trecker.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Plugin.InputKit.Resource.Attribute.dropdownListPreferredItemHeight = global::Habit_Trecker.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Attribute.dropDownListViewStyle = global::Habit_Trecker.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.editTextBackground = global::Habit_Trecker.Droid.Resource.Attribute.editTextBackground;
+			global::Plugin.InputKit.Resource.Attribute.editTextColor = global::Habit_Trecker.Droid.Resource.Attribute.editTextColor;
+			global::Plugin.InputKit.Resource.Attribute.editTextStyle = global::Habit_Trecker.Droid.Resource.Attribute.editTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.elevation = global::Habit_Trecker.Droid.Resource.Attribute.elevation;
+			global::Plugin.InputKit.Resource.Attribute.enforceMaterialTheme = global::Habit_Trecker.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Plugin.InputKit.Resource.Attribute.enforceTextAppearance = global::Habit_Trecker.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.errorEnabled = global::Habit_Trecker.Droid.Resource.Attribute.errorEnabled;
+			global::Plugin.InputKit.Resource.Attribute.errorTextAppearance = global::Habit_Trecker.Droid.Resource.Attribute.errorTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Habit_Trecker.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Plugin.InputKit.Resource.Attribute.expanded = global::Habit_Trecker.Droid.Resource.Attribute.expanded;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleGravity = global::Habit_Trecker.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMargin = global::Habit_Trecker.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginBottom = global::Habit_Trecker.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginEnd = global::Habit_Trecker.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginStart = global::Habit_Trecker.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleMarginTop = global::Habit_Trecker.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Plugin.InputKit.Resource.Attribute.expandedTitleTextAppearance = global::Habit_Trecker.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.fabAlignmentMode = global::Habit_Trecker.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Plugin.InputKit.Resource.Attribute.fabCradleMargin = global::Habit_Trecker.Droid.Resource.Attribute.fabCradleMargin;
+			global::Plugin.InputKit.Resource.Attribute.fabCradleRoundedCornerRadius = global::Habit_Trecker.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Plugin.InputKit.Resource.Attribute.fabCradleVerticalOffset = global::Habit_Trecker.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Plugin.InputKit.Resource.Attribute.fabCustomSize = global::Habit_Trecker.Droid.Resource.Attribute.fabCustomSize;
+			global::Plugin.InputKit.Resource.Attribute.fabSize = global::Habit_Trecker.Droid.Resource.Attribute.fabSize;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollEnabled = global::Habit_Trecker.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Habit_Trecker.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Habit_Trecker.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Habit_Trecker.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Plugin.InputKit.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Habit_Trecker.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Plugin.InputKit.Resource.Attribute.firstBaselineToTopHeight = global::Habit_Trecker.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Plugin.InputKit.Resource.Attribute.floatingActionButtonStyle = global::Habit_Trecker.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.font = global::Habit_Trecker.Droid.Resource.Attribute.font;
+			global::Plugin.InputKit.Resource.Attribute.fontFamily = global::Habit_Trecker.Droid.Resource.Attribute.fontFamily;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderAuthority = global::Habit_Trecker.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderCerts = global::Habit_Trecker.Droid.Resource.Attribute.fontProviderCerts;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderFetchStrategy = global::Habit_Trecker.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderFetchTimeout = global::Habit_Trecker.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderPackage = global::Habit_Trecker.Droid.Resource.Attribute.fontProviderPackage;
+			global::Plugin.InputKit.Resource.Attribute.fontProviderQuery = global::Habit_Trecker.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.InputKit.Resource.Attribute.fontStyle = global::Habit_Trecker.Droid.Resource.Attribute.fontStyle;
+			global::Plugin.InputKit.Resource.Attribute.fontVariationSettings = global::Habit_Trecker.Droid.Resource.Attribute.fontVariationSettings;
+			global::Plugin.InputKit.Resource.Attribute.fontWeight = global::Habit_Trecker.Droid.Resource.Attribute.fontWeight;
+			global::Plugin.InputKit.Resource.Attribute.foregroundInsidePadding = global::Habit_Trecker.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Plugin.InputKit.Resource.Attribute.gapBetweenBars = global::Habit_Trecker.Droid.Resource.Attribute.gapBetweenBars;
+			global::Plugin.InputKit.Resource.Attribute.goIcon = global::Habit_Trecker.Droid.Resource.Attribute.goIcon;
+			global::Plugin.InputKit.Resource.Attribute.headerLayout = global::Habit_Trecker.Droid.Resource.Attribute.headerLayout;
+			global::Plugin.InputKit.Resource.Attribute.height = global::Habit_Trecker.Droid.Resource.Attribute.height;
+			global::Plugin.InputKit.Resource.Attribute.helperText = global::Habit_Trecker.Droid.Resource.Attribute.helperText;
+			global::Plugin.InputKit.Resource.Attribute.helperTextEnabled = global::Habit_Trecker.Droid.Resource.Attribute.helperTextEnabled;
+			global::Plugin.InputKit.Resource.Attribute.helperTextTextAppearance = global::Habit_Trecker.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.hideMotionSpec = global::Habit_Trecker.Droid.Resource.Attribute.hideMotionSpec;
+			global::Plugin.InputKit.Resource.Attribute.hideOnContentScroll = global::Habit_Trecker.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Plugin.InputKit.Resource.Attribute.hideOnScroll = global::Habit_Trecker.Droid.Resource.Attribute.hideOnScroll;
+			global::Plugin.InputKit.Resource.Attribute.hintAnimationEnabled = global::Habit_Trecker.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Plugin.InputKit.Resource.Attribute.hintEnabled = global::Habit_Trecker.Droid.Resource.Attribute.hintEnabled;
+			global::Plugin.InputKit.Resource.Attribute.hintTextAppearance = global::Habit_Trecker.Droid.Resource.Attribute.hintTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.homeAsUpIndicator = global::Habit_Trecker.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Plugin.InputKit.Resource.Attribute.homeLayout = global::Habit_Trecker.Droid.Resource.Attribute.homeLayout;
+			global::Plugin.InputKit.Resource.Attribute.hoveredFocusedTranslationZ = global::Habit_Trecker.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Plugin.InputKit.Resource.Attribute.icon = global::Habit_Trecker.Droid.Resource.Attribute.icon;
+			global::Plugin.InputKit.Resource.Attribute.iconEndPadding = global::Habit_Trecker.Droid.Resource.Attribute.iconEndPadding;
+			global::Plugin.InputKit.Resource.Attribute.iconGravity = global::Habit_Trecker.Droid.Resource.Attribute.iconGravity;
+			global::Plugin.InputKit.Resource.Attribute.iconifiedByDefault = global::Habit_Trecker.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Plugin.InputKit.Resource.Attribute.iconPadding = global::Habit_Trecker.Droid.Resource.Attribute.iconPadding;
+			global::Plugin.InputKit.Resource.Attribute.iconSize = global::Habit_Trecker.Droid.Resource.Attribute.iconSize;
+			global::Plugin.InputKit.Resource.Attribute.iconStartPadding = global::Habit_Trecker.Droid.Resource.Attribute.iconStartPadding;
+			global::Plugin.InputKit.Resource.Attribute.iconTint = global::Habit_Trecker.Droid.Resource.Attribute.iconTint;
+			global::Plugin.InputKit.Resource.Attribute.iconTintMode = global::Habit_Trecker.Droid.Resource.Attribute.iconTintMode;
+			global::Plugin.InputKit.Resource.Attribute.imageButtonStyle = global::Habit_Trecker.Droid.Resource.Attribute.imageButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.indeterminateProgressStyle = global::Habit_Trecker.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Plugin.InputKit.Resource.Attribute.initialActivityCount = global::Habit_Trecker.Droid.Resource.Attribute.initialActivityCount;
+			global::Plugin.InputKit.Resource.Attribute.insetForeground = global::Habit_Trecker.Droid.Resource.Attribute.insetForeground;
+			global::Plugin.InputKit.Resource.Attribute.isLightTheme = global::Habit_Trecker.Droid.Resource.Attribute.isLightTheme;
+			global::Plugin.InputKit.Resource.Attribute.itemBackground = global::Habit_Trecker.Droid.Resource.Attribute.itemBackground;
+			global::Plugin.InputKit.Resource.Attribute.itemHorizontalPadding = global::Habit_Trecker.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Plugin.InputKit.Resource.Attribute.itemHorizontalTranslationEnabled = global::Habit_Trecker.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Plugin.InputKit.Resource.Attribute.itemIconPadding = global::Habit_Trecker.Droid.Resource.Attribute.itemIconPadding;
+			global::Plugin.InputKit.Resource.Attribute.itemIconSize = global::Habit_Trecker.Droid.Resource.Attribute.itemIconSize;
+			global::Plugin.InputKit.Resource.Attribute.itemIconTint = global::Habit_Trecker.Droid.Resource.Attribute.itemIconTint;
+			global::Plugin.InputKit.Resource.Attribute.itemPadding = global::Habit_Trecker.Droid.Resource.Attribute.itemPadding;
+			global::Plugin.InputKit.Resource.Attribute.itemSpacing = global::Habit_Trecker.Droid.Resource.Attribute.itemSpacing;
+			global::Plugin.InputKit.Resource.Attribute.itemTextAppearance = global::Habit_Trecker.Droid.Resource.Attribute.itemTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.itemTextAppearanceActive = global::Habit_Trecker.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Plugin.InputKit.Resource.Attribute.itemTextAppearanceInactive = global::Habit_Trecker.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Plugin.InputKit.Resource.Attribute.itemTextColor = global::Habit_Trecker.Droid.Resource.Attribute.itemTextColor;
+			global::Plugin.InputKit.Resource.Attribute.keylines = global::Habit_Trecker.Droid.Resource.Attribute.keylines;
+			global::Plugin.InputKit.Resource.Attribute.labelVisibilityMode = global::Habit_Trecker.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Plugin.InputKit.Resource.Attribute.lastBaselineToBottomHeight = global::Habit_Trecker.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Plugin.InputKit.Resource.Attribute.layout = global::Habit_Trecker.Droid.Resource.Attribute.layout;
+			global::Plugin.InputKit.Resource.Attribute.layoutManager = global::Habit_Trecker.Droid.Resource.Attribute.layoutManager;
+			global::Plugin.InputKit.Resource.Attribute.layout_anchor = global::Habit_Trecker.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.InputKit.Resource.Attribute.layout_anchorGravity = global::Habit_Trecker.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.InputKit.Resource.Attribute.layout_behavior = global::Habit_Trecker.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.InputKit.Resource.Attribute.layout_collapseMode = global::Habit_Trecker.Droid.Resource.Attribute.layout_collapseMode;
+			global::Plugin.InputKit.Resource.Attribute.layout_collapseParallaxMultiplier = global::Habit_Trecker.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Plugin.InputKit.Resource.Attribute.layout_dodgeInsetEdges = global::Habit_Trecker.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.InputKit.Resource.Attribute.layout_insetEdge = global::Habit_Trecker.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.InputKit.Resource.Attribute.layout_keyline = global::Habit_Trecker.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.InputKit.Resource.Attribute.layout_scrollFlags = global::Habit_Trecker.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Plugin.InputKit.Resource.Attribute.layout_scrollInterpolator = global::Habit_Trecker.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Plugin.InputKit.Resource.Attribute.liftOnScroll = global::Habit_Trecker.Droid.Resource.Attribute.liftOnScroll;
+			global::Plugin.InputKit.Resource.Attribute.lineHeight = global::Habit_Trecker.Droid.Resource.Attribute.lineHeight;
+			global::Plugin.InputKit.Resource.Attribute.lineSpacing = global::Habit_Trecker.Droid.Resource.Attribute.lineSpacing;
+			global::Plugin.InputKit.Resource.Attribute.listChoiceBackgroundIndicator = global::Habit_Trecker.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Plugin.InputKit.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::Habit_Trecker.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Plugin.InputKit.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::Habit_Trecker.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::Plugin.InputKit.Resource.Attribute.listDividerAlertDialog = global::Habit_Trecker.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Plugin.InputKit.Resource.Attribute.listItemLayout = global::Habit_Trecker.Droid.Resource.Attribute.listItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.listLayout = global::Habit_Trecker.Droid.Resource.Attribute.listLayout;
+			global::Plugin.InputKit.Resource.Attribute.listMenuViewStyle = global::Habit_Trecker.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.listPopupWindowStyle = global::Habit_Trecker.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemHeight = global::Habit_Trecker.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemHeightLarge = global::Habit_Trecker.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemHeightSmall = global::Habit_Trecker.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemPaddingEnd = global::Habit_Trecker.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemPaddingLeft = global::Habit_Trecker.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemPaddingRight = global::Habit_Trecker.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Plugin.InputKit.Resource.Attribute.listPreferredItemPaddingStart = global::Habit_Trecker.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::Plugin.InputKit.Resource.Attribute.logo = global::Habit_Trecker.Droid.Resource.Attribute.logo;
+			global::Plugin.InputKit.Resource.Attribute.logoDescription = global::Habit_Trecker.Droid.Resource.Attribute.logoDescription;
+			global::Plugin.InputKit.Resource.Attribute.materialButtonStyle = global::Habit_Trecker.Droid.Resource.Attribute.materialButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.materialCardViewStyle = global::Habit_Trecker.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.maxActionInlineWidth = global::Habit_Trecker.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Plugin.InputKit.Resource.Attribute.maxButtonHeight = global::Habit_Trecker.Droid.Resource.Attribute.maxButtonHeight;
+			global::Plugin.InputKit.Resource.Attribute.maxImageSize = global::Habit_Trecker.Droid.Resource.Attribute.maxImageSize;
+			global::Plugin.InputKit.Resource.Attribute.measureWithLargestChild = global::Habit_Trecker.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Plugin.InputKit.Resource.Attribute.menu = global::Habit_Trecker.Droid.Resource.Attribute.menu;
+			global::Plugin.InputKit.Resource.Attribute.multiChoiceItemLayout = global::Habit_Trecker.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.navigationContentDescription = global::Habit_Trecker.Droid.Resource.Attribute.navigationContentDescription;
+			global::Plugin.InputKit.Resource.Attribute.navigationIcon = global::Habit_Trecker.Droid.Resource.Attribute.navigationIcon;
+			global::Plugin.InputKit.Resource.Attribute.navigationMode = global::Habit_Trecker.Droid.Resource.Attribute.navigationMode;
+			global::Plugin.InputKit.Resource.Attribute.navigationViewStyle = global::Habit_Trecker.Droid.Resource.Attribute.navigationViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.numericModifiers = global::Habit_Trecker.Droid.Resource.Attribute.numericModifiers;
+			global::Plugin.InputKit.Resource.Attribute.overlapAnchor = global::Habit_Trecker.Droid.Resource.Attribute.overlapAnchor;
+			global::Plugin.InputKit.Resource.Attribute.paddingBottomNoButtons = global::Habit_Trecker.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Plugin.InputKit.Resource.Attribute.paddingEnd = global::Habit_Trecker.Droid.Resource.Attribute.paddingEnd;
+			global::Plugin.InputKit.Resource.Attribute.paddingStart = global::Habit_Trecker.Droid.Resource.Attribute.paddingStart;
+			global::Plugin.InputKit.Resource.Attribute.paddingTopNoTitle = global::Habit_Trecker.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Plugin.InputKit.Resource.Attribute.panelBackground = global::Habit_Trecker.Droid.Resource.Attribute.panelBackground;
+			global::Plugin.InputKit.Resource.Attribute.panelMenuListTheme = global::Habit_Trecker.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Plugin.InputKit.Resource.Attribute.panelMenuListWidth = global::Habit_Trecker.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleContentDescription = global::Habit_Trecker.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleDrawable = global::Habit_Trecker.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleEnabled = global::Habit_Trecker.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleTint = global::Habit_Trecker.Droid.Resource.Attribute.passwordToggleTint;
+			global::Plugin.InputKit.Resource.Attribute.passwordToggleTintMode = global::Habit_Trecker.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Plugin.InputKit.Resource.Attribute.popupMenuStyle = global::Habit_Trecker.Droid.Resource.Attribute.popupMenuStyle;
+			global::Plugin.InputKit.Resource.Attribute.popupTheme = global::Habit_Trecker.Droid.Resource.Attribute.popupTheme;
+			global::Plugin.InputKit.Resource.Attribute.popupWindowStyle = global::Habit_Trecker.Droid.Resource.Attribute.popupWindowStyle;
+			global::Plugin.InputKit.Resource.Attribute.preserveIconSpacing = global::Habit_Trecker.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Plugin.InputKit.Resource.Attribute.pressedTranslationZ = global::Habit_Trecker.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Plugin.InputKit.Resource.Attribute.progressBarPadding = global::Habit_Trecker.Droid.Resource.Attribute.progressBarPadding;
+			global::Plugin.InputKit.Resource.Attribute.progressBarStyle = global::Habit_Trecker.Droid.Resource.Attribute.progressBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.queryBackground = global::Habit_Trecker.Droid.Resource.Attribute.queryBackground;
+			global::Plugin.InputKit.Resource.Attribute.queryHint = global::Habit_Trecker.Droid.Resource.Attribute.queryHint;
+			global::Plugin.InputKit.Resource.Attribute.radioButtonStyle = global::Habit_Trecker.Droid.Resource.Attribute.radioButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.ratingBarStyle = global::Habit_Trecker.Droid.Resource.Attribute.ratingBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.ratingBarStyleIndicator = global::Habit_Trecker.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Plugin.InputKit.Resource.Attribute.ratingBarStyleSmall = global::Habit_Trecker.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Plugin.InputKit.Resource.Attribute.recyclerViewStyle = global::Habit_Trecker.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.reverseLayout = global::Habit_Trecker.Droid.Resource.Attribute.reverseLayout;
+			global::Plugin.InputKit.Resource.Attribute.rippleColor = global::Habit_Trecker.Droid.Resource.Attribute.rippleColor;
+			global::Plugin.InputKit.Resource.Attribute.scrimAnimationDuration = global::Habit_Trecker.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Plugin.InputKit.Resource.Attribute.scrimBackground = global::Habit_Trecker.Droid.Resource.Attribute.scrimBackground;
+			global::Plugin.InputKit.Resource.Attribute.scrimVisibleHeightTrigger = global::Habit_Trecker.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Plugin.InputKit.Resource.Attribute.searchHintIcon = global::Habit_Trecker.Droid.Resource.Attribute.searchHintIcon;
+			global::Plugin.InputKit.Resource.Attribute.searchIcon = global::Habit_Trecker.Droid.Resource.Attribute.searchIcon;
+			global::Plugin.InputKit.Resource.Attribute.searchViewStyle = global::Habit_Trecker.Droid.Resource.Attribute.searchViewStyle;
+			global::Plugin.InputKit.Resource.Attribute.seekBarStyle = global::Habit_Trecker.Droid.Resource.Attribute.seekBarStyle;
+			global::Plugin.InputKit.Resource.Attribute.selectableItemBackground = global::Habit_Trecker.Droid.Resource.Attribute.selectableItemBackground;
+			global::Plugin.InputKit.Resource.Attribute.selectableItemBackgroundBorderless = global::Habit_Trecker.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Plugin.InputKit.Resource.Attribute.showAsAction = global::Habit_Trecker.Droid.Resource.Attribute.showAsAction;
+			global::Plugin.InputKit.Resource.Attribute.showDividers = global::Habit_Trecker.Droid.Resource.Attribute.showDividers;
+			global::Plugin.InputKit.Resource.Attribute.showMotionSpec = global::Habit_Trecker.Droid.Resource.Attribute.showMotionSpec;
+			global::Plugin.InputKit.Resource.Attribute.showText = global::Habit_Trecker.Droid.Resource.Attribute.showText;
+			global::Plugin.InputKit.Resource.Attribute.showTitle = global::Habit_Trecker.Droid.Resource.Attribute.showTitle;
+			global::Plugin.InputKit.Resource.Attribute.singleChoiceItemLayout = global::Habit_Trecker.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Attribute.singleLine = global::Habit_Trecker.Droid.Resource.Attribute.singleLine;
+			global::Plugin.InputKit.Resource.Attribute.singleSelection = global::Habit_Trecker.Droid.Resource.Attribute.singleSelection;
+			global::Plugin.InputKit.Resource.Attribute.snackbarButtonStyle = global::Habit_Trecker.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.snackbarStyle = global::Habit_Trecker.Droid.Resource.Attribute.snackbarStyle;
+			global::Plugin.InputKit.Resource.Attribute.spanCount = global::Habit_Trecker.Droid.Resource.Attribute.spanCount;
+			global::Plugin.InputKit.Resource.Attribute.spinBars = global::Habit_Trecker.Droid.Resource.Attribute.spinBars;
+			global::Plugin.InputKit.Resource.Attribute.spinnerDropDownItemStyle = global::Habit_Trecker.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Plugin.InputKit.Resource.Attribute.spinnerStyle = global::Habit_Trecker.Droid.Resource.Attribute.spinnerStyle;
+			global::Plugin.InputKit.Resource.Attribute.splitTrack = global::Habit_Trecker.Droid.Resource.Attribute.splitTrack;
+			global::Plugin.InputKit.Resource.Attribute.srcCompat = global::Habit_Trecker.Droid.Resource.Attribute.srcCompat;
+			global::Plugin.InputKit.Resource.Attribute.stackFromEnd = global::Habit_Trecker.Droid.Resource.Attribute.stackFromEnd;
+			global::Plugin.InputKit.Resource.Attribute.state_above_anchor = global::Habit_Trecker.Droid.Resource.Attribute.state_above_anchor;
+			global::Plugin.InputKit.Resource.Attribute.state_collapsed = global::Habit_Trecker.Droid.Resource.Attribute.state_collapsed;
+			global::Plugin.InputKit.Resource.Attribute.state_collapsible = global::Habit_Trecker.Droid.Resource.Attribute.state_collapsible;
+			global::Plugin.InputKit.Resource.Attribute.state_liftable = global::Habit_Trecker.Droid.Resource.Attribute.state_liftable;
+			global::Plugin.InputKit.Resource.Attribute.state_lifted = global::Habit_Trecker.Droid.Resource.Attribute.state_lifted;
+			global::Plugin.InputKit.Resource.Attribute.statusBarBackground = global::Habit_Trecker.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.InputKit.Resource.Attribute.statusBarScrim = global::Habit_Trecker.Droid.Resource.Attribute.statusBarScrim;
+			global::Plugin.InputKit.Resource.Attribute.strokeColor = global::Habit_Trecker.Droid.Resource.Attribute.strokeColor;
+			global::Plugin.InputKit.Resource.Attribute.strokeWidth = global::Habit_Trecker.Droid.Resource.Attribute.strokeWidth;
+			global::Plugin.InputKit.Resource.Attribute.subMenuArrow = global::Habit_Trecker.Droid.Resource.Attribute.subMenuArrow;
+			global::Plugin.InputKit.Resource.Attribute.submitBackground = global::Habit_Trecker.Droid.Resource.Attribute.submitBackground;
+			global::Plugin.InputKit.Resource.Attribute.subtitle = global::Habit_Trecker.Droid.Resource.Attribute.subtitle;
+			global::Plugin.InputKit.Resource.Attribute.subtitleTextAppearance = global::Habit_Trecker.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.subtitleTextColor = global::Habit_Trecker.Droid.Resource.Attribute.subtitleTextColor;
+			global::Plugin.InputKit.Resource.Attribute.subtitleTextStyle = global::Habit_Trecker.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.suggestionRowLayout = global::Habit_Trecker.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Plugin.InputKit.Resource.Attribute.switchMinWidth = global::Habit_Trecker.Droid.Resource.Attribute.switchMinWidth;
+			global::Plugin.InputKit.Resource.Attribute.switchPadding = global::Habit_Trecker.Droid.Resource.Attribute.switchPadding;
+			global::Plugin.InputKit.Resource.Attribute.switchStyle = global::Habit_Trecker.Droid.Resource.Attribute.switchStyle;
+			global::Plugin.InputKit.Resource.Attribute.switchTextAppearance = global::Habit_Trecker.Droid.Resource.Attribute.switchTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.tabBackground = global::Habit_Trecker.Droid.Resource.Attribute.tabBackground;
+			global::Plugin.InputKit.Resource.Attribute.tabContentStart = global::Habit_Trecker.Droid.Resource.Attribute.tabContentStart;
+			global::Plugin.InputKit.Resource.Attribute.tabGravity = global::Habit_Trecker.Droid.Resource.Attribute.tabGravity;
+			global::Plugin.InputKit.Resource.Attribute.tabIconTint = global::Habit_Trecker.Droid.Resource.Attribute.tabIconTint;
+			global::Plugin.InputKit.Resource.Attribute.tabIconTintMode = global::Habit_Trecker.Droid.Resource.Attribute.tabIconTintMode;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicator = global::Habit_Trecker.Droid.Resource.Attribute.tabIndicator;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorAnimationDuration = global::Habit_Trecker.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorColor = global::Habit_Trecker.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorFullWidth = global::Habit_Trecker.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorGravity = global::Habit_Trecker.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Plugin.InputKit.Resource.Attribute.tabIndicatorHeight = global::Habit_Trecker.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Plugin.InputKit.Resource.Attribute.tabInlineLabel = global::Habit_Trecker.Droid.Resource.Attribute.tabInlineLabel;
+			global::Plugin.InputKit.Resource.Attribute.tabMaxWidth = global::Habit_Trecker.Droid.Resource.Attribute.tabMaxWidth;
+			global::Plugin.InputKit.Resource.Attribute.tabMinWidth = global::Habit_Trecker.Droid.Resource.Attribute.tabMinWidth;
+			global::Plugin.InputKit.Resource.Attribute.tabMode = global::Habit_Trecker.Droid.Resource.Attribute.tabMode;
+			global::Plugin.InputKit.Resource.Attribute.tabPadding = global::Habit_Trecker.Droid.Resource.Attribute.tabPadding;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingBottom = global::Habit_Trecker.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingEnd = global::Habit_Trecker.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingStart = global::Habit_Trecker.Droid.Resource.Attribute.tabPaddingStart;
+			global::Plugin.InputKit.Resource.Attribute.tabPaddingTop = global::Habit_Trecker.Droid.Resource.Attribute.tabPaddingTop;
+			global::Plugin.InputKit.Resource.Attribute.tabRippleColor = global::Habit_Trecker.Droid.Resource.Attribute.tabRippleColor;
+			global::Plugin.InputKit.Resource.Attribute.tabSelectedTextColor = global::Habit_Trecker.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Plugin.InputKit.Resource.Attribute.tabStyle = global::Habit_Trecker.Droid.Resource.Attribute.tabStyle;
+			global::Plugin.InputKit.Resource.Attribute.tabTextAppearance = global::Habit_Trecker.Droid.Resource.Attribute.tabTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.tabTextColor = global::Habit_Trecker.Droid.Resource.Attribute.tabTextColor;
+			global::Plugin.InputKit.Resource.Attribute.tabUnboundedRipple = global::Habit_Trecker.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Plugin.InputKit.Resource.Attribute.textAllCaps = global::Habit_Trecker.Droid.Resource.Attribute.textAllCaps;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceBody1 = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceBody2 = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceButton = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceButton;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceCaption = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline1 = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline2 = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline3 = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline4 = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline5 = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceHeadline6 = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceLargePopupMenu = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceListItem = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceListItemSecondary = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceListItemSmall = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceOverline = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Plugin.InputKit.Resource.Attribute.textAppearancePopupMenuHeader = global::Habit_Trecker.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSearchResultTitle = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSmallPopupMenu = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSubtitle1 = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Plugin.InputKit.Resource.Attribute.textAppearanceSubtitle2 = global::Habit_Trecker.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Plugin.InputKit.Resource.Attribute.textColorAlertDialogListItem = global::Habit_Trecker.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Plugin.InputKit.Resource.Attribute.textColorSearchUrl = global::Habit_Trecker.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Plugin.InputKit.Resource.Attribute.textEndPadding = global::Habit_Trecker.Droid.Resource.Attribute.textEndPadding;
+			global::Plugin.InputKit.Resource.Attribute.textInputStyle = global::Habit_Trecker.Droid.Resource.Attribute.textInputStyle;
+			global::Plugin.InputKit.Resource.Attribute.textLocale = global::Habit_Trecker.Droid.Resource.Attribute.textLocale;
+			global::Plugin.InputKit.Resource.Attribute.textStartPadding = global::Habit_Trecker.Droid.Resource.Attribute.textStartPadding;
+			global::Plugin.InputKit.Resource.Attribute.theme = global::Habit_Trecker.Droid.Resource.Attribute.theme;
+			global::Plugin.InputKit.Resource.Attribute.thickness = global::Habit_Trecker.Droid.Resource.Attribute.thickness;
+			global::Plugin.InputKit.Resource.Attribute.thumbTextPadding = global::Habit_Trecker.Droid.Resource.Attribute.thumbTextPadding;
+			global::Plugin.InputKit.Resource.Attribute.thumbTint = global::Habit_Trecker.Droid.Resource.Attribute.thumbTint;
+			global::Plugin.InputKit.Resource.Attribute.thumbTintMode = global::Habit_Trecker.Droid.Resource.Attribute.thumbTintMode;
+			global::Plugin.InputKit.Resource.Attribute.tickMark = global::Habit_Trecker.Droid.Resource.Attribute.tickMark;
+			global::Plugin.InputKit.Resource.Attribute.tickMarkTint = global::Habit_Trecker.Droid.Resource.Attribute.tickMarkTint;
+			global::Plugin.InputKit.Resource.Attribute.tickMarkTintMode = global::Habit_Trecker.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Plugin.InputKit.Resource.Attribute.tint = global::Habit_Trecker.Droid.Resource.Attribute.tint;
+			global::Plugin.InputKit.Resource.Attribute.tintMode = global::Habit_Trecker.Droid.Resource.Attribute.tintMode;
+			global::Plugin.InputKit.Resource.Attribute.title = global::Habit_Trecker.Droid.Resource.Attribute.title;
+			global::Plugin.InputKit.Resource.Attribute.titleEnabled = global::Habit_Trecker.Droid.Resource.Attribute.titleEnabled;
+			global::Plugin.InputKit.Resource.Attribute.titleMargin = global::Habit_Trecker.Droid.Resource.Attribute.titleMargin;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginBottom = global::Habit_Trecker.Droid.Resource.Attribute.titleMarginBottom;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginEnd = global::Habit_Trecker.Droid.Resource.Attribute.titleMarginEnd;
+			global::Plugin.InputKit.Resource.Attribute.titleMargins = global::Habit_Trecker.Droid.Resource.Attribute.titleMargins;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginStart = global::Habit_Trecker.Droid.Resource.Attribute.titleMarginStart;
+			global::Plugin.InputKit.Resource.Attribute.titleMarginTop = global::Habit_Trecker.Droid.Resource.Attribute.titleMarginTop;
+			global::Plugin.InputKit.Resource.Attribute.titleTextAppearance = global::Habit_Trecker.Droid.Resource.Attribute.titleTextAppearance;
+			global::Plugin.InputKit.Resource.Attribute.titleTextColor = global::Habit_Trecker.Droid.Resource.Attribute.titleTextColor;
+			global::Plugin.InputKit.Resource.Attribute.titleTextStyle = global::Habit_Trecker.Droid.Resource.Attribute.titleTextStyle;
+			global::Plugin.InputKit.Resource.Attribute.toolbarId = global::Habit_Trecker.Droid.Resource.Attribute.toolbarId;
+			global::Plugin.InputKit.Resource.Attribute.toolbarNavigationButtonStyle = global::Habit_Trecker.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Plugin.InputKit.Resource.Attribute.toolbarStyle = global::Habit_Trecker.Droid.Resource.Attribute.toolbarStyle;
+			global::Plugin.InputKit.Resource.Attribute.tooltipForegroundColor = global::Habit_Trecker.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Plugin.InputKit.Resource.Attribute.tooltipFrameBackground = global::Habit_Trecker.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Plugin.InputKit.Resource.Attribute.tooltipText = global::Habit_Trecker.Droid.Resource.Attribute.tooltipText;
+			global::Plugin.InputKit.Resource.Attribute.track = global::Habit_Trecker.Droid.Resource.Attribute.track;
+			global::Plugin.InputKit.Resource.Attribute.trackTint = global::Habit_Trecker.Droid.Resource.Attribute.trackTint;
+			global::Plugin.InputKit.Resource.Attribute.trackTintMode = global::Habit_Trecker.Droid.Resource.Attribute.trackTintMode;
+			global::Plugin.InputKit.Resource.Attribute.ttcIndex = global::Habit_Trecker.Droid.Resource.Attribute.ttcIndex;
+			global::Plugin.InputKit.Resource.Attribute.useCompatPadding = global::Habit_Trecker.Droid.Resource.Attribute.useCompatPadding;
+			global::Plugin.InputKit.Resource.Attribute.viewInflaterClass = global::Habit_Trecker.Droid.Resource.Attribute.viewInflaterClass;
+			global::Plugin.InputKit.Resource.Attribute.voiceIcon = global::Habit_Trecker.Droid.Resource.Attribute.voiceIcon;
+			global::Plugin.InputKit.Resource.Attribute.windowActionBar = global::Habit_Trecker.Droid.Resource.Attribute.windowActionBar;
+			global::Plugin.InputKit.Resource.Attribute.windowActionBarOverlay = global::Habit_Trecker.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Plugin.InputKit.Resource.Attribute.windowActionModeOverlay = global::Habit_Trecker.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedHeightMajor = global::Habit_Trecker.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedHeightMinor = global::Habit_Trecker.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedWidthMajor = global::Habit_Trecker.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Plugin.InputKit.Resource.Attribute.windowFixedWidthMinor = global::Habit_Trecker.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Plugin.InputKit.Resource.Attribute.windowMinWidthMajor = global::Habit_Trecker.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Plugin.InputKit.Resource.Attribute.windowMinWidthMinor = global::Habit_Trecker.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Plugin.InputKit.Resource.Attribute.windowNoTitle = global::Habit_Trecker.Droid.Resource.Attribute.windowNoTitle;
+			global::Plugin.InputKit.Resource.Boolean.abc_action_bar_embed_tabs = global::Habit_Trecker.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Plugin.InputKit.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Habit_Trecker.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Plugin.InputKit.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::Habit_Trecker.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Plugin.InputKit.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Habit_Trecker.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_background_cache_hint_selector_material_light = global::Habit_Trecker.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_btn_colored_borderless_text_material = global::Habit_Trecker.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Plugin.InputKit.Resource.Color.abc_btn_colored_text_material = global::Habit_Trecker.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Plugin.InputKit.Resource.Color.abc_color_highlight_material = global::Habit_Trecker.Droid.Resource.Color.abc_color_highlight_material;
+			global::Plugin.InputKit.Resource.Color.abc_hint_foreground_material_dark = global::Habit_Trecker.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_hint_foreground_material_light = global::Habit_Trecker.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_disable_only_material_dark = global::Habit_Trecker.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_disable_only_material_light = global::Habit_Trecker.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_material_dark = global::Habit_Trecker.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_primary_text_material_light = global::Habit_Trecker.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text = global::Habit_Trecker.Droid.Resource.Color.abc_search_url_text;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text_normal = global::Habit_Trecker.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text_pressed = global::Habit_Trecker.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Plugin.InputKit.Resource.Color.abc_search_url_text_selected = global::Habit_Trecker.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Plugin.InputKit.Resource.Color.abc_secondary_text_material_dark = global::Habit_Trecker.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Plugin.InputKit.Resource.Color.abc_secondary_text_material_light = global::Habit_Trecker.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Plugin.InputKit.Resource.Color.abc_tint_btn_checkable = global::Habit_Trecker.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Plugin.InputKit.Resource.Color.abc_tint_default = global::Habit_Trecker.Droid.Resource.Color.abc_tint_default;
+			global::Plugin.InputKit.Resource.Color.abc_tint_edittext = global::Habit_Trecker.Droid.Resource.Color.abc_tint_edittext;
+			global::Plugin.InputKit.Resource.Color.abc_tint_seek_thumb = global::Habit_Trecker.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Plugin.InputKit.Resource.Color.abc_tint_spinner = global::Habit_Trecker.Droid.Resource.Color.abc_tint_spinner;
+			global::Plugin.InputKit.Resource.Color.abc_tint_switch_track = global::Habit_Trecker.Droid.Resource.Color.abc_tint_switch_track;
+			global::Plugin.InputKit.Resource.Color.accent_material_dark = global::Habit_Trecker.Droid.Resource.Color.accent_material_dark;
+			global::Plugin.InputKit.Resource.Color.accent_material_light = global::Habit_Trecker.Droid.Resource.Color.accent_material_light;
+			global::Plugin.InputKit.Resource.Color.background_floating_material_dark = global::Habit_Trecker.Droid.Resource.Color.background_floating_material_dark;
+			global::Plugin.InputKit.Resource.Color.background_floating_material_light = global::Habit_Trecker.Droid.Resource.Color.background_floating_material_light;
+			global::Plugin.InputKit.Resource.Color.background_material_dark = global::Habit_Trecker.Droid.Resource.Color.background_material_dark;
+			global::Plugin.InputKit.Resource.Color.background_material_light = global::Habit_Trecker.Droid.Resource.Color.background_material_light;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_disabled_material_dark = global::Habit_Trecker.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_disabled_material_light = global::Habit_Trecker.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_inverse_material_dark = global::Habit_Trecker.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_inverse_material_light = global::Habit_Trecker.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_material_dark = global::Habit_Trecker.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.bright_foreground_material_light = global::Habit_Trecker.Droid.Resource.Color.bright_foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.browser_actions_bg_grey = global::Habit_Trecker.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Plugin.InputKit.Resource.Color.browser_actions_divider_color = global::Habit_Trecker.Droid.Resource.Color.browser_actions_divider_color;
+			global::Plugin.InputKit.Resource.Color.browser_actions_text_color = global::Habit_Trecker.Droid.Resource.Color.browser_actions_text_color;
+			global::Plugin.InputKit.Resource.Color.browser_actions_title_color = global::Habit_Trecker.Droid.Resource.Color.browser_actions_title_color;
+			global::Plugin.InputKit.Resource.Color.button_material_dark = global::Habit_Trecker.Droid.Resource.Color.button_material_dark;
+			global::Plugin.InputKit.Resource.Color.button_material_light = global::Habit_Trecker.Droid.Resource.Color.button_material_light;
+			global::Plugin.InputKit.Resource.Color.cardview_dark_background = global::Habit_Trecker.Droid.Resource.Color.cardview_dark_background;
+			global::Plugin.InputKit.Resource.Color.cardview_light_background = global::Habit_Trecker.Droid.Resource.Color.cardview_light_background;
+			global::Plugin.InputKit.Resource.Color.cardview_shadow_end_color = global::Habit_Trecker.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Plugin.InputKit.Resource.Color.cardview_shadow_start_color = global::Habit_Trecker.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Plugin.InputKit.Resource.Color.design_bottom_navigation_shadow_color = global::Habit_Trecker.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Plugin.InputKit.Resource.Color.design_default_color_primary = global::Habit_Trecker.Droid.Resource.Color.design_default_color_primary;
+			global::Plugin.InputKit.Resource.Color.design_default_color_primary_dark = global::Habit_Trecker.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Plugin.InputKit.Resource.Color.design_error = global::Habit_Trecker.Droid.Resource.Color.design_error;
+			global::Plugin.InputKit.Resource.Color.design_fab_shadow_end_color = global::Habit_Trecker.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_shadow_mid_color = global::Habit_Trecker.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_shadow_start_color = global::Habit_Trecker.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_end_inner_color = global::Habit_Trecker.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_end_outer_color = global::Habit_Trecker.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_top_inner_color = global::Habit_Trecker.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Plugin.InputKit.Resource.Color.design_fab_stroke_top_outer_color = global::Habit_Trecker.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Plugin.InputKit.Resource.Color.design_snackbar_background_color = global::Habit_Trecker.Droid.Resource.Color.design_snackbar_background_color;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_disabled_material_dark = global::Habit_Trecker.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_disabled_material_light = global::Habit_Trecker.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_material_dark = global::Habit_Trecker.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.dim_foreground_material_light = global::Habit_Trecker.Droid.Resource.Color.dim_foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.error_color_material_dark = global::Habit_Trecker.Droid.Resource.Color.error_color_material_dark;
+			global::Plugin.InputKit.Resource.Color.error_color_material_light = global::Habit_Trecker.Droid.Resource.Color.error_color_material_light;
+			global::Plugin.InputKit.Resource.Color.foreground_material_dark = global::Habit_Trecker.Droid.Resource.Color.foreground_material_dark;
+			global::Plugin.InputKit.Resource.Color.foreground_material_light = global::Habit_Trecker.Droid.Resource.Color.foreground_material_light;
+			global::Plugin.InputKit.Resource.Color.highlighted_text_material_dark = global::Habit_Trecker.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Plugin.InputKit.Resource.Color.highlighted_text_material_light = global::Habit_Trecker.Droid.Resource.Color.highlighted_text_material_light;
+			global::Plugin.InputKit.Resource.Color.material_blue_grey_800 = global::Habit_Trecker.Droid.Resource.Color.material_blue_grey_800;
+			global::Plugin.InputKit.Resource.Color.material_blue_grey_900 = global::Habit_Trecker.Droid.Resource.Color.material_blue_grey_900;
+			global::Plugin.InputKit.Resource.Color.material_blue_grey_950 = global::Habit_Trecker.Droid.Resource.Color.material_blue_grey_950;
+			global::Plugin.InputKit.Resource.Color.material_deep_teal_200 = global::Habit_Trecker.Droid.Resource.Color.material_deep_teal_200;
+			global::Plugin.InputKit.Resource.Color.material_deep_teal_500 = global::Habit_Trecker.Droid.Resource.Color.material_deep_teal_500;
+			global::Plugin.InputKit.Resource.Color.material_grey_100 = global::Habit_Trecker.Droid.Resource.Color.material_grey_100;
+			global::Plugin.InputKit.Resource.Color.material_grey_300 = global::Habit_Trecker.Droid.Resource.Color.material_grey_300;
+			global::Plugin.InputKit.Resource.Color.material_grey_50 = global::Habit_Trecker.Droid.Resource.Color.material_grey_50;
+			global::Plugin.InputKit.Resource.Color.material_grey_600 = global::Habit_Trecker.Droid.Resource.Color.material_grey_600;
+			global::Plugin.InputKit.Resource.Color.material_grey_800 = global::Habit_Trecker.Droid.Resource.Color.material_grey_800;
+			global::Plugin.InputKit.Resource.Color.material_grey_850 = global::Habit_Trecker.Droid.Resource.Color.material_grey_850;
+			global::Plugin.InputKit.Resource.Color.material_grey_900 = global::Habit_Trecker.Droid.Resource.Color.material_grey_900;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_bg_color_selector = global::Habit_Trecker.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_ripple_color = global::Habit_Trecker.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_stroke_color_selector = global::Habit_Trecker.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_text_btn_ripple_color = global::Habit_Trecker.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_text_color_disabled = global::Habit_Trecker.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_text_color_selector = global::Habit_Trecker.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Plugin.InputKit.Resource.Color.mtrl_btn_transparent_bg_color = global::Habit_Trecker.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_chip_background_color = global::Habit_Trecker.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_chip_close_icon_tint = global::Habit_Trecker.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Plugin.InputKit.Resource.Color.mtrl_chip_text_color = global::Habit_Trecker.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_fab_ripple_color = global::Habit_Trecker.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_scrim_color = global::Habit_Trecker.Droid.Resource.Color.mtrl_scrim_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_tabs_colored_ripple_color = global::Habit_Trecker.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_tabs_icon_color_selector = global::Habit_Trecker.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Plugin.InputKit.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::Habit_Trecker.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Plugin.InputKit.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::Habit_Trecker.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Plugin.InputKit.Resource.Color.mtrl_tabs_ripple_color = global::Habit_Trecker.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_textinput_default_box_stroke_color = global::Habit_Trecker.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_textinput_disabled_color = global::Habit_Trecker.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::Habit_Trecker.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::Habit_Trecker.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Plugin.InputKit.Resource.Color.mtrl_text_btn_text_color_selector = global::Habit_Trecker.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Plugin.InputKit.Resource.Color.notification_action_color_filter = global::Habit_Trecker.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.InputKit.Resource.Color.notification_icon_bg_color = global::Habit_Trecker.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.InputKit.Resource.Color.notification_material_background_media_default_color = global::Habit_Trecker.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Plugin.InputKit.Resource.Color.primary_dark_material_dark = global::Habit_Trecker.Droid.Resource.Color.primary_dark_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_dark_material_light = global::Habit_Trecker.Droid.Resource.Color.primary_dark_material_light;
+			global::Plugin.InputKit.Resource.Color.primary_material_dark = global::Habit_Trecker.Droid.Resource.Color.primary_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_material_light = global::Habit_Trecker.Droid.Resource.Color.primary_material_light;
+			global::Plugin.InputKit.Resource.Color.primary_text_default_material_dark = global::Habit_Trecker.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_text_default_material_light = global::Habit_Trecker.Droid.Resource.Color.primary_text_default_material_light;
+			global::Plugin.InputKit.Resource.Color.primary_text_disabled_material_dark = global::Habit_Trecker.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.primary_text_disabled_material_light = global::Habit_Trecker.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.ripple_material_dark = global::Habit_Trecker.Droid.Resource.Color.ripple_material_dark;
+			global::Plugin.InputKit.Resource.Color.ripple_material_light = global::Habit_Trecker.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.InputKit.Resource.Color.secondary_text_default_material_dark = global::Habit_Trecker.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Plugin.InputKit.Resource.Color.secondary_text_default_material_light = global::Habit_Trecker.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.InputKit.Resource.Color.secondary_text_disabled_material_dark = global::Habit_Trecker.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.secondary_text_disabled_material_light = global::Habit_Trecker.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_disabled_material_dark = global::Habit_Trecker.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_disabled_material_light = global::Habit_Trecker.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_material_dark = global::Habit_Trecker.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_material_light = global::Habit_Trecker.Droid.Resource.Color.switch_thumb_material_light;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_normal_material_dark = global::Habit_Trecker.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Plugin.InputKit.Resource.Color.switch_thumb_normal_material_light = global::Habit_Trecker.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Plugin.InputKit.Resource.Color.tooltip_background_dark = global::Habit_Trecker.Droid.Resource.Color.tooltip_background_dark;
+			global::Plugin.InputKit.Resource.Color.tooltip_background_light = global::Habit_Trecker.Droid.Resource.Color.tooltip_background_light;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_content_inset_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_default_height_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_elevation_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_stacked_max_height = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_button_min_height_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_button_min_width_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Habit_Trecker.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Plugin.InputKit.Resource.Dimension.abc_alert_dialog_button_dimen = global::Habit_Trecker.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_inset_horizontal_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_inset_vertical_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_padding_horizontal_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_button_padding_vertical_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Habit_Trecker.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_config_prefDialogWidth = global::Habit_Trecker.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Plugin.InputKit.Resource.Dimension.abc_control_corner_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_control_inset_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_control_padding_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_corner_radius_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_height_major = global::Habit_Trecker.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_height_minor = global::Habit_Trecker.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_width_major = global::Habit_Trecker.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_fixed_width_minor = global::Habit_Trecker.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Habit_Trecker.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Habit_Trecker.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_min_width_major = global::Habit_Trecker.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_min_width_minor = global::Habit_Trecker.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_padding_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_padding_top_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_dialog_title_divider_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_disabled_alpha_material_dark = global::Habit_Trecker.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.abc_disabled_alpha_material_light = global::Habit_Trecker.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.abc_dropdownitem_icon_width = global::Habit_Trecker.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Habit_Trecker.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Plugin.InputKit.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Habit_Trecker.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Plugin.InputKit.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_edit_text_inset_top_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_floating_window_z = global::Habit_Trecker.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Plugin.InputKit.Resource.Dimension.abc_list_item_height_large_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_list_item_height_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_list_item_height_small_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_panel_menu_list_width = global::Habit_Trecker.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_progress_bar_height_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_search_view_preferred_height = global::Habit_Trecker.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Plugin.InputKit.Resource.Dimension.abc_search_view_preferred_width = global::Habit_Trecker.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Plugin.InputKit.Resource.Dimension.abc_seekbar_track_background_height_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_select_dialog_padding_start_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_switch_padding = global::Habit_Trecker.Droid.Resource.Dimension.abc_switch_padding;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_body_1_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_body_2_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_button_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_caption_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_1_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_2_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_3_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_display_4_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_headline_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_large_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_medium_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_menu_header_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_menu_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_small_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_subhead_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_title_material = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Plugin.InputKit.Resource.Dimension.abc_text_size_title_material_toolbar = global::Habit_Trecker.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Plugin.InputKit.Resource.Dimension.browser_actions_context_menu_max_width = global::Habit_Trecker.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Plugin.InputKit.Resource.Dimension.browser_actions_context_menu_min_padding = global::Habit_Trecker.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Plugin.InputKit.Resource.Dimension.cardview_compat_inset_shadow = global::Habit_Trecker.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Plugin.InputKit.Resource.Dimension.cardview_default_elevation = global::Habit_Trecker.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Plugin.InputKit.Resource.Dimension.cardview_default_radius = global::Habit_Trecker.Droid.Resource.Dimension.cardview_default_radius;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_inset_horizontal_material = global::Habit_Trecker.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_inset_vertical_material = global::Habit_Trecker.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_padding_horizontal_material = global::Habit_Trecker.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_button_padding_vertical_material = global::Habit_Trecker.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_control_corner_material = global::Habit_Trecker.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.InputKit.Resource.Dimension.compat_notification_large_icon_max_height = global::Habit_Trecker.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Plugin.InputKit.Resource.Dimension.compat_notification_large_icon_max_width = global::Habit_Trecker.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_appbar_elevation = global::Habit_Trecker.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Habit_Trecker.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::Habit_Trecker.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_active_text_size = global::Habit_Trecker.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_elevation = global::Habit_Trecker.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_height = global::Habit_Trecker.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_icon_size = global::Habit_Trecker.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_item_max_width = global::Habit_Trecker.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_item_min_width = global::Habit_Trecker.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_margin = global::Habit_Trecker.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_shadow_height = global::Habit_Trecker.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_navigation_text_size = global::Habit_Trecker.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Habit_Trecker.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Habit_Trecker.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_border_width = global::Habit_Trecker.Droid.Resource.Dimension.design_fab_border_width;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_elevation = global::Habit_Trecker.Droid.Resource.Dimension.design_fab_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_image_size = global::Habit_Trecker.Droid.Resource.Dimension.design_fab_image_size;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_size_mini = global::Habit_Trecker.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_size_normal = global::Habit_Trecker.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_translation_z_hovered_focused = global::Habit_Trecker.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Plugin.InputKit.Resource.Dimension.design_fab_translation_z_pressed = global::Habit_Trecker.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_elevation = global::Habit_Trecker.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_icon_padding = global::Habit_Trecker.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_icon_size = global::Habit_Trecker.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_item_horizontal_padding = global::Habit_Trecker.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_item_icon_padding = global::Habit_Trecker.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_max_width = global::Habit_Trecker.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_padding_bottom = global::Habit_Trecker.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Plugin.InputKit.Resource.Dimension.design_navigation_separator_vertical_padding = global::Habit_Trecker.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_action_inline_max_width = global::Habit_Trecker.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_background_corner_radius = global::Habit_Trecker.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_elevation = global::Habit_Trecker.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Habit_Trecker.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_max_width = global::Habit_Trecker.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_min_width = global::Habit_Trecker.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_padding_horizontal = global::Habit_Trecker.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_padding_vertical = global::Habit_Trecker.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Habit_Trecker.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Plugin.InputKit.Resource.Dimension.design_snackbar_text_size = global::Habit_Trecker.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_max_width = global::Habit_Trecker.Droid.Resource.Dimension.design_tab_max_width;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_scrollable_min_width = global::Habit_Trecker.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_text_size = global::Habit_Trecker.Droid.Resource.Dimension.design_tab_text_size;
+			global::Plugin.InputKit.Resource.Dimension.design_tab_text_size_2line = global::Habit_Trecker.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Plugin.InputKit.Resource.Dimension.design_textinput_caption_translate_y = global::Habit_Trecker.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Plugin.InputKit.Resource.Dimension.disabled_alpha_material_dark = global::Habit_Trecker.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.disabled_alpha_material_light = global::Habit_Trecker.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.fastscroll_default_thickness = global::Habit_Trecker.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Plugin.InputKit.Resource.Dimension.fastscroll_margin = global::Habit_Trecker.Droid.Resource.Dimension.fastscroll_margin;
+			global::Plugin.InputKit.Resource.Dimension.fastscroll_minimum_range = global::Habit_Trecker.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Plugin.InputKit.Resource.Dimension.highlight_alpha_material_colored = global::Habit_Trecker.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Plugin.InputKit.Resource.Dimension.highlight_alpha_material_dark = global::Habit_Trecker.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.highlight_alpha_material_light = global::Habit_Trecker.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.hint_alpha_material_dark = global::Habit_Trecker.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.hint_alpha_material_light = global::Habit_Trecker.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.hint_pressed_alpha_material_dark = global::Habit_Trecker.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Plugin.InputKit.Resource.Dimension.hint_pressed_alpha_material_light = global::Habit_Trecker.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Plugin.InputKit.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Habit_Trecker.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Plugin.InputKit.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Habit_Trecker.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Plugin.InputKit.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Habit_Trecker.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_bottomappbar_height = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_corner_radius = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_disabled_elevation = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_disabled_z = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_elevation = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_focused_z = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_hovered_z = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_icon_padding = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_inset = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_letter_spacing = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_padding_bottom = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_padding_left = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_padding_right = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_padding_top = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_pressed_z = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_stroke_size = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_text_size = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_btn_z = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_card_elevation = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_card_spacing = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_chip_text_size = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_fab_elevation = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_fab_translation_z_pressed = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_navigation_elevation = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_navigation_item_icon_padding = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_snackbar_margin = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Plugin.InputKit.Resource.Dimension.mtrl_toolbar_default_height = global::Habit_Trecker.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Plugin.InputKit.Resource.Dimension.notification_action_icon_size = global::Habit_Trecker.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_action_text_size = global::Habit_Trecker.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_big_circle_margin = global::Habit_Trecker.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.InputKit.Resource.Dimension.notification_content_margin_start = global::Habit_Trecker.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.InputKit.Resource.Dimension.notification_large_icon_height = global::Habit_Trecker.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.InputKit.Resource.Dimension.notification_large_icon_width = global::Habit_Trecker.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.InputKit.Resource.Dimension.notification_main_column_padding_top = global::Habit_Trecker.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.InputKit.Resource.Dimension.notification_media_narrow_margin = global::Habit_Trecker.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.InputKit.Resource.Dimension.notification_right_icon_size = global::Habit_Trecker.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_right_side_padding_top = global::Habit_Trecker.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.InputKit.Resource.Dimension.notification_small_icon_background_padding = global::Habit_Trecker.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.InputKit.Resource.Dimension.notification_small_icon_size_as_large = global::Habit_Trecker.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.InputKit.Resource.Dimension.notification_subtext_size = global::Habit_Trecker.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.InputKit.Resource.Dimension.notification_top_pad = global::Habit_Trecker.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.InputKit.Resource.Dimension.notification_top_pad_large_text = global::Habit_Trecker.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_corner_radius = global::Habit_Trecker.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_horizontal_padding = global::Habit_Trecker.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_margin = global::Habit_Trecker.Droid.Resource.Dimension.tooltip_margin;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Habit_Trecker.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_precise_anchor_threshold = global::Habit_Trecker.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_vertical_padding = global::Habit_Trecker.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_y_offset_non_touch = global::Habit_Trecker.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Plugin.InputKit.Resource.Dimension.tooltip_y_offset_touch = global::Habit_Trecker.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Plugin.InputKit.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_action_bar_item_background_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_borderless_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_material_anim = global::Habit_Trecker.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Habit_Trecker.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Habit_Trecker.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_colored_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_default_mtrl_shape = global::Habit_Trecker.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_material_anim = global::Habit_Trecker.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Habit_Trecker.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Habit_Trecker.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Habit_Trecker.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Plugin.InputKit.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Habit_Trecker.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Plugin.InputKit.Resource.Drawable.abc_cab_background_internal_bg = global::Habit_Trecker.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Plugin.InputKit.Resource.Drawable.abc_cab_background_top_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_control_background_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_control_background_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_dialog_material_background = global::Habit_Trecker.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Plugin.InputKit.Resource.Drawable.abc_edit_text_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_ab_back_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Habit_Trecker.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_clear_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_go_search_api_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_overflow_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_search_api_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ic_voice_search_api_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_item_background_holo_dark = global::Habit_Trecker.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_item_background_holo_light = global::Habit_Trecker.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_divider_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_focused_holo = global::Habit_Trecker.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_longpressed_holo = global::Habit_Trecker.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_pressed_holo_dark = global::Habit_Trecker.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_pressed_holo_light = global::Habit_Trecker.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Habit_Trecker.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Habit_Trecker.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Habit_Trecker.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Habit_Trecker.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_holo_dark = global::Habit_Trecker.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Plugin.InputKit.Resource.Drawable.abc_list_selector_holo_light = global::Habit_Trecker.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Plugin.InputKit.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Habit_Trecker.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Plugin.InputKit.Resource.Drawable.abc_popup_background_mtrl_mult = global::Habit_Trecker.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Plugin.InputKit.Resource.Drawable.abc_ratingbar_indicator_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ratingbar_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_ratingbar_small_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Habit_Trecker.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Habit_Trecker.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_seekbar_thumb_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_seekbar_tick_mark_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_seekbar_track_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_spinner_textfield_background_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_switch_thumb_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_tab_indicator_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Habit_Trecker.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Plugin.InputKit.Resource.Drawable.abc_textfield_search_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_text_cursor_material = global::Habit_Trecker.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Plugin.InputKit.Resource.Drawable.abc_vector_test = global::Habit_Trecker.Droid.Resource.Drawable.abc_vector_test;
+			global::Plugin.InputKit.Resource.Drawable.avd_hide_password = global::Habit_Trecker.Droid.Resource.Drawable.avd_hide_password;
+			global::Plugin.InputKit.Resource.Drawable.avd_show_password = global::Habit_Trecker.Droid.Resource.Drawable.avd_show_password;
+			global::Plugin.InputKit.Resource.Drawable.btn_checkbox_checked_mtrl = global::Habit_Trecker.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Plugin.InputKit.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::Habit_Trecker.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Plugin.InputKit.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::Habit_Trecker.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Plugin.InputKit.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::Habit_Trecker.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Plugin.InputKit.Resource.Drawable.btn_radio_off_mtrl = global::Habit_Trecker.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Plugin.InputKit.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::Habit_Trecker.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Plugin.InputKit.Resource.Drawable.btn_radio_on_mtrl = global::Habit_Trecker.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Plugin.InputKit.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::Habit_Trecker.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::Plugin.InputKit.Resource.Drawable.design_fab_background = global::Habit_Trecker.Droid.Resource.Drawable.design_fab_background;
+			global::Plugin.InputKit.Resource.Drawable.design_ic_visibility = global::Habit_Trecker.Droid.Resource.Drawable.design_ic_visibility;
+			global::Plugin.InputKit.Resource.Drawable.design_ic_visibility_off = global::Habit_Trecker.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Plugin.InputKit.Resource.Drawable.design_password_eye = global::Habit_Trecker.Droid.Resource.Drawable.design_password_eye;
+			global::Plugin.InputKit.Resource.Drawable.design_snackbar_background = global::Habit_Trecker.Droid.Resource.Drawable.design_snackbar_background;
+			global::Plugin.InputKit.Resource.Drawable.ic_mtrl_chip_checked_black = global::Habit_Trecker.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Plugin.InputKit.Resource.Drawable.ic_mtrl_chip_checked_circle = global::Habit_Trecker.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Plugin.InputKit.Resource.Drawable.ic_mtrl_chip_close_circle = global::Habit_Trecker.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Plugin.InputKit.Resource.Drawable.mtrl_tabs_default_indicator = global::Habit_Trecker.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Plugin.InputKit.Resource.Drawable.navigation_empty_icon = global::Habit_Trecker.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Plugin.InputKit.Resource.Drawable.notification_action_background = global::Habit_Trecker.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg = global::Habit_Trecker.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_low = global::Habit_Trecker.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_low_normal = global::Habit_Trecker.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_low_pressed = global::Habit_Trecker.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_normal = global::Habit_Trecker.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.InputKit.Resource.Drawable.notification_bg_normal_pressed = global::Habit_Trecker.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.InputKit.Resource.Drawable.notification_icon_background = global::Habit_Trecker.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.InputKit.Resource.Drawable.notification_template_icon_bg = global::Habit_Trecker.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.InputKit.Resource.Drawable.notification_template_icon_low_bg = global::Habit_Trecker.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.InputKit.Resource.Drawable.notification_tile_bg = global::Habit_Trecker.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.InputKit.Resource.Drawable.notify_panel_notification_icon_bg = global::Habit_Trecker.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.InputKit.Resource.Drawable.tooltip_frame_dark = global::Habit_Trecker.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Plugin.InputKit.Resource.Drawable.tooltip_frame_light = global::Habit_Trecker.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Plugin.InputKit.Resource.Id.accessibility_action_clickable_span = global::Habit_Trecker.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_0 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_1 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_10 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_11 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_12 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_13 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_14 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_15 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_16 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_17 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_18 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_19 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_2 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_20 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_21 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_22 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_23 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_24 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_25 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_26 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_27 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_28 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_29 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_3 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_30 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_31 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_4 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_5 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_6 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_7 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_8 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Plugin.InputKit.Resource.Id.accessibility_custom_action_9 = global::Habit_Trecker.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Plugin.InputKit.Resource.Id.action0 = global::Habit_Trecker.Droid.Resource.Id.action0;
+			global::Plugin.InputKit.Resource.Id.actions = global::Habit_Trecker.Droid.Resource.Id.actions;
+			global::Plugin.InputKit.Resource.Id.action_bar = global::Habit_Trecker.Droid.Resource.Id.action_bar;
+			global::Plugin.InputKit.Resource.Id.action_bar_activity_content = global::Habit_Trecker.Droid.Resource.Id.action_bar_activity_content;
+			global::Plugin.InputKit.Resource.Id.action_bar_container = global::Habit_Trecker.Droid.Resource.Id.action_bar_container;
+			global::Plugin.InputKit.Resource.Id.action_bar_root = global::Habit_Trecker.Droid.Resource.Id.action_bar_root;
+			global::Plugin.InputKit.Resource.Id.action_bar_spinner = global::Habit_Trecker.Droid.Resource.Id.action_bar_spinner;
+			global::Plugin.InputKit.Resource.Id.action_bar_subtitle = global::Habit_Trecker.Droid.Resource.Id.action_bar_subtitle;
+			global::Plugin.InputKit.Resource.Id.action_bar_title = global::Habit_Trecker.Droid.Resource.Id.action_bar_title;
+			global::Plugin.InputKit.Resource.Id.action_container = global::Habit_Trecker.Droid.Resource.Id.action_container;
+			global::Plugin.InputKit.Resource.Id.action_context_bar = global::Habit_Trecker.Droid.Resource.Id.action_context_bar;
+			global::Plugin.InputKit.Resource.Id.action_divider = global::Habit_Trecker.Droid.Resource.Id.action_divider;
+			global::Plugin.InputKit.Resource.Id.action_image = global::Habit_Trecker.Droid.Resource.Id.action_image;
+			global::Plugin.InputKit.Resource.Id.action_menu_divider = global::Habit_Trecker.Droid.Resource.Id.action_menu_divider;
+			global::Plugin.InputKit.Resource.Id.action_menu_presenter = global::Habit_Trecker.Droid.Resource.Id.action_menu_presenter;
+			global::Plugin.InputKit.Resource.Id.action_mode_bar = global::Habit_Trecker.Droid.Resource.Id.action_mode_bar;
+			global::Plugin.InputKit.Resource.Id.action_mode_bar_stub = global::Habit_Trecker.Droid.Resource.Id.action_mode_bar_stub;
+			global::Plugin.InputKit.Resource.Id.action_mode_close_button = global::Habit_Trecker.Droid.Resource.Id.action_mode_close_button;
+			global::Plugin.InputKit.Resource.Id.action_text = global::Habit_Trecker.Droid.Resource.Id.action_text;
+			global::Plugin.InputKit.Resource.Id.activity_chooser_view_content = global::Habit_Trecker.Droid.Resource.Id.activity_chooser_view_content;
+			global::Plugin.InputKit.Resource.Id.add = global::Habit_Trecker.Droid.Resource.Id.add;
+			global::Plugin.InputKit.Resource.Id.alertTitle = global::Habit_Trecker.Droid.Resource.Id.alertTitle;
+			global::Plugin.InputKit.Resource.Id.all = global::Habit_Trecker.Droid.Resource.Id.all;
+			global::Plugin.InputKit.Resource.Id.ALT = global::Habit_Trecker.Droid.Resource.Id.ALT;
+			global::Plugin.InputKit.Resource.Id.always = global::Habit_Trecker.Droid.Resource.Id.always;
+			global::Plugin.InputKit.Resource.Id.async = global::Habit_Trecker.Droid.Resource.Id.async;
+			global::Plugin.InputKit.Resource.Id.auto = global::Habit_Trecker.Droid.Resource.Id.auto;
+			global::Plugin.InputKit.Resource.Id.beginning = global::Habit_Trecker.Droid.Resource.Id.beginning;
+			global::Plugin.InputKit.Resource.Id.blocking = global::Habit_Trecker.Droid.Resource.Id.blocking;
+			global::Plugin.InputKit.Resource.Id.bottom = global::Habit_Trecker.Droid.Resource.Id.bottom;
+			global::Plugin.InputKit.Resource.Id.bottomtab_navarea = global::Habit_Trecker.Droid.Resource.Id.bottomtab_navarea;
+			global::Plugin.InputKit.Resource.Id.bottomtab_tabbar = global::Habit_Trecker.Droid.Resource.Id.bottomtab_tabbar;
+			global::Plugin.InputKit.Resource.Id.browser_actions_header_text = global::Habit_Trecker.Droid.Resource.Id.browser_actions_header_text;
+			global::Plugin.InputKit.Resource.Id.browser_actions_menu_items = global::Habit_Trecker.Droid.Resource.Id.browser_actions_menu_items;
+			global::Plugin.InputKit.Resource.Id.browser_actions_menu_item_icon = global::Habit_Trecker.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Plugin.InputKit.Resource.Id.browser_actions_menu_item_text = global::Habit_Trecker.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Plugin.InputKit.Resource.Id.browser_actions_menu_view = global::Habit_Trecker.Droid.Resource.Id.browser_actions_menu_view;
+			global::Plugin.InputKit.Resource.Id.buttonPanel = global::Habit_Trecker.Droid.Resource.Id.buttonPanel;
+			global::Plugin.InputKit.Resource.Id.cancel_action = global::Habit_Trecker.Droid.Resource.Id.cancel_action;
+			global::Plugin.InputKit.Resource.Id.center = global::Habit_Trecker.Droid.Resource.Id.center;
+			global::Plugin.InputKit.Resource.Id.center_horizontal = global::Habit_Trecker.Droid.Resource.Id.center_horizontal;
+			global::Plugin.InputKit.Resource.Id.center_vertical = global::Habit_Trecker.Droid.Resource.Id.center_vertical;
+			global::Plugin.InputKit.Resource.Id.checkbox = global::Habit_Trecker.Droid.Resource.Id.checkbox;
+			global::Plugin.InputKit.Resource.Id.@checked = global::Habit_Trecker.Droid.Resource.Id.@checked;
+			global::Plugin.InputKit.Resource.Id.chronometer = global::Habit_Trecker.Droid.Resource.Id.chronometer;
+			global::Plugin.InputKit.Resource.Id.clip_horizontal = global::Habit_Trecker.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.InputKit.Resource.Id.clip_vertical = global::Habit_Trecker.Droid.Resource.Id.clip_vertical;
+			global::Plugin.InputKit.Resource.Id.collapseActionView = global::Habit_Trecker.Droid.Resource.Id.collapseActionView;
+			global::Plugin.InputKit.Resource.Id.container = global::Habit_Trecker.Droid.Resource.Id.container;
+			global::Plugin.InputKit.Resource.Id.content = global::Habit_Trecker.Droid.Resource.Id.content;
+			global::Plugin.InputKit.Resource.Id.contentPanel = global::Habit_Trecker.Droid.Resource.Id.contentPanel;
+			global::Plugin.InputKit.Resource.Id.coordinator = global::Habit_Trecker.Droid.Resource.Id.coordinator;
+			global::Plugin.InputKit.Resource.Id.CTRL = global::Habit_Trecker.Droid.Resource.Id.CTRL;
+			global::Plugin.InputKit.Resource.Id.custom = global::Habit_Trecker.Droid.Resource.Id.custom;
+			global::Plugin.InputKit.Resource.Id.customPanel = global::Habit_Trecker.Droid.Resource.Id.customPanel;
+			global::Plugin.InputKit.Resource.Id.decor_content_parent = global::Habit_Trecker.Droid.Resource.Id.decor_content_parent;
+			global::Plugin.InputKit.Resource.Id.default_activity_button = global::Habit_Trecker.Droid.Resource.Id.default_activity_button;
+			global::Plugin.InputKit.Resource.Id.design_bottom_sheet = global::Habit_Trecker.Droid.Resource.Id.design_bottom_sheet;
+			global::Plugin.InputKit.Resource.Id.design_menu_item_action_area = global::Habit_Trecker.Droid.Resource.Id.design_menu_item_action_area;
+			global::Plugin.InputKit.Resource.Id.design_menu_item_action_area_stub = global::Habit_Trecker.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Plugin.InputKit.Resource.Id.design_menu_item_text = global::Habit_Trecker.Droid.Resource.Id.design_menu_item_text;
+			global::Plugin.InputKit.Resource.Id.design_navigation_view = global::Habit_Trecker.Droid.Resource.Id.design_navigation_view;
+			global::Plugin.InputKit.Resource.Id.dialog_button = global::Habit_Trecker.Droid.Resource.Id.dialog_button;
+			global::Plugin.InputKit.Resource.Id.disableHome = global::Habit_Trecker.Droid.Resource.Id.disableHome;
+			global::Plugin.InputKit.Resource.Id.edit_query = global::Habit_Trecker.Droid.Resource.Id.edit_query;
+			global::Plugin.InputKit.Resource.Id.end = global::Habit_Trecker.Droid.Resource.Id.end;
+			global::Plugin.InputKit.Resource.Id.end_padder = global::Habit_Trecker.Droid.Resource.Id.end_padder;
+			global::Plugin.InputKit.Resource.Id.enterAlways = global::Habit_Trecker.Droid.Resource.Id.enterAlways;
+			global::Plugin.InputKit.Resource.Id.enterAlwaysCollapsed = global::Habit_Trecker.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Plugin.InputKit.Resource.Id.exitUntilCollapsed = global::Habit_Trecker.Droid.Resource.Id.exitUntilCollapsed;
+			global::Plugin.InputKit.Resource.Id.expanded_menu = global::Habit_Trecker.Droid.Resource.Id.expanded_menu;
+			global::Plugin.InputKit.Resource.Id.expand_activities_button = global::Habit_Trecker.Droid.Resource.Id.expand_activities_button;
+			global::Plugin.InputKit.Resource.Id.fill = global::Habit_Trecker.Droid.Resource.Id.fill;
+			global::Plugin.InputKit.Resource.Id.filled = global::Habit_Trecker.Droid.Resource.Id.filled;
+			global::Plugin.InputKit.Resource.Id.fill_horizontal = global::Habit_Trecker.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.InputKit.Resource.Id.fill_vertical = global::Habit_Trecker.Droid.Resource.Id.fill_vertical;
+			global::Plugin.InputKit.Resource.Id.@fixed = global::Habit_Trecker.Droid.Resource.Id.@fixed;
+			global::Plugin.InputKit.Resource.Id.flyoutcontent_appbar = global::Habit_Trecker.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Plugin.InputKit.Resource.Id.forever = global::Habit_Trecker.Droid.Resource.Id.forever;
+			global::Plugin.InputKit.Resource.Id.FUNCTION = global::Habit_Trecker.Droid.Resource.Id.FUNCTION;
+			global::Plugin.InputKit.Resource.Id.ghost_view = global::Habit_Trecker.Droid.Resource.Id.ghost_view;
+			global::Plugin.InputKit.Resource.Id.ghost_view_holder = global::Habit_Trecker.Droid.Resource.Id.ghost_view_holder;
+			global::Plugin.InputKit.Resource.Id.group_divider = global::Habit_Trecker.Droid.Resource.Id.group_divider;
+			global::Plugin.InputKit.Resource.Id.home = global::Habit_Trecker.Droid.Resource.Id.home;
+			global::Plugin.InputKit.Resource.Id.homeAsUp = global::Habit_Trecker.Droid.Resource.Id.homeAsUp;
+			global::Plugin.InputKit.Resource.Id.icon = global::Habit_Trecker.Droid.Resource.Id.icon;
+			global::Plugin.InputKit.Resource.Id.icon_group = global::Habit_Trecker.Droid.Resource.Id.icon_group;
+			global::Plugin.InputKit.Resource.Id.ifRoom = global::Habit_Trecker.Droid.Resource.Id.ifRoom;
+			global::Plugin.InputKit.Resource.Id.image = global::Habit_Trecker.Droid.Resource.Id.image;
+			global::Plugin.InputKit.Resource.Id.info = global::Habit_Trecker.Droid.Resource.Id.info;
+			global::Plugin.InputKit.Resource.Id.italic = global::Habit_Trecker.Droid.Resource.Id.italic;
+			global::Plugin.InputKit.Resource.Id.item_touch_helper_previous_elevation = global::Habit_Trecker.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Plugin.InputKit.Resource.Id.labeled = global::Habit_Trecker.Droid.Resource.Id.labeled;
+			global::Plugin.InputKit.Resource.Id.left = global::Habit_Trecker.Droid.Resource.Id.left;
+			global::Plugin.InputKit.Resource.Id.line1 = global::Habit_Trecker.Droid.Resource.Id.line1;
+			global::Plugin.InputKit.Resource.Id.line3 = global::Habit_Trecker.Droid.Resource.Id.line3;
+			global::Plugin.InputKit.Resource.Id.listMode = global::Habit_Trecker.Droid.Resource.Id.listMode;
+			global::Plugin.InputKit.Resource.Id.list_item = global::Habit_Trecker.Droid.Resource.Id.list_item;
+			global::Plugin.InputKit.Resource.Id.main_appbar = global::Habit_Trecker.Droid.Resource.Id.main_appbar;
+			global::Plugin.InputKit.Resource.Id.main_tablayout = global::Habit_Trecker.Droid.Resource.Id.main_tablayout;
+			global::Plugin.InputKit.Resource.Id.main_toolbar = global::Habit_Trecker.Droid.Resource.Id.main_toolbar;
+			global::Plugin.InputKit.Resource.Id.main_viewpager = global::Habit_Trecker.Droid.Resource.Id.main_viewpager;
+			global::Plugin.InputKit.Resource.Id.masked = global::Habit_Trecker.Droid.Resource.Id.masked;
+			global::Plugin.InputKit.Resource.Id.media_actions = global::Habit_Trecker.Droid.Resource.Id.media_actions;
+			global::Plugin.InputKit.Resource.Id.message = global::Habit_Trecker.Droid.Resource.Id.message;
+			global::Plugin.InputKit.Resource.Id.META = global::Habit_Trecker.Droid.Resource.Id.META;
+			global::Plugin.InputKit.Resource.Id.middle = global::Habit_Trecker.Droid.Resource.Id.middle;
+			global::Plugin.InputKit.Resource.Id.mini = global::Habit_Trecker.Droid.Resource.Id.mini;
+			global::Plugin.InputKit.Resource.Id.mtrl_child_content_container = global::Habit_Trecker.Droid.Resource.Id.mtrl_child_content_container;
+			global::Plugin.InputKit.Resource.Id.mtrl_internal_children_alpha_tag = global::Habit_Trecker.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Plugin.InputKit.Resource.Id.multiply = global::Habit_Trecker.Droid.Resource.Id.multiply;
+			global::Plugin.InputKit.Resource.Id.navigation_header_container = global::Habit_Trecker.Droid.Resource.Id.navigation_header_container;
+			global::Plugin.InputKit.Resource.Id.never = global::Habit_Trecker.Droid.Resource.Id.never;
+			global::Plugin.InputKit.Resource.Id.none = global::Habit_Trecker.Droid.Resource.Id.none;
+			global::Plugin.InputKit.Resource.Id.normal = global::Habit_Trecker.Droid.Resource.Id.normal;
+			global::Plugin.InputKit.Resource.Id.notification_background = global::Habit_Trecker.Droid.Resource.Id.notification_background;
+			global::Plugin.InputKit.Resource.Id.notification_main_column = global::Habit_Trecker.Droid.Resource.Id.notification_main_column;
+			global::Plugin.InputKit.Resource.Id.notification_main_column_container = global::Habit_Trecker.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.InputKit.Resource.Id.off = global::Habit_Trecker.Droid.Resource.Id.off;
+			global::Plugin.InputKit.Resource.Id.on = global::Habit_Trecker.Droid.Resource.Id.on;
+			global::Plugin.InputKit.Resource.Id.outline = global::Habit_Trecker.Droid.Resource.Id.outline;
+			global::Plugin.InputKit.Resource.Id.parallax = global::Habit_Trecker.Droid.Resource.Id.parallax;
+			global::Plugin.InputKit.Resource.Id.parentPanel = global::Habit_Trecker.Droid.Resource.Id.parentPanel;
+			global::Plugin.InputKit.Resource.Id.parent_matrix = global::Habit_Trecker.Droid.Resource.Id.parent_matrix;
+			global::Plugin.InputKit.Resource.Id.pin = global::Habit_Trecker.Droid.Resource.Id.pin;
+			global::Plugin.InputKit.Resource.Id.progress_circular = global::Habit_Trecker.Droid.Resource.Id.progress_circular;
+			global::Plugin.InputKit.Resource.Id.progress_horizontal = global::Habit_Trecker.Droid.Resource.Id.progress_horizontal;
+			global::Plugin.InputKit.Resource.Id.radio = global::Habit_Trecker.Droid.Resource.Id.radio;
+			global::Plugin.InputKit.Resource.Id.right = global::Habit_Trecker.Droid.Resource.Id.right;
+			global::Plugin.InputKit.Resource.Id.right_icon = global::Habit_Trecker.Droid.Resource.Id.right_icon;
+			global::Plugin.InputKit.Resource.Id.right_side = global::Habit_Trecker.Droid.Resource.Id.right_side;
+			global::Plugin.InputKit.Resource.Id.save_non_transition_alpha = global::Habit_Trecker.Droid.Resource.Id.save_non_transition_alpha;
+			global::Plugin.InputKit.Resource.Id.save_overlay_view = global::Habit_Trecker.Droid.Resource.Id.save_overlay_view;
+			global::Plugin.InputKit.Resource.Id.screen = global::Habit_Trecker.Droid.Resource.Id.screen;
+			global::Plugin.InputKit.Resource.Id.scroll = global::Habit_Trecker.Droid.Resource.Id.scroll;
+			global::Plugin.InputKit.Resource.Id.scrollable = global::Habit_Trecker.Droid.Resource.Id.scrollable;
+			global::Plugin.InputKit.Resource.Id.scrollIndicatorDown = global::Habit_Trecker.Droid.Resource.Id.scrollIndicatorDown;
+			global::Plugin.InputKit.Resource.Id.scrollIndicatorUp = global::Habit_Trecker.Droid.Resource.Id.scrollIndicatorUp;
+			global::Plugin.InputKit.Resource.Id.scrollView = global::Habit_Trecker.Droid.Resource.Id.scrollView;
+			global::Plugin.InputKit.Resource.Id.search_badge = global::Habit_Trecker.Droid.Resource.Id.search_badge;
+			global::Plugin.InputKit.Resource.Id.search_bar = global::Habit_Trecker.Droid.Resource.Id.search_bar;
+			global::Plugin.InputKit.Resource.Id.search_button = global::Habit_Trecker.Droid.Resource.Id.search_button;
+			global::Plugin.InputKit.Resource.Id.search_close_btn = global::Habit_Trecker.Droid.Resource.Id.search_close_btn;
+			global::Plugin.InputKit.Resource.Id.search_edit_frame = global::Habit_Trecker.Droid.Resource.Id.search_edit_frame;
+			global::Plugin.InputKit.Resource.Id.search_go_btn = global::Habit_Trecker.Droid.Resource.Id.search_go_btn;
+			global::Plugin.InputKit.Resource.Id.search_mag_icon = global::Habit_Trecker.Droid.Resource.Id.search_mag_icon;
+			global::Plugin.InputKit.Resource.Id.search_plate = global::Habit_Trecker.Droid.Resource.Id.search_plate;
+			global::Plugin.InputKit.Resource.Id.search_src_text = global::Habit_Trecker.Droid.Resource.Id.search_src_text;
+			global::Plugin.InputKit.Resource.Id.search_voice_btn = global::Habit_Trecker.Droid.Resource.Id.search_voice_btn;
+			global::Plugin.InputKit.Resource.Id.selected = global::Habit_Trecker.Droid.Resource.Id.selected;
+			global::Plugin.InputKit.Resource.Id.select_dialog_listview = global::Habit_Trecker.Droid.Resource.Id.select_dialog_listview;
+			global::Plugin.InputKit.Resource.Id.shellcontent_appbar = global::Habit_Trecker.Droid.Resource.Id.shellcontent_appbar;
+			global::Plugin.InputKit.Resource.Id.shellcontent_toolbar = global::Habit_Trecker.Droid.Resource.Id.shellcontent_toolbar;
+			global::Plugin.InputKit.Resource.Id.SHIFT = global::Habit_Trecker.Droid.Resource.Id.SHIFT;
+			global::Plugin.InputKit.Resource.Id.shortcut = global::Habit_Trecker.Droid.Resource.Id.shortcut;
+			global::Plugin.InputKit.Resource.Id.showCustom = global::Habit_Trecker.Droid.Resource.Id.showCustom;
+			global::Plugin.InputKit.Resource.Id.showHome = global::Habit_Trecker.Droid.Resource.Id.showHome;
+			global::Plugin.InputKit.Resource.Id.showTitle = global::Habit_Trecker.Droid.Resource.Id.showTitle;
+			global::Plugin.InputKit.Resource.Id.sliding_tabs = global::Habit_Trecker.Droid.Resource.Id.sliding_tabs;
+			global::Plugin.InputKit.Resource.Id.snackbar_action = global::Habit_Trecker.Droid.Resource.Id.snackbar_action;
+			global::Plugin.InputKit.Resource.Id.snackbar_text = global::Habit_Trecker.Droid.Resource.Id.snackbar_text;
+			global::Plugin.InputKit.Resource.Id.snap = global::Habit_Trecker.Droid.Resource.Id.snap;
+			global::Plugin.InputKit.Resource.Id.snapMargins = global::Habit_Trecker.Droid.Resource.Id.snapMargins;
+			global::Plugin.InputKit.Resource.Id.spacer = global::Habit_Trecker.Droid.Resource.Id.spacer;
+			global::Plugin.InputKit.Resource.Id.split_action_bar = global::Habit_Trecker.Droid.Resource.Id.split_action_bar;
+			global::Plugin.InputKit.Resource.Id.src_atop = global::Habit_Trecker.Droid.Resource.Id.src_atop;
+			global::Plugin.InputKit.Resource.Id.src_in = global::Habit_Trecker.Droid.Resource.Id.src_in;
+			global::Plugin.InputKit.Resource.Id.src_over = global::Habit_Trecker.Droid.Resource.Id.src_over;
+			global::Plugin.InputKit.Resource.Id.start = global::Habit_Trecker.Droid.Resource.Id.start;
+			global::Plugin.InputKit.Resource.Id.status_bar_latest_event_content = global::Habit_Trecker.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Plugin.InputKit.Resource.Id.stretch = global::Habit_Trecker.Droid.Resource.Id.stretch;
+			global::Plugin.InputKit.Resource.Id.submenuarrow = global::Habit_Trecker.Droid.Resource.Id.submenuarrow;
+			global::Plugin.InputKit.Resource.Id.submit_area = global::Habit_Trecker.Droid.Resource.Id.submit_area;
+			global::Plugin.InputKit.Resource.Id.SYM = global::Habit_Trecker.Droid.Resource.Id.SYM;
+			global::Plugin.InputKit.Resource.Id.tabMode = global::Habit_Trecker.Droid.Resource.Id.tabMode;
+			global::Plugin.InputKit.Resource.Id.tag_accessibility_actions = global::Habit_Trecker.Droid.Resource.Id.tag_accessibility_actions;
+			global::Plugin.InputKit.Resource.Id.tag_accessibility_clickable_spans = global::Habit_Trecker.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Plugin.InputKit.Resource.Id.tag_accessibility_heading = global::Habit_Trecker.Droid.Resource.Id.tag_accessibility_heading;
+			global::Plugin.InputKit.Resource.Id.tag_accessibility_pane_title = global::Habit_Trecker.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Plugin.InputKit.Resource.Id.tag_screen_reader_focusable = global::Habit_Trecker.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Plugin.InputKit.Resource.Id.tag_transition_group = global::Habit_Trecker.Droid.Resource.Id.tag_transition_group;
+			global::Plugin.InputKit.Resource.Id.tag_unhandled_key_event_manager = global::Habit_Trecker.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Plugin.InputKit.Resource.Id.tag_unhandled_key_listeners = global::Habit_Trecker.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Plugin.InputKit.Resource.Id.text = global::Habit_Trecker.Droid.Resource.Id.text;
+			global::Plugin.InputKit.Resource.Id.text2 = global::Habit_Trecker.Droid.Resource.Id.text2;
+			global::Plugin.InputKit.Resource.Id.textinput_counter = global::Habit_Trecker.Droid.Resource.Id.textinput_counter;
+			global::Plugin.InputKit.Resource.Id.textinput_error = global::Habit_Trecker.Droid.Resource.Id.textinput_error;
+			global::Plugin.InputKit.Resource.Id.textinput_helper_text = global::Habit_Trecker.Droid.Resource.Id.textinput_helper_text;
+			global::Plugin.InputKit.Resource.Id.textSpacerNoButtons = global::Habit_Trecker.Droid.Resource.Id.textSpacerNoButtons;
+			global::Plugin.InputKit.Resource.Id.textSpacerNoTitle = global::Habit_Trecker.Droid.Resource.Id.textSpacerNoTitle;
+			global::Plugin.InputKit.Resource.Id.textStart = global::Habit_Trecker.Droid.Resource.Id.textStart;
+			global::Plugin.InputKit.Resource.Id.time = global::Habit_Trecker.Droid.Resource.Id.time;
+			global::Plugin.InputKit.Resource.Id.title = global::Habit_Trecker.Droid.Resource.Id.title;
+			global::Plugin.InputKit.Resource.Id.titleDividerNoCustom = global::Habit_Trecker.Droid.Resource.Id.titleDividerNoCustom;
+			global::Plugin.InputKit.Resource.Id.title_template = global::Habit_Trecker.Droid.Resource.Id.title_template;
+			global::Plugin.InputKit.Resource.Id.toolbar = global::Habit_Trecker.Droid.Resource.Id.toolbar;
+			global::Plugin.InputKit.Resource.Id.top = global::Habit_Trecker.Droid.Resource.Id.top;
+			global::Plugin.InputKit.Resource.Id.topPanel = global::Habit_Trecker.Droid.Resource.Id.topPanel;
+			global::Plugin.InputKit.Resource.Id.touch_outside = global::Habit_Trecker.Droid.Resource.Id.touch_outside;
+			global::Plugin.InputKit.Resource.Id.transition_current_scene = global::Habit_Trecker.Droid.Resource.Id.transition_current_scene;
+			global::Plugin.InputKit.Resource.Id.transition_layout_save = global::Habit_Trecker.Droid.Resource.Id.transition_layout_save;
+			global::Plugin.InputKit.Resource.Id.transition_position = global::Habit_Trecker.Droid.Resource.Id.transition_position;
+			global::Plugin.InputKit.Resource.Id.transition_scene_layoutid_cache = global::Habit_Trecker.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Plugin.InputKit.Resource.Id.transition_transform = global::Habit_Trecker.Droid.Resource.Id.transition_transform;
+			global::Plugin.InputKit.Resource.Id.@unchecked = global::Habit_Trecker.Droid.Resource.Id.@unchecked;
+			global::Plugin.InputKit.Resource.Id.uniform = global::Habit_Trecker.Droid.Resource.Id.uniform;
+			global::Plugin.InputKit.Resource.Id.unlabeled = global::Habit_Trecker.Droid.Resource.Id.unlabeled;
+			global::Plugin.InputKit.Resource.Id.up = global::Habit_Trecker.Droid.Resource.Id.up;
+			global::Plugin.InputKit.Resource.Id.useLogo = global::Habit_Trecker.Droid.Resource.Id.useLogo;
+			global::Plugin.InputKit.Resource.Id.view_offset_helper = global::Habit_Trecker.Droid.Resource.Id.view_offset_helper;
+			global::Plugin.InputKit.Resource.Id.visible = global::Habit_Trecker.Droid.Resource.Id.visible;
+			global::Plugin.InputKit.Resource.Id.withText = global::Habit_Trecker.Droid.Resource.Id.withText;
+			global::Plugin.InputKit.Resource.Id.wrap_content = global::Habit_Trecker.Droid.Resource.Id.wrap_content;
+			global::Plugin.InputKit.Resource.Integer.abc_config_activityDefaultDur = global::Habit_Trecker.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Plugin.InputKit.Resource.Integer.abc_config_activityShortDur = global::Habit_Trecker.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Plugin.InputKit.Resource.Integer.app_bar_elevation_anim_duration = global::Habit_Trecker.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Plugin.InputKit.Resource.Integer.bottom_sheet_slide_duration = global::Habit_Trecker.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Plugin.InputKit.Resource.Integer.cancel_button_image_alpha = global::Habit_Trecker.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Plugin.InputKit.Resource.Integer.config_tooltipAnimTime = global::Habit_Trecker.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Plugin.InputKit.Resource.Integer.design_snackbar_text_max_lines = global::Habit_Trecker.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Plugin.InputKit.Resource.Integer.design_tab_indicator_anim_duration_ms = global::Habit_Trecker.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Plugin.InputKit.Resource.Integer.hide_password_duration = global::Habit_Trecker.Droid.Resource.Integer.hide_password_duration;
+			global::Plugin.InputKit.Resource.Integer.mtrl_btn_anim_delay_ms = global::Habit_Trecker.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Plugin.InputKit.Resource.Integer.mtrl_btn_anim_duration_ms = global::Habit_Trecker.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Plugin.InputKit.Resource.Integer.mtrl_chip_anim_duration = global::Habit_Trecker.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Plugin.InputKit.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::Habit_Trecker.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Plugin.InputKit.Resource.Integer.show_password_duration = global::Habit_Trecker.Droid.Resource.Integer.show_password_duration;
+			global::Plugin.InputKit.Resource.Integer.status_bar_notification_info_maxnum = global::Habit_Trecker.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.InputKit.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::Habit_Trecker.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Plugin.InputKit.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::Habit_Trecker.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Plugin.InputKit.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::Habit_Trecker.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Plugin.InputKit.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::Habit_Trecker.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Plugin.InputKit.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::Habit_Trecker.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Plugin.InputKit.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::Habit_Trecker.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Plugin.InputKit.Resource.Interpolator.fast_out_slow_in = global::Habit_Trecker.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::Plugin.InputKit.Resource.Interpolator.mtrl_fast_out_linear_in = global::Habit_Trecker.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Plugin.InputKit.Resource.Interpolator.mtrl_fast_out_slow_in = global::Habit_Trecker.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Plugin.InputKit.Resource.Interpolator.mtrl_linear = global::Habit_Trecker.Droid.Resource.Interpolator.mtrl_linear;
+			global::Plugin.InputKit.Resource.Interpolator.mtrl_linear_out_slow_in = global::Habit_Trecker.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Plugin.InputKit.Resource.Layout.abc_action_bar_title_item = global::Habit_Trecker.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Plugin.InputKit.Resource.Layout.abc_action_bar_up_container = global::Habit_Trecker.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Plugin.InputKit.Resource.Layout.abc_action_menu_item_layout = global::Habit_Trecker.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_action_menu_layout = global::Habit_Trecker.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_action_mode_bar = global::Habit_Trecker.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Plugin.InputKit.Resource.Layout.abc_action_mode_close_item_material = global::Habit_Trecker.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Plugin.InputKit.Resource.Layout.abc_activity_chooser_view = global::Habit_Trecker.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Plugin.InputKit.Resource.Layout.abc_activity_chooser_view_list_item = global::Habit_Trecker.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Plugin.InputKit.Resource.Layout.abc_alert_dialog_button_bar_material = global::Habit_Trecker.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Plugin.InputKit.Resource.Layout.abc_alert_dialog_material = global::Habit_Trecker.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Plugin.InputKit.Resource.Layout.abc_alert_dialog_title_material = global::Habit_Trecker.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Plugin.InputKit.Resource.Layout.abc_cascading_menu_item_layout = global::Habit_Trecker.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_dialog_title_material = global::Habit_Trecker.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Plugin.InputKit.Resource.Layout.abc_expanded_menu_layout = global::Habit_Trecker.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_checkbox = global::Habit_Trecker.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_icon = global::Habit_Trecker.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_layout = global::Habit_Trecker.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_list_menu_item_radio = global::Habit_Trecker.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Plugin.InputKit.Resource.Layout.abc_popup_menu_header_item_layout = global::Habit_Trecker.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_popup_menu_item_layout = global::Habit_Trecker.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_content_include = global::Habit_Trecker.Droid.Resource.Layout.abc_screen_content_include;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_simple = global::Habit_Trecker.Droid.Resource.Layout.abc_screen_simple;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Habit_Trecker.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Plugin.InputKit.Resource.Layout.abc_screen_toolbar = global::Habit_Trecker.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Plugin.InputKit.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Habit_Trecker.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Plugin.InputKit.Resource.Layout.abc_search_view = global::Habit_Trecker.Droid.Resource.Layout.abc_search_view;
+			global::Plugin.InputKit.Resource.Layout.abc_select_dialog_material = global::Habit_Trecker.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Plugin.InputKit.Resource.Layout.abc_tooltip = global::Habit_Trecker.Droid.Resource.Layout.abc_tooltip;
+			global::Plugin.InputKit.Resource.Layout.BottomTabLayout = global::Habit_Trecker.Droid.Resource.Layout.BottomTabLayout;
+			global::Plugin.InputKit.Resource.Layout.browser_actions_context_menu_page = global::Habit_Trecker.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Plugin.InputKit.Resource.Layout.browser_actions_context_menu_row = global::Habit_Trecker.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Plugin.InputKit.Resource.Layout.custom_dialog = global::Habit_Trecker.Droid.Resource.Layout.custom_dialog;
+			global::Plugin.InputKit.Resource.Layout.design_bottom_navigation_item = global::Habit_Trecker.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Plugin.InputKit.Resource.Layout.design_bottom_sheet_dialog = global::Habit_Trecker.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Plugin.InputKit.Resource.Layout.design_layout_snackbar = global::Habit_Trecker.Droid.Resource.Layout.design_layout_snackbar;
+			global::Plugin.InputKit.Resource.Layout.design_layout_snackbar_include = global::Habit_Trecker.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Plugin.InputKit.Resource.Layout.design_layout_tab_icon = global::Habit_Trecker.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Plugin.InputKit.Resource.Layout.design_layout_tab_text = global::Habit_Trecker.Droid.Resource.Layout.design_layout_tab_text;
+			global::Plugin.InputKit.Resource.Layout.design_menu_item_action_area = global::Habit_Trecker.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item = global::Habit_Trecker.Droid.Resource.Layout.design_navigation_item;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item_header = global::Habit_Trecker.Droid.Resource.Layout.design_navigation_item_header;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item_separator = global::Habit_Trecker.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_item_subheader = global::Habit_Trecker.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_menu = global::Habit_Trecker.Droid.Resource.Layout.design_navigation_menu;
+			global::Plugin.InputKit.Resource.Layout.design_navigation_menu_item = global::Habit_Trecker.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Plugin.InputKit.Resource.Layout.FallbackTabbarDoNotUse = global::Habit_Trecker.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Plugin.InputKit.Resource.Layout.FallbackToolbarDoNotUse = global::Habit_Trecker.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Plugin.InputKit.Resource.Layout.FlyoutContent = global::Habit_Trecker.Droid.Resource.Layout.FlyoutContent;
+			global::Plugin.InputKit.Resource.Layout.mtrl_layout_snackbar = global::Habit_Trecker.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Plugin.InputKit.Resource.Layout.mtrl_layout_snackbar_include = global::Habit_Trecker.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Plugin.InputKit.Resource.Layout.notification_action = global::Habit_Trecker.Droid.Resource.Layout.notification_action;
+			global::Plugin.InputKit.Resource.Layout.notification_action_tombstone = global::Habit_Trecker.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.InputKit.Resource.Layout.notification_media_action = global::Habit_Trecker.Droid.Resource.Layout.notification_media_action;
+			global::Plugin.InputKit.Resource.Layout.notification_media_cancel_action = global::Habit_Trecker.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media = global::Habit_Trecker.Droid.Resource.Layout.notification_template_big_media;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media_custom = global::Habit_Trecker.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media_narrow = global::Habit_Trecker.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Plugin.InputKit.Resource.Layout.notification_template_big_media_narrow_custom = global::Habit_Trecker.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Plugin.InputKit.Resource.Layout.notification_template_custom_big = global::Habit_Trecker.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.InputKit.Resource.Layout.notification_template_icon_group = global::Habit_Trecker.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.InputKit.Resource.Layout.notification_template_lines_media = global::Habit_Trecker.Droid.Resource.Layout.notification_template_lines_media;
+			global::Plugin.InputKit.Resource.Layout.notification_template_media = global::Habit_Trecker.Droid.Resource.Layout.notification_template_media;
+			global::Plugin.InputKit.Resource.Layout.notification_template_media_custom = global::Habit_Trecker.Droid.Resource.Layout.notification_template_media_custom;
+			global::Plugin.InputKit.Resource.Layout.notification_template_part_chronometer = global::Habit_Trecker.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.InputKit.Resource.Layout.notification_template_part_time = global::Habit_Trecker.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.InputKit.Resource.Layout.RootLayout = global::Habit_Trecker.Droid.Resource.Layout.RootLayout;
+			global::Plugin.InputKit.Resource.Layout.select_dialog_item_material = global::Habit_Trecker.Droid.Resource.Layout.select_dialog_item_material;
+			global::Plugin.InputKit.Resource.Layout.select_dialog_multichoice_material = global::Habit_Trecker.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Plugin.InputKit.Resource.Layout.select_dialog_singlechoice_material = global::Habit_Trecker.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Plugin.InputKit.Resource.Layout.ShellContent = global::Habit_Trecker.Droid.Resource.Layout.ShellContent;
+			global::Plugin.InputKit.Resource.Layout.support_simple_spinner_dropdown_item = global::Habit_Trecker.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Plugin.InputKit.Resource.Layout.Tabbar = global::Habit_Trecker.Droid.Resource.Layout.Tabbar;
+			global::Plugin.InputKit.Resource.Layout.Toolbar = global::Habit_Trecker.Droid.Resource.Layout.Toolbar;
+			global::Plugin.InputKit.Resource.String.abc_action_bar_home_description = global::Habit_Trecker.Droid.Resource.String.abc_action_bar_home_description;
+			global::Plugin.InputKit.Resource.String.abc_action_bar_up_description = global::Habit_Trecker.Droid.Resource.String.abc_action_bar_up_description;
+			global::Plugin.InputKit.Resource.String.abc_action_menu_overflow_description = global::Habit_Trecker.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Plugin.InputKit.Resource.String.abc_action_mode_done = global::Habit_Trecker.Droid.Resource.String.abc_action_mode_done;
+			global::Plugin.InputKit.Resource.String.abc_activitychooserview_choose_application = global::Habit_Trecker.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Plugin.InputKit.Resource.String.abc_activity_chooser_view_see_all = global::Habit_Trecker.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Plugin.InputKit.Resource.String.abc_capital_off = global::Habit_Trecker.Droid.Resource.String.abc_capital_off;
+			global::Plugin.InputKit.Resource.String.abc_capital_on = global::Habit_Trecker.Droid.Resource.String.abc_capital_on;
+			global::Plugin.InputKit.Resource.String.abc_menu_alt_shortcut_label = global::Habit_Trecker.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_ctrl_shortcut_label = global::Habit_Trecker.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_delete_shortcut_label = global::Habit_Trecker.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_enter_shortcut_label = global::Habit_Trecker.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_function_shortcut_label = global::Habit_Trecker.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_meta_shortcut_label = global::Habit_Trecker.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_shift_shortcut_label = global::Habit_Trecker.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_space_shortcut_label = global::Habit_Trecker.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_menu_sym_shortcut_label = global::Habit_Trecker.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_prepend_shortcut_label = global::Habit_Trecker.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_clear = global::Habit_Trecker.Droid.Resource.String.abc_searchview_description_clear;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_query = global::Habit_Trecker.Droid.Resource.String.abc_searchview_description_query;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_search = global::Habit_Trecker.Droid.Resource.String.abc_searchview_description_search;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_submit = global::Habit_Trecker.Droid.Resource.String.abc_searchview_description_submit;
+			global::Plugin.InputKit.Resource.String.abc_searchview_description_voice = global::Habit_Trecker.Droid.Resource.String.abc_searchview_description_voice;
+			global::Plugin.InputKit.Resource.String.abc_search_hint = global::Habit_Trecker.Droid.Resource.String.abc_search_hint;
+			global::Plugin.InputKit.Resource.String.abc_shareactionprovider_share_with = global::Habit_Trecker.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Plugin.InputKit.Resource.String.abc_shareactionprovider_share_with_application = global::Habit_Trecker.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Plugin.InputKit.Resource.String.abc_toolbar_collapse_description = global::Habit_Trecker.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Plugin.InputKit.Resource.String.appbar_scrolling_view_behavior = global::Habit_Trecker.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Plugin.InputKit.Resource.String.bottom_sheet_behavior = global::Habit_Trecker.Droid.Resource.String.bottom_sheet_behavior;
+			global::Plugin.InputKit.Resource.String.character_counter_content_description = global::Habit_Trecker.Droid.Resource.String.character_counter_content_description;
+			global::Plugin.InputKit.Resource.String.character_counter_pattern = global::Habit_Trecker.Droid.Resource.String.character_counter_pattern;
+			global::Plugin.InputKit.Resource.String.fab_transformation_scrim_behavior = global::Habit_Trecker.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Plugin.InputKit.Resource.String.fab_transformation_sheet_behavior = global::Habit_Trecker.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Plugin.InputKit.Resource.String.hide_bottom_view_on_scroll_behavior = global::Habit_Trecker.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Plugin.InputKit.Resource.String.mtrl_chip_close_icon_content_description = global::Habit_Trecker.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Plugin.InputKit.Resource.String.overflow_tab_title = global::Habit_Trecker.Droid.Resource.String.overflow_tab_title;
+			global::Plugin.InputKit.Resource.String.password_toggle_content_description = global::Habit_Trecker.Droid.Resource.String.password_toggle_content_description;
+			global::Plugin.InputKit.Resource.String.path_password_eye = global::Habit_Trecker.Droid.Resource.String.path_password_eye;
+			global::Plugin.InputKit.Resource.String.path_password_eye_mask_strike_through = global::Habit_Trecker.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Plugin.InputKit.Resource.String.path_password_eye_mask_visible = global::Habit_Trecker.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Plugin.InputKit.Resource.String.path_password_strike_through = global::Habit_Trecker.Droid.Resource.String.path_password_strike_through;
+			global::Plugin.InputKit.Resource.String.search_menu_title = global::Habit_Trecker.Droid.Resource.String.search_menu_title;
+			global::Plugin.InputKit.Resource.String.status_bar_notification_info_overflow = global::Habit_Trecker.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.InputKit.Resource.Style.AlertDialog_AppCompat = global::Habit_Trecker.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Plugin.InputKit.Resource.Style.AlertDialog_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Animation_AppCompat_Dialog = global::Habit_Trecker.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Animation_AppCompat_DropDownUp = global::Habit_Trecker.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Plugin.InputKit.Resource.Style.Animation_AppCompat_Tooltip = global::Habit_Trecker.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.Animation_Design_BottomSheetDialog = global::Habit_Trecker.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.AppCompatDialogStyle = global::Habit_Trecker.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Plugin.InputKit.Resource.Style.Base_AlertDialog_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_Animation_AppCompat_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Habit_Trecker.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Plugin.InputKit.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Habit_Trecker.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.Base_CardView = global::Habit_Trecker.Droid.Resource.Style.Base_CardView;
+			global::Plugin.InputKit.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Habit_Trecker.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Habit_Trecker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Habit_Trecker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Habit_Trecker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Habit_Trecker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Habit_Trecker.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Plugin.InputKit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::Habit_Trecker.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Habit_Trecker.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents = global::Habit_Trecker.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::Habit_Trecker.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::Habit_Trecker.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::Habit_Trecker.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Habit_Trecker.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.InputKit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V22_Theme_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V23_Theme_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V26_Theme_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Habit_Trecker.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Base_V28_Theme_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V28_Theme_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Habit_Trecker.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Habit_Trecker.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Habit_Trecker.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Plugin.InputKit.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Habit_Trecker.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_EditText = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListView = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SearchView = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Spinner = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_TextView = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_Design_TabLayout = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_MaterialComponents_Chip = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Plugin.InputKit.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::Habit_Trecker.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Plugin.InputKit.Resource.Style.CardView = global::Habit_Trecker.Droid.Resource.Style.CardView;
+			global::Plugin.InputKit.Resource.Style.CardView_Dark = global::Habit_Trecker.Droid.Resource.Style.CardView_Dark;
+			global::Plugin.InputKit.Resource.Style.CardView_Light = global::Habit_Trecker.Droid.Resource.Style.CardView_Light;
+			global::Plugin.InputKit.Resource.Style.collectionViewTheme = global::Habit_Trecker.Droid.Resource.Style.collectionViewTheme;
+			global::Plugin.InputKit.Resource.Style.MainTheme = global::Habit_Trecker.Droid.Resource.Style.MainTheme;
+			global::Plugin.InputKit.Resource.Style.MainTheme_Base = global::Habit_Trecker.Droid.Resource.Style.MainTheme_Base;
+			global::Plugin.InputKit.Resource.Style.MyPopupMenu = global::Habit_Trecker.Droid.Resource.Style.MyPopupMenu;
+			global::Plugin.InputKit.Resource.Style.Platform_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Platform_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_MaterialComponents = global::Habit_Trecker.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Plugin.InputKit.Resource.Style.Platform_MaterialComponents_Dialog = global::Habit_Trecker.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Platform_MaterialComponents_Light = global::Habit_Trecker.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::Habit_Trecker.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Habit_Trecker.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.InputKit.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_V21_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_V21_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_V25_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Platform_V25_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Habit_Trecker.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Habit_Trecker.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Habit_Trecker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Habit_Trecker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Habit_Trecker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Habit_Trecker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::Habit_Trecker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::Habit_Trecker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Habit_Trecker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::Habit_Trecker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Habit_Trecker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Habit_Trecker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Habit_Trecker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Habit_Trecker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Habit_Trecker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Plugin.InputKit.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Habit_Trecker.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Plugin.InputKit.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Habit_Trecker.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Plugin.InputKit.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Habit_Trecker.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Body1 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Body2 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Button = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Caption = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display1 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display2 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display3 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Display4 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Headline = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Inverse = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Large = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Medium = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Menu = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Small = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Subhead = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Title = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Info = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Media = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Time = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Title = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Counter = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Error = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_HelperText = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Hint = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Design_Tab = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Button = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Caption = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Chip = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Overline = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.InputKit.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Habit_Trecker.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Plugin.InputKit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Habit_Trecker.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_CompactMenu = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Dialog = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_Dialog = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_AppCompat_NoActionBar = global::Habit_Trecker.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_Design = global::Habit_Trecker.Droid.Resource.Style.Theme_Design;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_BottomSheetDialog = global::Habit_Trecker.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_Light = global::Habit_Trecker.Droid.Resource.Style.Theme_Design_Light;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Habit_Trecker.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_Light_NoActionBar = global::Habit_Trecker.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_Design_NoActionBar = global::Habit_Trecker.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Bridge = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_CompactMenu = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Dialog = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Plugin.InputKit.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::Habit_Trecker.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionButton = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActionMode = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ButtonBar = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Borderless = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Colored = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Button_Small = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_EditText = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ImageButton = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_SearchView = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListMenuView = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListView = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ListView_Menu = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_PopupMenu = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_PopupWindow = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ProgressBar = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_RatingBar = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SearchView = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SeekBar = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_TextView = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Toolbar = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Habit_Trecker.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.InputKit.Resource.Style.Widget_Compat_NotificationActionContainer = global::Habit_Trecker.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.InputKit.Resource.Style.Widget_Compat_NotificationActionText = global::Habit_Trecker.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_AppBarLayout = global::Habit_Trecker.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_BottomNavigationView = global::Habit_Trecker.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_BottomSheet_Modal = global::Habit_Trecker.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_CollapsingToolbar = global::Habit_Trecker.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_FloatingActionButton = global::Habit_Trecker.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_NavigationView = global::Habit_Trecker.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Habit_Trecker.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_Snackbar = global::Habit_Trecker.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_TabLayout = global::Habit_Trecker.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_Design_TextInputLayout = global::Habit_Trecker.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_Icon = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_CardView = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_ChipGroup = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Chip_Action = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_NavigationView = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Snackbar = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TabLayout = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Plugin.InputKit.Resource.Style.Widget_MaterialComponents_Toolbar = global::Habit_Trecker.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Plugin.InputKit.Resource.Style.Widget_Support_CoordinatorLayout = global::Habit_Trecker.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar;
+			global::Plugin.InputKit.Resource.Styleable.ActionBarLayout = global::Habit_Trecker.Droid.Resource.Styleable.ActionBarLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Habit_Trecker.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_background = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_background;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_backgroundSplit = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_backgroundStacked = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetEnd = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetLeft = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetRight = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetStart = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_customNavigationLayout = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_displayOptions = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_divider = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_divider;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_elevation = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_height = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_height;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_hideOnContentScroll = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_homeLayout = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_icon = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_icon;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_itemPadding = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_logo = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_logo;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_navigationMode = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_popupTheme = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_progressBarPadding = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_progressBarStyle = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_subtitle = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_subtitleTextStyle = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_title = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_title;
+			global::Plugin.InputKit.Resource.Styleable.ActionBar_titleTextStyle = global::Habit_Trecker.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionMenuItemView = global::Habit_Trecker.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Plugin.InputKit.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Habit_Trecker.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Plugin.InputKit.Resource.Styleable.ActionMenuView = global::Habit_Trecker.Droid.Resource.Styleable.ActionMenuView;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode = global::Habit_Trecker.Droid.Resource.Styleable.ActionMode;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_background = global::Habit_Trecker.Droid.Resource.Styleable.ActionMode_background;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_backgroundSplit = global::Habit_Trecker.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_closeItemLayout = global::Habit_Trecker.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_height = global::Habit_Trecker.Droid.Resource.Styleable.ActionMode_height;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_subtitleTextStyle = global::Habit_Trecker.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActionMode_titleTextStyle = global::Habit_Trecker.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.ActivityChooserView = global::Habit_Trecker.Droid.Resource.Styleable.ActivityChooserView;
+			global::Plugin.InputKit.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Habit_Trecker.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Plugin.InputKit.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Habit_Trecker.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog = global::Habit_Trecker.Droid.Resource.Styleable.AlertDialog;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_android_layout = global::Habit_Trecker.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_buttonIconDimen = global::Habit_Trecker.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Habit_Trecker.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_listItemLayout = global::Habit_Trecker.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_listLayout = global::Habit_Trecker.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Habit_Trecker.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_showTitle = global::Habit_Trecker.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Plugin.InputKit.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Habit_Trecker.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat = global::Habit_Trecker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::Habit_Trecker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::Habit_Trecker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::Habit_Trecker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::Habit_Trecker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::Habit_Trecker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::Habit_Trecker.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableItem = global::Habit_Trecker.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::Habit_Trecker.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::Habit_Trecker.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableTransition = global::Habit_Trecker.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::Habit_Trecker.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::Habit_Trecker.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::Habit_Trecker.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Plugin.InputKit.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::Habit_Trecker.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout = global::Habit_Trecker.Droid.Resource.Styleable.AppBarLayout;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates = global::Habit_Trecker.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Habit_Trecker.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Habit_Trecker.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_liftable = global::Habit_Trecker.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayoutStates_state_lifted = global::Habit_Trecker.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_android_background = global::Habit_Trecker.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Habit_Trecker.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Habit_Trecker.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_elevation = global::Habit_Trecker.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_expanded = global::Habit_Trecker.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_Layout = global::Habit_Trecker.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Habit_Trecker.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Habit_Trecker.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Plugin.InputKit.Resource.Styleable.AppBarLayout_liftOnScroll = global::Habit_Trecker.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatImageView;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_android_src = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_srcCompat = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_tint = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatImageView_tintMode = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_tickMark = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableTint = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableTintMode = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_fontFamily = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_lineHeight = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_textAllCaps = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTextView_textLocale = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarSize = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorAccent = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorError = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorPrimary = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_controlBackground = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dialogTheme = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dividerVertical = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_editTextBackground = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_editTextColor = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_editTextStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_panelBackground = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_switchStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowActionBar = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Plugin.InputKit.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Habit_Trecker.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar = global::Habit_Trecker.Droid.Resource.Styleable.BottomAppBar;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_backgroundTint = global::Habit_Trecker.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::Habit_Trecker.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_fabCradleMargin = global::Habit_Trecker.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::Habit_Trecker.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::Habit_Trecker.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Plugin.InputKit.Resource.Styleable.BottomAppBar_hideOnScroll = global::Habit_Trecker.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView = global::Habit_Trecker.Droid.Resource.Styleable.BottomNavigationView;
+			global::Plugin.InputKit.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::Habit_Trecker.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout = global::Habit_Trecker.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::Habit_Trecker.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Habit_Trecker.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Habit_Trecker.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Plugin.InputKit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Habit_Trecker.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Plugin.InputKit.Resource.Styleable.ButtonBarLayout = global::Habit_Trecker.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Plugin.InputKit.Resource.Styleable.ButtonBarLayout_allowStacking = global::Habit_Trecker.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Plugin.InputKit.Resource.Styleable.CardView = global::Habit_Trecker.Droid.Resource.Styleable.CardView;
+			global::Plugin.InputKit.Resource.Styleable.CardView_android_minHeight = global::Habit_Trecker.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Plugin.InputKit.Resource.Styleable.CardView_android_minWidth = global::Habit_Trecker.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardBackgroundColor = global::Habit_Trecker.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardCornerRadius = global::Habit_Trecker.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardElevation = global::Habit_Trecker.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardMaxElevation = global::Habit_Trecker.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Habit_Trecker.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Plugin.InputKit.Resource.Styleable.CardView_cardUseCompatPadding = global::Habit_Trecker.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPadding = global::Habit_Trecker.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingBottom = global::Habit_Trecker.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingLeft = global::Habit_Trecker.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingRight = global::Habit_Trecker.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Plugin.InputKit.Resource.Styleable.CardView_contentPaddingTop = global::Habit_Trecker.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Plugin.InputKit.Resource.Styleable.Chip = global::Habit_Trecker.Droid.Resource.Styleable.Chip;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup = global::Habit_Trecker.Droid.Resource.Styleable.ChipGroup;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_checkedChip = global::Habit_Trecker.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_chipSpacing = global::Habit_Trecker.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::Habit_Trecker.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_chipSpacingVertical = global::Habit_Trecker.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_singleLine = global::Habit_Trecker.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Plugin.InputKit.Resource.Styleable.ChipGroup_singleSelection = global::Habit_Trecker.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Plugin.InputKit.Resource.Styleable.Chip_android_checkable = global::Habit_Trecker.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Plugin.InputKit.Resource.Styleable.Chip_android_ellipsize = global::Habit_Trecker.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Plugin.InputKit.Resource.Styleable.Chip_android_maxWidth = global::Habit_Trecker.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Plugin.InputKit.Resource.Styleable.Chip_android_text = global::Habit_Trecker.Droid.Resource.Styleable.Chip_android_text;
+			global::Plugin.InputKit.Resource.Styleable.Chip_android_textAppearance = global::Habit_Trecker.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Plugin.InputKit.Resource.Styleable.Chip_checkedIcon = global::Habit_Trecker.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Plugin.InputKit.Resource.Styleable.Chip_checkedIconEnabled = global::Habit_Trecker.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Plugin.InputKit.Resource.Styleable.Chip_checkedIconVisible = global::Habit_Trecker.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipBackgroundColor = global::Habit_Trecker.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipCornerRadius = global::Habit_Trecker.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipEndPadding = global::Habit_Trecker.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipIcon = global::Habit_Trecker.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipIconEnabled = global::Habit_Trecker.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipIconSize = global::Habit_Trecker.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipIconTint = global::Habit_Trecker.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipIconVisible = global::Habit_Trecker.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipMinHeight = global::Habit_Trecker.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipStartPadding = global::Habit_Trecker.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipStrokeColor = global::Habit_Trecker.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Plugin.InputKit.Resource.Styleable.Chip_chipStrokeWidth = global::Habit_Trecker.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIcon = global::Habit_Trecker.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconEnabled = global::Habit_Trecker.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconEndPadding = global::Habit_Trecker.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconSize = global::Habit_Trecker.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconStartPadding = global::Habit_Trecker.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconTint = global::Habit_Trecker.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Plugin.InputKit.Resource.Styleable.Chip_closeIconVisible = global::Habit_Trecker.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Plugin.InputKit.Resource.Styleable.Chip_hideMotionSpec = global::Habit_Trecker.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Plugin.InputKit.Resource.Styleable.Chip_iconEndPadding = global::Habit_Trecker.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_iconStartPadding = global::Habit_Trecker.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_rippleColor = global::Habit_Trecker.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Plugin.InputKit.Resource.Styleable.Chip_showMotionSpec = global::Habit_Trecker.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Plugin.InputKit.Resource.Styleable.Chip_textEndPadding = global::Habit_Trecker.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Plugin.InputKit.Resource.Styleable.Chip_textStartPadding = global::Habit_Trecker.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_title = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Plugin.InputKit.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Habit_Trecker.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem = global::Habit_Trecker.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem_alpha = global::Habit_Trecker.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem_android_alpha = global::Habit_Trecker.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.InputKit.Resource.Styleable.ColorStateListItem_android_color = global::Habit_Trecker.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton = global::Habit_Trecker.Droid.Resource.Styleable.CompoundButton;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton_android_button = global::Habit_Trecker.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton_buttonCompat = global::Habit_Trecker.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton_buttonTint = global::Habit_Trecker.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Plugin.InputKit.Resource.Styleable.CompoundButton_buttonTintMode = global::Habit_Trecker.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout = global::Habit_Trecker.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_keylines = global::Habit_Trecker.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout = global::Habit_Trecker.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Habit_Trecker.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Habit_Trecker.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Habit_Trecker.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Habit_Trecker.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Habit_Trecker.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Habit_Trecker.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Habit_Trecker.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.InputKit.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Habit_Trecker.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle = global::Habit_Trecker.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Habit_Trecker.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Habit_Trecker.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_barLength = global::Habit_Trecker.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_color = global::Habit_Trecker.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Habit_Trecker.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Habit_Trecker.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_spinBars = global::Habit_Trecker.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Plugin.InputKit.Resource.Styleable.DrawerArrowToggle_thickness = global::Habit_Trecker.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_backgroundTint = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_borderWidth = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_elevation = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_fabCustomSize = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_fabSize = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_maxImageSize = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_rippleColor = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_showMotionSpec = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Plugin.InputKit.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Habit_Trecker.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Plugin.InputKit.Resource.Styleable.FlowLayout = global::Habit_Trecker.Droid.Resource.Styleable.FlowLayout;
+			global::Plugin.InputKit.Resource.Styleable.FlowLayout_itemSpacing = global::Habit_Trecker.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Plugin.InputKit.Resource.Styleable.FlowLayout_lineSpacing = global::Habit_Trecker.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily = global::Habit_Trecker.Droid.Resource.Styleable.FontFamily;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont = global::Habit_Trecker.Droid.Resource.Styleable.FontFamilyFont;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_font = global::Habit_Trecker.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Habit_Trecker.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Habit_Trecker.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Habit_Trecker.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Habit_Trecker.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_font = global::Habit_Trecker.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_fontStyle = global::Habit_Trecker.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Habit_Trecker.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_fontWeight = global::Habit_Trecker.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.InputKit.Resource.Styleable.FontFamilyFont_ttcIndex = global::Habit_Trecker.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderAuthority = global::Habit_Trecker.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderCerts = global::Habit_Trecker.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Habit_Trecker.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Habit_Trecker.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderPackage = global::Habit_Trecker.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.InputKit.Resource.Styleable.FontFamily_fontProviderQuery = global::Habit_Trecker.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout = global::Habit_Trecker.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Habit_Trecker.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Habit_Trecker.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Plugin.InputKit.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Habit_Trecker.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor = global::Habit_Trecker.Droid.Resource.Styleable.GradientColor;
+			global::Plugin.InputKit.Resource.Styleable.GradientColorItem = global::Habit_Trecker.Droid.Resource.Styleable.GradientColorItem;
+			global::Plugin.InputKit.Resource.Styleable.GradientColorItem_android_color = global::Habit_Trecker.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Plugin.InputKit.Resource.Styleable.GradientColorItem_android_offset = global::Habit_Trecker.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_centerColor = global::Habit_Trecker.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_centerX = global::Habit_Trecker.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_centerY = global::Habit_Trecker.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_endColor = global::Habit_Trecker.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_endX = global::Habit_Trecker.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_endY = global::Habit_Trecker.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_gradientRadius = global::Habit_Trecker.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_startColor = global::Habit_Trecker.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_startX = global::Habit_Trecker.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_startY = global::Habit_Trecker.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_tileMode = global::Habit_Trecker.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Plugin.InputKit.Resource.Styleable.GradientColor_android_type = global::Habit_Trecker.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Plugin.InputKit.Resource.Styleable.ItemsViewRendererTheme = global::Habit_Trecker.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Plugin.InputKit.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::Habit_Trecker.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat = global::Habit_Trecker.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Habit_Trecker.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Habit_Trecker.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Habit_Trecker.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Habit_Trecker.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Habit_Trecker.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_divider = global::Habit_Trecker.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Habit_Trecker.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout = global::Habit_Trecker.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Habit_Trecker.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Habit_Trecker.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Habit_Trecker.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Habit_Trecker.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Habit_Trecker.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Plugin.InputKit.Resource.Styleable.LinearLayoutCompat_showDividers = global::Habit_Trecker.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Plugin.InputKit.Resource.Styleable.ListPopupWindow = global::Habit_Trecker.Droid.Resource.Styleable.ListPopupWindow;
+			global::Plugin.InputKit.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Habit_Trecker.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Plugin.InputKit.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Habit_Trecker.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_android_insetBottom = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_android_insetLeft = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_android_insetRight = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_android_insetTop = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_backgroundTint = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_backgroundTintMode = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_cornerRadius = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_icon = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_iconGravity = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_iconPadding = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_iconSize = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_iconTint = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_iconTintMode = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_rippleColor = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_strokeColor = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Plugin.InputKit.Resource.Styleable.MaterialButton_strokeWidth = global::Habit_Trecker.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Plugin.InputKit.Resource.Styleable.MaterialCardView = global::Habit_Trecker.Droid.Resource.Styleable.MaterialCardView;
+			global::Plugin.InputKit.Resource.Styleable.MaterialCardView_strokeColor = global::Habit_Trecker.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Plugin.InputKit.Resource.Styleable.MaterialCardView_strokeWidth = global::Habit_Trecker.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup = global::Habit_Trecker.Droid.Resource.Styleable.MenuGroup;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Habit_Trecker.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_enabled = global::Habit_Trecker.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_id = global::Habit_Trecker.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_menuCategory = global::Habit_Trecker.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_orderInCategory = global::Habit_Trecker.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuGroup_android_visible = global::Habit_Trecker.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_actionLayout = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_actionProviderClass = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_actionViewClass = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_alphabeticModifiers = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_checkable = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_checked = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_enabled = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_icon = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_id = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_menuCategory = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_numericShortcut = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_onClick = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_orderInCategory = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_title = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_titleCondensed = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_android_visible = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_contentDescription = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_iconTint = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_iconTintMode = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_numericModifiers = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_showAsAction = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Plugin.InputKit.Resource.Styleable.MenuItem_tooltipText = global::Habit_Trecker.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Plugin.InputKit.Resource.Styleable.MenuView = global::Habit_Trecker.Droid.Resource.Styleable.MenuView;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_headerBackground = global::Habit_Trecker.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_horizontalDivider = global::Habit_Trecker.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_itemBackground = global::Habit_Trecker.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Habit_Trecker.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_itemTextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_verticalDivider = global::Habit_Trecker.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Habit_Trecker.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_preserveIconSpacing = global::Habit_Trecker.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Plugin.InputKit.Resource.Styleable.MenuView_subMenuArrow = global::Habit_Trecker.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView = global::Habit_Trecker.Droid.Resource.Styleable.NavigationView;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_android_background = global::Habit_Trecker.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Habit_Trecker.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_android_maxWidth = global::Habit_Trecker.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_elevation = global::Habit_Trecker.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_headerLayout = global::Habit_Trecker.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemBackground = global::Habit_Trecker.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemHorizontalPadding = global::Habit_Trecker.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemIconPadding = global::Habit_Trecker.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemIconTint = global::Habit_Trecker.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemTextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_itemTextColor = global::Habit_Trecker.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Plugin.InputKit.Resource.Styleable.NavigationView_menu = global::Habit_Trecker.Droid.Resource.Styleable.NavigationView_menu;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow = global::Habit_Trecker.Droid.Resource.Styleable.PopupWindow;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindowBackgroundState = global::Habit_Trecker.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Habit_Trecker.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Habit_Trecker.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow_android_popupBackground = global::Habit_Trecker.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Plugin.InputKit.Resource.Styleable.PopupWindow_overlapAnchor = global::Habit_Trecker.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Plugin.InputKit.Resource.Styleable.RecycleListView = global::Habit_Trecker.Droid.Resource.Styleable.RecycleListView;
+			global::Plugin.InputKit.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Habit_Trecker.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Plugin.InputKit.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Habit_Trecker.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView = global::Habit_Trecker.Droid.Resource.Styleable.RecyclerView;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_android_clipToPadding = global::Habit_Trecker.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Habit_Trecker.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_android_orientation = global::Habit_Trecker.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Habit_Trecker.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Habit_Trecker.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Habit_Trecker.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Habit_Trecker.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Habit_Trecker.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_layoutManager = global::Habit_Trecker.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_reverseLayout = global::Habit_Trecker.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_spanCount = global::Habit_Trecker.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Plugin.InputKit.Resource.Styleable.RecyclerView_stackFromEnd = global::Habit_Trecker.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Plugin.InputKit.Resource.Styleable.ScrimInsetsFrameLayout = global::Habit_Trecker.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Plugin.InputKit.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Habit_Trecker.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Plugin.InputKit.Resource.Styleable.ScrollingViewBehavior_Layout = global::Habit_Trecker.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Plugin.InputKit.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Habit_Trecker.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Plugin.InputKit.Resource.Styleable.SearchView = global::Habit_Trecker.Droid.Resource.Styleable.SearchView;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_focusable = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_imeOptions = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_inputType = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_android_maxWidth = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_closeIcon = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_commitIcon = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_defaultQueryHint = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_goIcon = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_iconifiedByDefault = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_layout = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_layout;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_queryBackground = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_queryHint = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_searchHintIcon = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_searchIcon = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_submitBackground = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_suggestionRowLayout = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Plugin.InputKit.Resource.Styleable.SearchView_voiceIcon = global::Habit_Trecker.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Plugin.InputKit.Resource.Styleable.Snackbar = global::Habit_Trecker.Droid.Resource.Styleable.Snackbar;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout = global::Habit_Trecker.Droid.Resource.Styleable.SnackbarLayout;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Habit_Trecker.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout_elevation = global::Habit_Trecker.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Plugin.InputKit.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Habit_Trecker.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Plugin.InputKit.Resource.Styleable.Snackbar_snackbarButtonStyle = global::Habit_Trecker.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Plugin.InputKit.Resource.Styleable.Snackbar_snackbarStyle = global::Habit_Trecker.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Plugin.InputKit.Resource.Styleable.Spinner = global::Habit_Trecker.Droid.Resource.Styleable.Spinner;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_dropDownWidth = global::Habit_Trecker.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_entries = global::Habit_Trecker.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_popupBackground = global::Habit_Trecker.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_android_prompt = global::Habit_Trecker.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Plugin.InputKit.Resource.Styleable.Spinner_popupTheme = global::Habit_Trecker.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable = global::Habit_Trecker.Droid.Resource.Styleable.StateListDrawable;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawableItem = global::Habit_Trecker.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawableItem_android_drawable = global::Habit_Trecker.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_constantSize = global::Habit_Trecker.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_dither = global::Habit_Trecker.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::Habit_Trecker.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Habit_Trecker.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_variablePadding = global::Habit_Trecker.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Plugin.InputKit.Resource.Styleable.StateListDrawable_android_visible = global::Habit_Trecker.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat = global::Habit_Trecker.Droid.Resource.Styleable.SwitchCompat;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_android_textOff = global::Habit_Trecker.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_android_textOn = global::Habit_Trecker.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_android_thumb = global::Habit_Trecker.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_showText = global::Habit_Trecker.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_splitTrack = global::Habit_Trecker.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_switchMinWidth = global::Habit_Trecker.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_switchPadding = global::Habit_Trecker.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Habit_Trecker.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_thumbTint = global::Habit_Trecker.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_thumbTintMode = global::Habit_Trecker.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_track = global::Habit_Trecker.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_trackTint = global::Habit_Trecker.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Plugin.InputKit.Resource.Styleable.SwitchCompat_trackTintMode = global::Habit_Trecker.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Plugin.InputKit.Resource.Styleable.TabItem = global::Habit_Trecker.Droid.Resource.Styleable.TabItem;
+			global::Plugin.InputKit.Resource.Styleable.TabItem_android_icon = global::Habit_Trecker.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Plugin.InputKit.Resource.Styleable.TabItem_android_layout = global::Habit_Trecker.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Plugin.InputKit.Resource.Styleable.TabItem_android_text = global::Habit_Trecker.Droid.Resource.Styleable.TabItem_android_text;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabBackground = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabContentStart = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabGravity = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIconTint = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIconTintMode = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicator = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorColor = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorGravity = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabInlineLabel = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabMaxWidth = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabMinWidth = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabMode = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPadding = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingBottom = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingEnd = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingStart = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabPaddingTop = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabRippleColor = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabTextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabTextColor = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Plugin.InputKit.Resource.Styleable.TabLayout_tabUnboundedRipple = global::Habit_Trecker.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_fontFamily = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowColor = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowDx = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowDy = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_shadowRadius = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textColor = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textColorHint = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textColorLink = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textFontWeight = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textSize = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_textStyle = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_android_typeface = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_fontFamily = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_fontVariationSettings = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_textAllCaps = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Plugin.InputKit.Resource.Styleable.TextAppearance_textLocale = global::Habit_Trecker.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_android_hint = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_android_textColorHint = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxStrokeColor = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterEnabled = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterMaxLength = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_errorEnabled = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_helperText = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_helperTextEnabled = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_hintEnabled = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Plugin.InputKit.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Habit_Trecker.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Plugin.InputKit.Resource.Styleable.ThemeEnforcement = global::Habit_Trecker.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Plugin.InputKit.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::Habit_Trecker.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Plugin.InputKit.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::Habit_Trecker.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Plugin.InputKit.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_android_gravity = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_android_minHeight = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_buttonGravity = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_collapseContentDescription = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_collapseIcon = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetEnd = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetLeft = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetRight = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetStart = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_logo = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_logo;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_logoDescription = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_maxButtonHeight = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_menu = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_menu;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_navigationContentDescription = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_navigationIcon = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_popupTheme = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_subtitle = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_subtitleTextColor = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_title = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_title;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMargin = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginBottom = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginEnd = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMargins = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginStart = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleMarginTop = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleTextAppearance = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Plugin.InputKit.Resource.Styleable.Toolbar_titleTextColor = global::Habit_Trecker.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Plugin.InputKit.Resource.Styleable.View = global::Habit_Trecker.Droid.Resource.Styleable.View;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper = global::Habit_Trecker.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper_android_background = global::Habit_Trecker.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Habit_Trecker.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Plugin.InputKit.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Habit_Trecker.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat = global::Habit_Trecker.Droid.Resource.Styleable.ViewStubCompat;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat_android_id = global::Habit_Trecker.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Habit_Trecker.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Plugin.InputKit.Resource.Styleable.ViewStubCompat_android_layout = global::Habit_Trecker.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Plugin.InputKit.Resource.Styleable.View_android_focusable = global::Habit_Trecker.Droid.Resource.Styleable.View_android_focusable;
+			global::Plugin.InputKit.Resource.Styleable.View_android_theme = global::Habit_Trecker.Droid.Resource.Styleable.View_android_theme;
+			global::Plugin.InputKit.Resource.Styleable.View_paddingEnd = global::Habit_Trecker.Droid.Resource.Styleable.View_paddingEnd;
+			global::Plugin.InputKit.Resource.Styleable.View_paddingStart = global::Habit_Trecker.Droid.Resource.Styleable.View_paddingStart;
+			global::Plugin.InputKit.Resource.Styleable.View_theme = global::Habit_Trecker.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::Habit_Trecker.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::Habit_Trecker.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::Habit_Trecker.Droid.Resource.Attribute.fontProviderAuthority;
@@ -16580,124 +19194,127 @@ namespace Habit_Trecker.Droid
 			public const int labelHab = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int material_cursor_drawable = 2131165300;
+			public const int MainBackground = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int material_ic_calendar_black_24dp = 2131165301;
+			public const int material_cursor_drawable = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int material_ic_clear_black_24dp = 2131165302;
+			public const int material_ic_calendar_black_24dp = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int material_ic_edit_black_24dp = 2131165303;
+			public const int material_ic_clear_black_24dp = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165304;
+			public const int material_ic_edit_black_24dp = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165305;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165306;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165307;
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165308;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165309;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_dialog_background = 2131165310;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int mtrl_dropdown_arrow = 2131165311;
+			public const int mtrl_dialog_background = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int mtrl_ic_arrow_drop_down = 2131165312;
+			public const int mtrl_dropdown_arrow = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int mtrl_ic_arrow_drop_up = 2131165313;
+			public const int mtrl_ic_arrow_drop_down = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int mtrl_ic_cancel = 2131165314;
+			public const int mtrl_ic_arrow_drop_up = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int mtrl_ic_error = 2131165315;
+			public const int mtrl_ic_cancel = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int mtrl_navigation_bar_item_background = 2131165316;
+			public const int mtrl_ic_error = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int mtrl_popupmenu_background = 2131165317;
+			public const int mtrl_navigation_bar_item_background = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int mtrl_popupmenu_background_dark = 2131165318;
+			public const int mtrl_popupmenu_background = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int mtrl_tabs_default_indicator = 2131165319;
+			public const int mtrl_popupmenu_background_dark = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int navigation_empty_icon = 2131165320;
+			public const int mtrl_tabs_default_indicator = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_action_background = 2131165321;
+			public const int navigation_empty_icon = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_bg = 2131165322;
+			public const int notification_action_background = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notification_bg_low = 2131165323;
+			public const int notification_bg = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int notification_bg_low_normal = 2131165324;
+			public const int notification_bg_low = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int notification_bg_low_pressed = 2131165325;
+			public const int notification_bg_low_normal = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int notification_bg_normal = 2131165326;
+			public const int notification_bg_low_pressed = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int notification_bg_normal_pressed = 2131165327;
+			public const int notification_bg_normal = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int notification_icon_background = 2131165328;
+			public const int notification_bg_normal_pressed = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int notification_template_icon_bg = 2131165329;
+			public const int notification_icon_background = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int notification_template_icon_low_bg = 2131165330;
+			public const int notification_template_icon_bg = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int notification_tile_bg = 2131165331;
+			public const int notification_template_icon_low_bg = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int notify_panel_notification_icon_bg = 2131165332;
+			public const int notification_tile_bg = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int preference_list_divider_material = 2131165333;
+			public const int notify_panel_notification_icon_bg = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int queen = 2131165334;
+			public const int preference_list_divider_material = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int queenlabel = 2131165335;
+			public const int queen = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int splashscreen = 2131165336;
+			public const int queenlabel = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int test_custom_background = 2131165337;
+			public const int splashscreen = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int tooltip_frame_dark = 2131165338;
+			public const int test_custom_background = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int tooltip_frame_light = 2131165339;
+			public const int tooltip_frame_dark = 2131165339;
+			
+			// aapt resource value: 0x7F07009C
+			public const int tooltip_frame_light = 2131165340;
 			
 			static Drawable()
 			{
@@ -19895,8 +22512,8 @@ namespace Habit_Trecker.Droid
 			// aapt resource value: 0x7F0E00E7
 			public const int CardView_Light = 2131624167;
 			
-			// aapt resource value: 0x7F0E02F9
-			public const int collectionViewTheme = 2131624697;
+			// aapt resource value: 0x7F0E02FA
+			public const int collectionViewTheme = 2131624698;
 			
 			// aapt resource value: 0x7F0E00E8
 			public const int EmptyTheme = 2131624168;
@@ -19938,1558 +22555,1561 @@ namespace Habit_Trecker.Droid
 			public const int MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = 2131624180;
 			
 			// aapt resource value: 0x7F0E00F5
-			public const int MyTheme_Splash = 2131624181;
+			public const int MyPopupMenu = 2131624181;
 			
 			// aapt resource value: 0x7F0E00F6
-			public const int Platform_AppCompat = 2131624182;
+			public const int MyTheme_Splash = 2131624182;
 			
 			// aapt resource value: 0x7F0E00F7
-			public const int Platform_AppCompat_Light = 2131624183;
+			public const int Platform_AppCompat = 2131624183;
 			
 			// aapt resource value: 0x7F0E00F8
-			public const int Platform_MaterialComponents = 2131624184;
+			public const int Platform_AppCompat_Light = 2131624184;
 			
 			// aapt resource value: 0x7F0E00F9
-			public const int Platform_MaterialComponents_Dialog = 2131624185;
+			public const int Platform_MaterialComponents = 2131624185;
 			
 			// aapt resource value: 0x7F0E00FA
-			public const int Platform_MaterialComponents_Light = 2131624186;
+			public const int Platform_MaterialComponents_Dialog = 2131624186;
 			
 			// aapt resource value: 0x7F0E00FB
-			public const int Platform_MaterialComponents_Light_Dialog = 2131624187;
+			public const int Platform_MaterialComponents_Light = 2131624187;
 			
 			// aapt resource value: 0x7F0E00FC
-			public const int Platform_ThemeOverlay_AppCompat = 2131624188;
+			public const int Platform_MaterialComponents_Light_Dialog = 2131624188;
 			
 			// aapt resource value: 0x7F0E00FD
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624189;
+			public const int Platform_ThemeOverlay_AppCompat = 2131624189;
 			
 			// aapt resource value: 0x7F0E00FE
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624190;
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624190;
 			
 			// aapt resource value: 0x7F0E00FF
-			public const int Platform_V21_AppCompat = 2131624191;
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624191;
 			
 			// aapt resource value: 0x7F0E0100
-			public const int Platform_V21_AppCompat_Light = 2131624192;
+			public const int Platform_V21_AppCompat = 2131624192;
 			
 			// aapt resource value: 0x7F0E0101
-			public const int Platform_V25_AppCompat = 2131624193;
+			public const int Platform_V21_AppCompat_Light = 2131624193;
 			
 			// aapt resource value: 0x7F0E0102
-			public const int Platform_V25_AppCompat_Light = 2131624194;
+			public const int Platform_V25_AppCompat = 2131624194;
 			
 			// aapt resource value: 0x7F0E0103
-			public const int Platform_Widget_AppCompat_Spinner = 2131624195;
+			public const int Platform_V25_AppCompat_Light = 2131624195;
 			
 			// aapt resource value: 0x7F0E0104
-			public const int Preference = 2131624196;
-			
-			// aapt resource value: 0x7F0E011A
-			public const int PreferenceCategoryTitleTextStyle = 2131624218;
-			
-			// aapt resource value: 0x7F0E011B
-			public const int PreferenceFragment = 2131624219;
-			
-			// aapt resource value: 0x7F0E011D
-			public const int PreferenceFragmentList = 2131624221;
-			
-			// aapt resource value: 0x7F0E011E
-			public const int PreferenceFragmentList_Material = 2131624222;
-			
-			// aapt resource value: 0x7F0E011C
-			public const int PreferenceFragment_Material = 2131624220;
-			
-			// aapt resource value: 0x7F0E011F
-			public const int PreferenceSummaryTextStyle = 2131624223;
-			
-			// aapt resource value: 0x7F0E0120
-			public const int PreferenceThemeOverlay = 2131624224;
-			
-			// aapt resource value: 0x7F0E0121
-			public const int PreferenceThemeOverlay_v14 = 2131624225;
-			
-			// aapt resource value: 0x7F0E0122
-			public const int PreferenceThemeOverlay_v14_Material = 2131624226;
+			public const int Platform_Widget_AppCompat_Spinner = 2131624196;
 			
 			// aapt resource value: 0x7F0E0105
-			public const int Preference_Category = 2131624197;
+			public const int Preference = 2131624197;
 			
-			// aapt resource value: 0x7F0E0106
-			public const int Preference_Category_Material = 2131624198;
+			// aapt resource value: 0x7F0E011B
+			public const int PreferenceCategoryTitleTextStyle = 2131624219;
 			
-			// aapt resource value: 0x7F0E0107
-			public const int Preference_CheckBoxPreference = 2131624199;
+			// aapt resource value: 0x7F0E011C
+			public const int PreferenceFragment = 2131624220;
 			
-			// aapt resource value: 0x7F0E0108
-			public const int Preference_CheckBoxPreference_Material = 2131624200;
+			// aapt resource value: 0x7F0E011E
+			public const int PreferenceFragmentList = 2131624222;
 			
-			// aapt resource value: 0x7F0E0109
-			public const int Preference_DialogPreference = 2131624201;
+			// aapt resource value: 0x7F0E011F
+			public const int PreferenceFragmentList_Material = 2131624223;
 			
-			// aapt resource value: 0x7F0E010A
-			public const int Preference_DialogPreference_EditTextPreference = 2131624202;
+			// aapt resource value: 0x7F0E011D
+			public const int PreferenceFragment_Material = 2131624221;
 			
-			// aapt resource value: 0x7F0E010B
-			public const int Preference_DialogPreference_EditTextPreference_Material = 2131624203;
+			// aapt resource value: 0x7F0E0120
+			public const int PreferenceSummaryTextStyle = 2131624224;
 			
-			// aapt resource value: 0x7F0E010C
-			public const int Preference_DialogPreference_Material = 2131624204;
+			// aapt resource value: 0x7F0E0121
+			public const int PreferenceThemeOverlay = 2131624225;
 			
-			// aapt resource value: 0x7F0E010D
-			public const int Preference_DropDown = 2131624205;
-			
-			// aapt resource value: 0x7F0E010E
-			public const int Preference_DropDown_Material = 2131624206;
-			
-			// aapt resource value: 0x7F0E010F
-			public const int Preference_Information = 2131624207;
-			
-			// aapt resource value: 0x7F0E0110
-			public const int Preference_Information_Material = 2131624208;
-			
-			// aapt resource value: 0x7F0E0111
-			public const int Preference_Material = 2131624209;
-			
-			// aapt resource value: 0x7F0E0112
-			public const int Preference_PreferenceScreen = 2131624210;
-			
-			// aapt resource value: 0x7F0E0113
-			public const int Preference_PreferenceScreen_Material = 2131624211;
-			
-			// aapt resource value: 0x7F0E0114
-			public const int Preference_SeekBarPreference = 2131624212;
-			
-			// aapt resource value: 0x7F0E0115
-			public const int Preference_SeekBarPreference_Material = 2131624213;
-			
-			// aapt resource value: 0x7F0E0116
-			public const int Preference_SwitchPreference = 2131624214;
-			
-			// aapt resource value: 0x7F0E0118
-			public const int Preference_SwitchPreferenceCompat = 2131624216;
-			
-			// aapt resource value: 0x7F0E0119
-			public const int Preference_SwitchPreferenceCompat_Material = 2131624217;
-			
-			// aapt resource value: 0x7F0E0117
-			public const int Preference_SwitchPreference_Material = 2131624215;
+			// aapt resource value: 0x7F0E0122
+			public const int PreferenceThemeOverlay_v14 = 2131624226;
 			
 			// aapt resource value: 0x7F0E0123
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624227;
+			public const int PreferenceThemeOverlay_v14_Material = 2131624227;
+			
+			// aapt resource value: 0x7F0E0106
+			public const int Preference_Category = 2131624198;
+			
+			// aapt resource value: 0x7F0E0107
+			public const int Preference_Category_Material = 2131624199;
+			
+			// aapt resource value: 0x7F0E0108
+			public const int Preference_CheckBoxPreference = 2131624200;
+			
+			// aapt resource value: 0x7F0E0109
+			public const int Preference_CheckBoxPreference_Material = 2131624201;
+			
+			// aapt resource value: 0x7F0E010A
+			public const int Preference_DialogPreference = 2131624202;
+			
+			// aapt resource value: 0x7F0E010B
+			public const int Preference_DialogPreference_EditTextPreference = 2131624203;
+			
+			// aapt resource value: 0x7F0E010C
+			public const int Preference_DialogPreference_EditTextPreference_Material = 2131624204;
+			
+			// aapt resource value: 0x7F0E010D
+			public const int Preference_DialogPreference_Material = 2131624205;
+			
+			// aapt resource value: 0x7F0E010E
+			public const int Preference_DropDown = 2131624206;
+			
+			// aapt resource value: 0x7F0E010F
+			public const int Preference_DropDown_Material = 2131624207;
+			
+			// aapt resource value: 0x7F0E0110
+			public const int Preference_Information = 2131624208;
+			
+			// aapt resource value: 0x7F0E0111
+			public const int Preference_Information_Material = 2131624209;
+			
+			// aapt resource value: 0x7F0E0112
+			public const int Preference_Material = 2131624210;
+			
+			// aapt resource value: 0x7F0E0113
+			public const int Preference_PreferenceScreen = 2131624211;
+			
+			// aapt resource value: 0x7F0E0114
+			public const int Preference_PreferenceScreen_Material = 2131624212;
+			
+			// aapt resource value: 0x7F0E0115
+			public const int Preference_SeekBarPreference = 2131624213;
+			
+			// aapt resource value: 0x7F0E0116
+			public const int Preference_SeekBarPreference_Material = 2131624214;
+			
+			// aapt resource value: 0x7F0E0117
+			public const int Preference_SwitchPreference = 2131624215;
+			
+			// aapt resource value: 0x7F0E0119
+			public const int Preference_SwitchPreferenceCompat = 2131624217;
+			
+			// aapt resource value: 0x7F0E011A
+			public const int Preference_SwitchPreferenceCompat_Material = 2131624218;
+			
+			// aapt resource value: 0x7F0E0118
+			public const int Preference_SwitchPreference_Material = 2131624216;
 			
 			// aapt resource value: 0x7F0E0124
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624228;
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624228;
 			
 			// aapt resource value: 0x7F0E0125
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624229;
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624229;
 			
 			// aapt resource value: 0x7F0E0126
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624230;
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624230;
 			
 			// aapt resource value: 0x7F0E0127
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624231;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624231;
 			
 			// aapt resource value: 0x7F0E0128
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624232;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624232;
 			
 			// aapt resource value: 0x7F0E0129
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624233;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624233;
 			
 			// aapt resource value: 0x7F0E012A
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624234;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624234;
 			
 			// aapt resource value: 0x7F0E012B
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624235;
-			
-			// aapt resource value: 0x7F0E0131
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624241;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624235;
 			
 			// aapt resource value: 0x7F0E012C
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624236;
-			
-			// aapt resource value: 0x7F0E012D
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624237;
-			
-			// aapt resource value: 0x7F0E012E
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624238;
-			
-			// aapt resource value: 0x7F0E012F
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624239;
-			
-			// aapt resource value: 0x7F0E0130
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624240;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624236;
 			
 			// aapt resource value: 0x7F0E0132
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624242;
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624242;
+			
+			// aapt resource value: 0x7F0E012D
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624237;
+			
+			// aapt resource value: 0x7F0E012E
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624238;
+			
+			// aapt resource value: 0x7F0E012F
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624239;
+			
+			// aapt resource value: 0x7F0E0130
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624240;
+			
+			// aapt resource value: 0x7F0E0131
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624241;
 			
 			// aapt resource value: 0x7F0E0133
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624243;
-			
-			// aapt resource value: 0x7F0E02FA
-			public const int scrollViewScrollBars = 2131624698;
-			
-			// aapt resource value: 0x7F0E02FB
-			public const int scrollViewTheme = 2131624699;
-			
-			// aapt resource value: 0x7F0E013A
-			public const int ShapeAppearanceOverlay = 2131624250;
-			
-			// aapt resource value: 0x7F0E013B
-			public const int ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = 2131624251;
-			
-			// aapt resource value: 0x7F0E013C
-			public const int ShapeAppearanceOverlay_BottomRightCut = 2131624252;
-			
-			// aapt resource value: 0x7F0E013D
-			public const int ShapeAppearanceOverlay_Cut = 2131624253;
-			
-			// aapt resource value: 0x7F0E013E
-			public const int ShapeAppearanceOverlay_DifferentCornerSize = 2131624254;
-			
-			// aapt resource value: 0x7F0E013F
-			public const int ShapeAppearanceOverlay_MaterialComponents_BottomSheet = 2131624255;
-			
-			// aapt resource value: 0x7F0E0140
-			public const int ShapeAppearanceOverlay_MaterialComponents_Chip = 2131624256;
-			
-			// aapt resource value: 0x7F0E0141
-			public const int ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = 2131624257;
-			
-			// aapt resource value: 0x7F0E0142
-			public const int ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = 2131624258;
-			
-			// aapt resource value: 0x7F0E0143
-			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131624259;
-			
-			// aapt resource value: 0x7F0E0144
-			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = 2131624260;
-			
-			// aapt resource value: 0x7F0E0145
-			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = 2131624261;
-			
-			// aapt resource value: 0x7F0E0146
-			public const int ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = 2131624262;
-			
-			// aapt resource value: 0x7F0E0147
-			public const int ShapeAppearanceOverlay_TopLeftCut = 2131624263;
-			
-			// aapt resource value: 0x7F0E0148
-			public const int ShapeAppearanceOverlay_TopRightDifferentCornerSize = 2131624264;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624243;
 			
 			// aapt resource value: 0x7F0E0134
-			public const int ShapeAppearance_MaterialComponents = 2131624244;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624244;
 			
-			// aapt resource value: 0x7F0E0135
-			public const int ShapeAppearance_MaterialComponents_LargeComponent = 2131624245;
+			// aapt resource value: 0x7F0E02FB
+			public const int scrollViewScrollBars = 2131624699;
 			
-			// aapt resource value: 0x7F0E0136
-			public const int ShapeAppearance_MaterialComponents_MediumComponent = 2131624246;
+			// aapt resource value: 0x7F0E02FC
+			public const int scrollViewTheme = 2131624700;
 			
-			// aapt resource value: 0x7F0E0137
-			public const int ShapeAppearance_MaterialComponents_SmallComponent = 2131624247;
+			// aapt resource value: 0x7F0E013B
+			public const int ShapeAppearanceOverlay = 2131624251;
 			
-			// aapt resource value: 0x7F0E0138
-			public const int ShapeAppearance_MaterialComponents_Test = 2131624248;
+			// aapt resource value: 0x7F0E013C
+			public const int ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = 2131624252;
 			
-			// aapt resource value: 0x7F0E0139
-			public const int ShapeAppearance_MaterialComponents_Tooltip = 2131624249;
+			// aapt resource value: 0x7F0E013D
+			public const int ShapeAppearanceOverlay_BottomRightCut = 2131624253;
 			
-			// aapt resource value: 0x7F0E014E
-			public const int TestStyleWithLineHeight = 2131624270;
+			// aapt resource value: 0x7F0E013E
+			public const int ShapeAppearanceOverlay_Cut = 2131624254;
 			
-			// aapt resource value: 0x7F0E014F
-			public const int TestStyleWithLineHeightAppearance = 2131624271;
+			// aapt resource value: 0x7F0E013F
+			public const int ShapeAppearanceOverlay_DifferentCornerSize = 2131624255;
 			
-			// aapt resource value: 0x7F0E0151
-			public const int TestStyleWithoutLineHeight = 2131624273;
+			// aapt resource value: 0x7F0E0140
+			public const int ShapeAppearanceOverlay_MaterialComponents_BottomSheet = 2131624256;
 			
-			// aapt resource value: 0x7F0E0150
-			public const int TestStyleWithThemeLineHeightAttribute = 2131624272;
+			// aapt resource value: 0x7F0E0141
+			public const int ShapeAppearanceOverlay_MaterialComponents_Chip = 2131624257;
 			
-			// aapt resource value: 0x7F0E0152
-			public const int TestThemeWithLineHeight = 2131624274;
+			// aapt resource value: 0x7F0E0142
+			public const int ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = 2131624258;
 			
-			// aapt resource value: 0x7F0E0153
-			public const int TestThemeWithLineHeightDisabled = 2131624275;
+			// aapt resource value: 0x7F0E0143
+			public const int ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = 2131624259;
+			
+			// aapt resource value: 0x7F0E0144
+			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131624260;
+			
+			// aapt resource value: 0x7F0E0145
+			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = 2131624261;
+			
+			// aapt resource value: 0x7F0E0146
+			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = 2131624262;
+			
+			// aapt resource value: 0x7F0E0147
+			public const int ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = 2131624263;
+			
+			// aapt resource value: 0x7F0E0148
+			public const int ShapeAppearanceOverlay_TopLeftCut = 2131624264;
 			
 			// aapt resource value: 0x7F0E0149
-			public const int Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131624265;
+			public const int ShapeAppearanceOverlay_TopRightDifferentCornerSize = 2131624265;
 			
-			// aapt resource value: 0x7F0E014A
-			public const int Test_Theme_MaterialComponents_MaterialCalendar = 2131624266;
+			// aapt resource value: 0x7F0E0135
+			public const int ShapeAppearance_MaterialComponents = 2131624245;
 			
-			// aapt resource value: 0x7F0E014B
-			public const int Test_Widget_MaterialComponents_MaterialCalendar = 2131624267;
+			// aapt resource value: 0x7F0E0136
+			public const int ShapeAppearance_MaterialComponents_LargeComponent = 2131624246;
 			
-			// aapt resource value: 0x7F0E014C
-			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day = 2131624268;
+			// aapt resource value: 0x7F0E0137
+			public const int ShapeAppearance_MaterialComponents_MediumComponent = 2131624247;
 			
-			// aapt resource value: 0x7F0E014D
-			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131624269;
+			// aapt resource value: 0x7F0E0138
+			public const int ShapeAppearance_MaterialComponents_SmallComponent = 2131624248;
+			
+			// aapt resource value: 0x7F0E0139
+			public const int ShapeAppearance_MaterialComponents_Test = 2131624249;
+			
+			// aapt resource value: 0x7F0E013A
+			public const int ShapeAppearance_MaterialComponents_Tooltip = 2131624250;
+			
+			// aapt resource value: 0x7F0E014F
+			public const int TestStyleWithLineHeight = 2131624271;
+			
+			// aapt resource value: 0x7F0E0150
+			public const int TestStyleWithLineHeightAppearance = 2131624272;
+			
+			// aapt resource value: 0x7F0E0152
+			public const int TestStyleWithoutLineHeight = 2131624274;
+			
+			// aapt resource value: 0x7F0E0151
+			public const int TestStyleWithThemeLineHeightAttribute = 2131624273;
+			
+			// aapt resource value: 0x7F0E0153
+			public const int TestThemeWithLineHeight = 2131624275;
 			
 			// aapt resource value: 0x7F0E0154
-			public const int TextAppearance_AppCompat = 2131624276;
+			public const int TestThemeWithLineHeightDisabled = 2131624276;
+			
+			// aapt resource value: 0x7F0E014A
+			public const int Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131624266;
+			
+			// aapt resource value: 0x7F0E014B
+			public const int Test_Theme_MaterialComponents_MaterialCalendar = 2131624267;
+			
+			// aapt resource value: 0x7F0E014C
+			public const int Test_Widget_MaterialComponents_MaterialCalendar = 2131624268;
+			
+			// aapt resource value: 0x7F0E014D
+			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day = 2131624269;
+			
+			// aapt resource value: 0x7F0E014E
+			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131624270;
 			
 			// aapt resource value: 0x7F0E0155
-			public const int TextAppearance_AppCompat_Body1 = 2131624277;
+			public const int TextAppearance_AppCompat = 2131624277;
 			
 			// aapt resource value: 0x7F0E0156
-			public const int TextAppearance_AppCompat_Body2 = 2131624278;
+			public const int TextAppearance_AppCompat_Body1 = 2131624278;
 			
 			// aapt resource value: 0x7F0E0157
-			public const int TextAppearance_AppCompat_Button = 2131624279;
+			public const int TextAppearance_AppCompat_Body2 = 2131624279;
 			
 			// aapt resource value: 0x7F0E0158
-			public const int TextAppearance_AppCompat_Caption = 2131624280;
+			public const int TextAppearance_AppCompat_Button = 2131624280;
 			
 			// aapt resource value: 0x7F0E0159
-			public const int TextAppearance_AppCompat_Display1 = 2131624281;
+			public const int TextAppearance_AppCompat_Caption = 2131624281;
 			
 			// aapt resource value: 0x7F0E015A
-			public const int TextAppearance_AppCompat_Display2 = 2131624282;
+			public const int TextAppearance_AppCompat_Display1 = 2131624282;
 			
 			// aapt resource value: 0x7F0E015B
-			public const int TextAppearance_AppCompat_Display3 = 2131624283;
+			public const int TextAppearance_AppCompat_Display2 = 2131624283;
 			
 			// aapt resource value: 0x7F0E015C
-			public const int TextAppearance_AppCompat_Display4 = 2131624284;
+			public const int TextAppearance_AppCompat_Display3 = 2131624284;
 			
 			// aapt resource value: 0x7F0E015D
-			public const int TextAppearance_AppCompat_Headline = 2131624285;
+			public const int TextAppearance_AppCompat_Display4 = 2131624285;
 			
 			// aapt resource value: 0x7F0E015E
-			public const int TextAppearance_AppCompat_Inverse = 2131624286;
+			public const int TextAppearance_AppCompat_Headline = 2131624286;
 			
 			// aapt resource value: 0x7F0E015F
-			public const int TextAppearance_AppCompat_Large = 2131624287;
+			public const int TextAppearance_AppCompat_Inverse = 2131624287;
 			
 			// aapt resource value: 0x7F0E0160
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131624288;
+			public const int TextAppearance_AppCompat_Large = 2131624288;
 			
 			// aapt resource value: 0x7F0E0161
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624289;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131624289;
 			
 			// aapt resource value: 0x7F0E0162
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624290;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624290;
 			
 			// aapt resource value: 0x7F0E0163
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624291;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624291;
 			
 			// aapt resource value: 0x7F0E0164
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624292;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624292;
 			
 			// aapt resource value: 0x7F0E0165
-			public const int TextAppearance_AppCompat_Medium = 2131624293;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624293;
 			
 			// aapt resource value: 0x7F0E0166
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624294;
+			public const int TextAppearance_AppCompat_Medium = 2131624294;
 			
 			// aapt resource value: 0x7F0E0167
-			public const int TextAppearance_AppCompat_Menu = 2131624295;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624295;
 			
 			// aapt resource value: 0x7F0E0168
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624296;
+			public const int TextAppearance_AppCompat_Menu = 2131624296;
 			
 			// aapt resource value: 0x7F0E0169
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624297;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624297;
 			
 			// aapt resource value: 0x7F0E016A
-			public const int TextAppearance_AppCompat_Small = 2131624298;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624298;
 			
 			// aapt resource value: 0x7F0E016B
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131624299;
+			public const int TextAppearance_AppCompat_Small = 2131624299;
 			
 			// aapt resource value: 0x7F0E016C
-			public const int TextAppearance_AppCompat_Subhead = 2131624300;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131624300;
 			
 			// aapt resource value: 0x7F0E016D
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624301;
+			public const int TextAppearance_AppCompat_Subhead = 2131624301;
 			
 			// aapt resource value: 0x7F0E016E
-			public const int TextAppearance_AppCompat_Title = 2131624302;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624302;
 			
 			// aapt resource value: 0x7F0E016F
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131624303;
+			public const int TextAppearance_AppCompat_Title = 2131624303;
 			
 			// aapt resource value: 0x7F0E0170
-			public const int TextAppearance_AppCompat_Tooltip = 2131624304;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131624304;
 			
 			// aapt resource value: 0x7F0E0171
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624305;
+			public const int TextAppearance_AppCompat_Tooltip = 2131624305;
 			
 			// aapt resource value: 0x7F0E0172
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624306;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624306;
 			
 			// aapt resource value: 0x7F0E0173
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624307;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624307;
 			
 			// aapt resource value: 0x7F0E0174
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624308;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624308;
 			
 			// aapt resource value: 0x7F0E0175
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624309;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624309;
 			
 			// aapt resource value: 0x7F0E0176
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624310;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624310;
 			
 			// aapt resource value: 0x7F0E0177
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624311;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624311;
 			
 			// aapt resource value: 0x7F0E0178
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624312;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624312;
 			
 			// aapt resource value: 0x7F0E0179
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624313;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624313;
 			
 			// aapt resource value: 0x7F0E017A
-			public const int TextAppearance_AppCompat_Widget_Button = 2131624314;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624314;
 			
 			// aapt resource value: 0x7F0E017B
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624315;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131624315;
 			
 			// aapt resource value: 0x7F0E017C
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624316;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624316;
 			
 			// aapt resource value: 0x7F0E017D
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624317;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624317;
 			
 			// aapt resource value: 0x7F0E017E
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624318;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624318;
 			
 			// aapt resource value: 0x7F0E017F
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624319;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624319;
 			
 			// aapt resource value: 0x7F0E0180
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624320;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624320;
 			
 			// aapt resource value: 0x7F0E0181
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624321;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624321;
 			
 			// aapt resource value: 0x7F0E0182
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131624322;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624322;
 			
 			// aapt resource value: 0x7F0E0183
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624323;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131624323;
 			
 			// aapt resource value: 0x7F0E0184
-			public const int TextAppearance_Compat_Notification = 2131624324;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624324;
 			
 			// aapt resource value: 0x7F0E0185
-			public const int TextAppearance_Compat_Notification_Info = 2131624325;
+			public const int TextAppearance_Compat_Notification = 2131624325;
 			
 			// aapt resource value: 0x7F0E0186
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131624326;
+			public const int TextAppearance_Compat_Notification_Info = 2131624326;
 			
 			// aapt resource value: 0x7F0E0187
-			public const int TextAppearance_Compat_Notification_Line2 = 2131624327;
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131624327;
 			
 			// aapt resource value: 0x7F0E0188
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624328;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131624328;
 			
 			// aapt resource value: 0x7F0E0189
-			public const int TextAppearance_Compat_Notification_Media = 2131624329;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624329;
 			
 			// aapt resource value: 0x7F0E018A
-			public const int TextAppearance_Compat_Notification_Time = 2131624330;
+			public const int TextAppearance_Compat_Notification_Media = 2131624330;
 			
 			// aapt resource value: 0x7F0E018B
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131624331;
+			public const int TextAppearance_Compat_Notification_Time = 2131624331;
 			
 			// aapt resource value: 0x7F0E018C
-			public const int TextAppearance_Compat_Notification_Title = 2131624332;
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131624332;
 			
 			// aapt resource value: 0x7F0E018D
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131624333;
+			public const int TextAppearance_Compat_Notification_Title = 2131624333;
 			
 			// aapt resource value: 0x7F0E018E
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624334;
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131624334;
 			
 			// aapt resource value: 0x7F0E018F
-			public const int TextAppearance_Design_Counter = 2131624335;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624335;
 			
 			// aapt resource value: 0x7F0E0190
-			public const int TextAppearance_Design_Counter_Overflow = 2131624336;
+			public const int TextAppearance_Design_Counter = 2131624336;
 			
 			// aapt resource value: 0x7F0E0191
-			public const int TextAppearance_Design_Error = 2131624337;
+			public const int TextAppearance_Design_Counter_Overflow = 2131624337;
 			
 			// aapt resource value: 0x7F0E0192
-			public const int TextAppearance_Design_HelperText = 2131624338;
+			public const int TextAppearance_Design_Error = 2131624338;
 			
 			// aapt resource value: 0x7F0E0193
-			public const int TextAppearance_Design_Hint = 2131624339;
+			public const int TextAppearance_Design_HelperText = 2131624339;
 			
 			// aapt resource value: 0x7F0E0194
-			public const int TextAppearance_Design_Placeholder = 2131624340;
+			public const int TextAppearance_Design_Hint = 2131624340;
 			
 			// aapt resource value: 0x7F0E0195
-			public const int TextAppearance_Design_Prefix = 2131624341;
+			public const int TextAppearance_Design_Placeholder = 2131624341;
 			
 			// aapt resource value: 0x7F0E0196
-			public const int TextAppearance_Design_Snackbar_Message = 2131624342;
+			public const int TextAppearance_Design_Prefix = 2131624342;
 			
 			// aapt resource value: 0x7F0E0197
-			public const int TextAppearance_Design_Suffix = 2131624343;
+			public const int TextAppearance_Design_Snackbar_Message = 2131624343;
 			
 			// aapt resource value: 0x7F0E0198
-			public const int TextAppearance_Design_Tab = 2131624344;
+			public const int TextAppearance_Design_Suffix = 2131624344;
 			
 			// aapt resource value: 0x7F0E0199
-			public const int TextAppearance_MaterialComponents_Badge = 2131624345;
+			public const int TextAppearance_Design_Tab = 2131624345;
 			
 			// aapt resource value: 0x7F0E019A
-			public const int TextAppearance_MaterialComponents_Body1 = 2131624346;
+			public const int TextAppearance_MaterialComponents_Badge = 2131624346;
 			
 			// aapt resource value: 0x7F0E019B
-			public const int TextAppearance_MaterialComponents_Body2 = 2131624347;
+			public const int TextAppearance_MaterialComponents_Body1 = 2131624347;
 			
 			// aapt resource value: 0x7F0E019C
-			public const int TextAppearance_MaterialComponents_Button = 2131624348;
+			public const int TextAppearance_MaterialComponents_Body2 = 2131624348;
 			
 			// aapt resource value: 0x7F0E019D
-			public const int TextAppearance_MaterialComponents_Caption = 2131624349;
+			public const int TextAppearance_MaterialComponents_Button = 2131624349;
 			
 			// aapt resource value: 0x7F0E019E
-			public const int TextAppearance_MaterialComponents_Chip = 2131624350;
+			public const int TextAppearance_MaterialComponents_Caption = 2131624350;
 			
 			// aapt resource value: 0x7F0E019F
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131624351;
+			public const int TextAppearance_MaterialComponents_Chip = 2131624351;
 			
 			// aapt resource value: 0x7F0E01A0
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131624352;
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131624352;
 			
 			// aapt resource value: 0x7F0E01A1
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131624353;
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131624353;
 			
 			// aapt resource value: 0x7F0E01A2
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131624354;
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131624354;
 			
 			// aapt resource value: 0x7F0E01A3
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131624355;
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131624355;
 			
 			// aapt resource value: 0x7F0E01A4
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131624356;
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131624356;
 			
 			// aapt resource value: 0x7F0E01A5
-			public const int TextAppearance_MaterialComponents_Overline = 2131624357;
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131624357;
 			
 			// aapt resource value: 0x7F0E01A6
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624358;
+			public const int TextAppearance_MaterialComponents_Overline = 2131624358;
 			
 			// aapt resource value: 0x7F0E01A7
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624359;
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624359;
 			
 			// aapt resource value: 0x7F0E01A8
-			public const int TextAppearance_MaterialComponents_TimePicker_Title = 2131624360;
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624360;
 			
 			// aapt resource value: 0x7F0E01A9
-			public const int TextAppearance_MaterialComponents_Tooltip = 2131624361;
+			public const int TextAppearance_MaterialComponents_TimePicker_Title = 2131624361;
 			
 			// aapt resource value: 0x7F0E01AA
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624362;
+			public const int TextAppearance_MaterialComponents_Tooltip = 2131624362;
 			
 			// aapt resource value: 0x7F0E01AB
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624363;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624363;
 			
 			// aapt resource value: 0x7F0E01AC
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624364;
-			
-			// aapt resource value: 0x7F0E022A
-			public const int ThemeOverlayColorAccentRed = 2131624490;
-			
-			// aapt resource value: 0x7F0E01FA
-			public const int ThemeOverlay_AppCompat = 2131624442;
-			
-			// aapt resource value: 0x7F0E01FB
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624443;
-			
-			// aapt resource value: 0x7F0E01FC
-			public const int ThemeOverlay_AppCompat_Dark = 2131624444;
-			
-			// aapt resource value: 0x7F0E01FD
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624445;
-			
-			// aapt resource value: 0x7F0E01FE
-			public const int ThemeOverlay_AppCompat_DayNight = 2131624446;
-			
-			// aapt resource value: 0x7F0E01FF
-			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131624447;
-			
-			// aapt resource value: 0x7F0E0200
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624448;
-			
-			// aapt resource value: 0x7F0E0201
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624449;
-			
-			// aapt resource value: 0x7F0E0202
-			public const int ThemeOverlay_AppCompat_Light = 2131624450;
-			
-			// aapt resource value: 0x7F0E0203
-			public const int ThemeOverlay_Design_TextInputEditText = 2131624451;
-			
-			// aapt resource value: 0x7F0E0204
-			public const int ThemeOverlay_MaterialComponents = 2131624452;
-			
-			// aapt resource value: 0x7F0E0205
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624453;
-			
-			// aapt resource value: 0x7F0E0206
-			public const int ThemeOverlay_MaterialComponents_ActionBar_Primary = 2131624454;
-			
-			// aapt resource value: 0x7F0E0207
-			public const int ThemeOverlay_MaterialComponents_ActionBar_Surface = 2131624455;
-			
-			// aapt resource value: 0x7F0E0208
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView = 2131624456;
-			
-			// aapt resource value: 0x7F0E0209
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = 2131624457;
-			
-			// aapt resource value: 0x7F0E020A
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131624458;
-			
-			// aapt resource value: 0x7F0E020B
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131624459;
-			
-			// aapt resource value: 0x7F0E020C
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131624460;
-			
-			// aapt resource value: 0x7F0E020D
-			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Primary = 2131624461;
-			
-			// aapt resource value: 0x7F0E020E
-			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Surface = 2131624462;
-			
-			// aapt resource value: 0x7F0E020F
-			public const int ThemeOverlay_MaterialComponents_BottomSheetDialog = 2131624463;
-			
-			// aapt resource value: 0x7F0E0210
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624464;
-			
-			// aapt resource value: 0x7F0E0211
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624465;
-			
-			// aapt resource value: 0x7F0E0212
-			public const int ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = 2131624466;
-			
-			// aapt resource value: 0x7F0E0213
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624467;
-			
-			// aapt resource value: 0x7F0E0214
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624468;
-			
-			// aapt resource value: 0x7F0E0215
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = 2131624469;
-			
-			// aapt resource value: 0x7F0E0216
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624470;
-			
-			// aapt resource value: 0x7F0E0217
-			public const int ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = 2131624471;
-			
-			// aapt resource value: 0x7F0E0218
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog = 2131624472;
-			
-			// aapt resource value: 0x7F0E0219
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = 2131624473;
-			
-			// aapt resource value: 0x7F0E021A
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = 2131624474;
-			
-			// aapt resource value: 0x7F0E021B
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = 2131624475;
-			
-			// aapt resource value: 0x7F0E021C
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = 2131624476;
-			
-			// aapt resource value: 0x7F0E021D
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = 2131624477;
-			
-			// aapt resource value: 0x7F0E021E
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = 2131624478;
-			
-			// aapt resource value: 0x7F0E021F
-			public const int ThemeOverlay_MaterialComponents_MaterialCalendar = 2131624479;
-			
-			// aapt resource value: 0x7F0E0220
-			public const int ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = 2131624480;
-			
-			// aapt resource value: 0x7F0E0221
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624481;
-			
-			// aapt resource value: 0x7F0E0222
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624482;
-			
-			// aapt resource value: 0x7F0E0223
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624483;
-			
-			// aapt resource value: 0x7F0E0224
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624484;
-			
-			// aapt resource value: 0x7F0E0225
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624485;
-			
-			// aapt resource value: 0x7F0E0226
-			public const int ThemeOverlay_MaterialComponents_TimePicker = 2131624486;
-			
-			// aapt resource value: 0x7F0E0227
-			public const int ThemeOverlay_MaterialComponents_TimePicker_Display = 2131624487;
-			
-			// aapt resource value: 0x7F0E0228
-			public const int ThemeOverlay_MaterialComponents_Toolbar_Primary = 2131624488;
-			
-			// aapt resource value: 0x7F0E0229
-			public const int ThemeOverlay_MaterialComponents_Toolbar_Surface = 2131624489;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624364;
 			
 			// aapt resource value: 0x7F0E01AD
-			public const int Theme_AppCompat = 2131624365;
-			
-			// aapt resource value: 0x7F0E01AE
-			public const int Theme_AppCompat_CompactMenu = 2131624366;
-			
-			// aapt resource value: 0x7F0E01AF
-			public const int Theme_AppCompat_DayNight = 2131624367;
-			
-			// aapt resource value: 0x7F0E01B0
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624368;
-			
-			// aapt resource value: 0x7F0E01B1
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624369;
-			
-			// aapt resource value: 0x7F0E01B4
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624372;
-			
-			// aapt resource value: 0x7F0E01B2
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624370;
-			
-			// aapt resource value: 0x7F0E01B3
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624371;
-			
-			// aapt resource value: 0x7F0E01B5
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624373;
-			
-			// aapt resource value: 0x7F0E01B6
-			public const int Theme_AppCompat_Dialog = 2131624374;
-			
-			// aapt resource value: 0x7F0E01B9
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624377;
-			
-			// aapt resource value: 0x7F0E01B7
-			public const int Theme_AppCompat_Dialog_Alert = 2131624375;
-			
-			// aapt resource value: 0x7F0E01B8
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624376;
-			
-			// aapt resource value: 0x7F0E01BA
-			public const int Theme_AppCompat_Empty = 2131624378;
-			
-			// aapt resource value: 0x7F0E01BB
-			public const int Theme_AppCompat_Light = 2131624379;
-			
-			// aapt resource value: 0x7F0E01BC
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624380;
-			
-			// aapt resource value: 0x7F0E01BD
-			public const int Theme_AppCompat_Light_Dialog = 2131624381;
-			
-			// aapt resource value: 0x7F0E01C0
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624384;
-			
-			// aapt resource value: 0x7F0E01BE
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624382;
-			
-			// aapt resource value: 0x7F0E01BF
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624383;
-			
-			// aapt resource value: 0x7F0E01C1
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624385;
-			
-			// aapt resource value: 0x7F0E01C2
-			public const int Theme_AppCompat_NoActionBar = 2131624386;
-			
-			// aapt resource value: 0x7F0E01C3
-			public const int Theme_Design = 2131624387;
-			
-			// aapt resource value: 0x7F0E01C4
-			public const int Theme_Design_BottomSheetDialog = 2131624388;
-			
-			// aapt resource value: 0x7F0E01C5
-			public const int Theme_Design_Light = 2131624389;
-			
-			// aapt resource value: 0x7F0E01C6
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624390;
-			
-			// aapt resource value: 0x7F0E01C7
-			public const int Theme_Design_Light_NoActionBar = 2131624391;
-			
-			// aapt resource value: 0x7F0E01C8
-			public const int Theme_Design_NoActionBar = 2131624392;
-			
-			// aapt resource value: 0x7F0E01C9
-			public const int Theme_MaterialComponents = 2131624393;
-			
-			// aapt resource value: 0x7F0E01CA
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624394;
-			
-			// aapt resource value: 0x7F0E01CB
-			public const int Theme_MaterialComponents_Bridge = 2131624395;
-			
-			// aapt resource value: 0x7F0E01CC
-			public const int Theme_MaterialComponents_CompactMenu = 2131624396;
-			
-			// aapt resource value: 0x7F0E01CD
-			public const int Theme_MaterialComponents_DayNight = 2131624397;
-			
-			// aapt resource value: 0x7F0E01CE
-			public const int Theme_MaterialComponents_DayNight_BottomSheetDialog = 2131624398;
-			
-			// aapt resource value: 0x7F0E01CF
-			public const int Theme_MaterialComponents_DayNight_Bridge = 2131624399;
-			
-			// aapt resource value: 0x7F0E01D0
-			public const int Theme_MaterialComponents_DayNight_DarkActionBar = 2131624400;
-			
-			// aapt resource value: 0x7F0E01D1
-			public const int Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = 2131624401;
-			
-			// aapt resource value: 0x7F0E01D2
-			public const int Theme_MaterialComponents_DayNight_Dialog = 2131624402;
-			
-			// aapt resource value: 0x7F0E01DA
-			public const int Theme_MaterialComponents_DayNight_DialogWhenLarge = 2131624410;
-			
-			// aapt resource value: 0x7F0E01D3
-			public const int Theme_MaterialComponents_DayNight_Dialog_Alert = 2131624403;
-			
-			// aapt resource value: 0x7F0E01D4
-			public const int Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = 2131624404;
-			
-			// aapt resource value: 0x7F0E01D5
-			public const int Theme_MaterialComponents_DayNight_Dialog_Bridge = 2131624405;
-			
-			// aapt resource value: 0x7F0E01D6
-			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize = 2131624406;
-			
-			// aapt resource value: 0x7F0E01D7
-			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = 2131624407;
-			
-			// aapt resource value: 0x7F0E01D8
-			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth = 2131624408;
-			
-			// aapt resource value: 0x7F0E01D9
-			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = 2131624409;
-			
-			// aapt resource value: 0x7F0E01DB
-			public const int Theme_MaterialComponents_DayNight_NoActionBar = 2131624411;
-			
-			// aapt resource value: 0x7F0E01DC
-			public const int Theme_MaterialComponents_DayNight_NoActionBar_Bridge = 2131624412;
-			
-			// aapt resource value: 0x7F0E01DD
-			public const int Theme_MaterialComponents_Dialog = 2131624413;
-			
-			// aapt resource value: 0x7F0E01E5
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624421;
-			
-			// aapt resource value: 0x7F0E01DE
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624414;
-			
-			// aapt resource value: 0x7F0E01DF
-			public const int Theme_MaterialComponents_Dialog_Alert_Bridge = 2131624415;
-			
-			// aapt resource value: 0x7F0E01E0
-			public const int Theme_MaterialComponents_Dialog_Bridge = 2131624416;
-			
-			// aapt resource value: 0x7F0E01E1
-			public const int Theme_MaterialComponents_Dialog_FixedSize = 2131624417;
-			
-			// aapt resource value: 0x7F0E01E2
-			public const int Theme_MaterialComponents_Dialog_FixedSize_Bridge = 2131624418;
-			
-			// aapt resource value: 0x7F0E01E3
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624419;
-			
-			// aapt resource value: 0x7F0E01E4
-			public const int Theme_MaterialComponents_Dialog_MinWidth_Bridge = 2131624420;
-			
-			// aapt resource value: 0x7F0E01E6
-			public const int Theme_MaterialComponents_Light = 2131624422;
-			
-			// aapt resource value: 0x7F0E01E7
-			public const int Theme_MaterialComponents_Light_BarSize = 2131624423;
-			
-			// aapt resource value: 0x7F0E01E8
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624424;
-			
-			// aapt resource value: 0x7F0E01E9
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624425;
-			
-			// aapt resource value: 0x7F0E01EA
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624426;
-			
-			// aapt resource value: 0x7F0E01EB
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624427;
-			
-			// aapt resource value: 0x7F0E01EC
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624428;
-			
-			// aapt resource value: 0x7F0E01F4
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624436;
-			
-			// aapt resource value: 0x7F0E01ED
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624429;
-			
-			// aapt resource value: 0x7F0E01EE
-			public const int Theme_MaterialComponents_Light_Dialog_Alert_Bridge = 2131624430;
-			
-			// aapt resource value: 0x7F0E01EF
-			public const int Theme_MaterialComponents_Light_Dialog_Bridge = 2131624431;
-			
-			// aapt resource value: 0x7F0E01F0
-			public const int Theme_MaterialComponents_Light_Dialog_FixedSize = 2131624432;
-			
-			// aapt resource value: 0x7F0E01F1
-			public const int Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = 2131624433;
-			
-			// aapt resource value: 0x7F0E01F2
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624434;
-			
-			// aapt resource value: 0x7F0E01F3
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = 2131624435;
-			
-			// aapt resource value: 0x7F0E01F5
-			public const int Theme_MaterialComponents_Light_LargeTouch = 2131624437;
-			
-			// aapt resource value: 0x7F0E01F6
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624438;
-			
-			// aapt resource value: 0x7F0E01F7
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624439;
-			
-			// aapt resource value: 0x7F0E01F8
-			public const int Theme_MaterialComponents_NoActionBar = 2131624440;
-			
-			// aapt resource value: 0x7F0E01F9
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624441;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624365;
 			
 			// aapt resource value: 0x7F0E022B
-			public const int Widget_AppCompat_ActionBar = 2131624491;
+			public const int ThemeOverlayColorAccentRed = 2131624491;
+			
+			// aapt resource value: 0x7F0E01FB
+			public const int ThemeOverlay_AppCompat = 2131624443;
+			
+			// aapt resource value: 0x7F0E01FC
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624444;
+			
+			// aapt resource value: 0x7F0E01FD
+			public const int ThemeOverlay_AppCompat_Dark = 2131624445;
+			
+			// aapt resource value: 0x7F0E01FE
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624446;
+			
+			// aapt resource value: 0x7F0E01FF
+			public const int ThemeOverlay_AppCompat_DayNight = 2131624447;
+			
+			// aapt resource value: 0x7F0E0200
+			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131624448;
+			
+			// aapt resource value: 0x7F0E0201
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624449;
+			
+			// aapt resource value: 0x7F0E0202
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624450;
+			
+			// aapt resource value: 0x7F0E0203
+			public const int ThemeOverlay_AppCompat_Light = 2131624451;
+			
+			// aapt resource value: 0x7F0E0204
+			public const int ThemeOverlay_Design_TextInputEditText = 2131624452;
+			
+			// aapt resource value: 0x7F0E0205
+			public const int ThemeOverlay_MaterialComponents = 2131624453;
+			
+			// aapt resource value: 0x7F0E0206
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624454;
+			
+			// aapt resource value: 0x7F0E0207
+			public const int ThemeOverlay_MaterialComponents_ActionBar_Primary = 2131624455;
+			
+			// aapt resource value: 0x7F0E0208
+			public const int ThemeOverlay_MaterialComponents_ActionBar_Surface = 2131624456;
+			
+			// aapt resource value: 0x7F0E0209
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView = 2131624457;
+			
+			// aapt resource value: 0x7F0E020A
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = 2131624458;
+			
+			// aapt resource value: 0x7F0E020B
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131624459;
+			
+			// aapt resource value: 0x7F0E020C
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131624460;
+			
+			// aapt resource value: 0x7F0E020D
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131624461;
+			
+			// aapt resource value: 0x7F0E020E
+			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Primary = 2131624462;
+			
+			// aapt resource value: 0x7F0E020F
+			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Surface = 2131624463;
+			
+			// aapt resource value: 0x7F0E0210
+			public const int ThemeOverlay_MaterialComponents_BottomSheetDialog = 2131624464;
+			
+			// aapt resource value: 0x7F0E0211
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131624465;
+			
+			// aapt resource value: 0x7F0E0212
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624466;
+			
+			// aapt resource value: 0x7F0E0213
+			public const int ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = 2131624467;
+			
+			// aapt resource value: 0x7F0E0214
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624468;
+			
+			// aapt resource value: 0x7F0E0215
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624469;
+			
+			// aapt resource value: 0x7F0E0216
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = 2131624470;
+			
+			// aapt resource value: 0x7F0E0217
+			public const int ThemeOverlay_MaterialComponents_Light = 2131624471;
+			
+			// aapt resource value: 0x7F0E0218
+			public const int ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = 2131624472;
+			
+			// aapt resource value: 0x7F0E0219
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog = 2131624473;
+			
+			// aapt resource value: 0x7F0E021A
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = 2131624474;
+			
+			// aapt resource value: 0x7F0E021B
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = 2131624475;
+			
+			// aapt resource value: 0x7F0E021C
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = 2131624476;
+			
+			// aapt resource value: 0x7F0E021D
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = 2131624477;
+			
+			// aapt resource value: 0x7F0E021E
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = 2131624478;
+			
+			// aapt resource value: 0x7F0E021F
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = 2131624479;
+			
+			// aapt resource value: 0x7F0E0220
+			public const int ThemeOverlay_MaterialComponents_MaterialCalendar = 2131624480;
+			
+			// aapt resource value: 0x7F0E0221
+			public const int ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = 2131624481;
+			
+			// aapt resource value: 0x7F0E0222
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624482;
+			
+			// aapt resource value: 0x7F0E0223
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624483;
+			
+			// aapt resource value: 0x7F0E0224
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624484;
+			
+			// aapt resource value: 0x7F0E0225
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624485;
+			
+			// aapt resource value: 0x7F0E0226
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624486;
+			
+			// aapt resource value: 0x7F0E0227
+			public const int ThemeOverlay_MaterialComponents_TimePicker = 2131624487;
+			
+			// aapt resource value: 0x7F0E0228
+			public const int ThemeOverlay_MaterialComponents_TimePicker_Display = 2131624488;
+			
+			// aapt resource value: 0x7F0E0229
+			public const int ThemeOverlay_MaterialComponents_Toolbar_Primary = 2131624489;
+			
+			// aapt resource value: 0x7F0E022A
+			public const int ThemeOverlay_MaterialComponents_Toolbar_Surface = 2131624490;
+			
+			// aapt resource value: 0x7F0E01AE
+			public const int Theme_AppCompat = 2131624366;
+			
+			// aapt resource value: 0x7F0E01AF
+			public const int Theme_AppCompat_CompactMenu = 2131624367;
+			
+			// aapt resource value: 0x7F0E01B0
+			public const int Theme_AppCompat_DayNight = 2131624368;
+			
+			// aapt resource value: 0x7F0E01B1
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624369;
+			
+			// aapt resource value: 0x7F0E01B2
+			public const int Theme_AppCompat_DayNight_Dialog = 2131624370;
+			
+			// aapt resource value: 0x7F0E01B5
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624373;
+			
+			// aapt resource value: 0x7F0E01B3
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624371;
+			
+			// aapt resource value: 0x7F0E01B4
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624372;
+			
+			// aapt resource value: 0x7F0E01B6
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624374;
+			
+			// aapt resource value: 0x7F0E01B7
+			public const int Theme_AppCompat_Dialog = 2131624375;
+			
+			// aapt resource value: 0x7F0E01BA
+			public const int Theme_AppCompat_DialogWhenLarge = 2131624378;
+			
+			// aapt resource value: 0x7F0E01B8
+			public const int Theme_AppCompat_Dialog_Alert = 2131624376;
+			
+			// aapt resource value: 0x7F0E01B9
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131624377;
+			
+			// aapt resource value: 0x7F0E01BB
+			public const int Theme_AppCompat_Empty = 2131624379;
+			
+			// aapt resource value: 0x7F0E01BC
+			public const int Theme_AppCompat_Light = 2131624380;
+			
+			// aapt resource value: 0x7F0E01BD
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131624381;
+			
+			// aapt resource value: 0x7F0E01BE
+			public const int Theme_AppCompat_Light_Dialog = 2131624382;
+			
+			// aapt resource value: 0x7F0E01C1
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624385;
+			
+			// aapt resource value: 0x7F0E01BF
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624383;
+			
+			// aapt resource value: 0x7F0E01C0
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624384;
+			
+			// aapt resource value: 0x7F0E01C2
+			public const int Theme_AppCompat_Light_NoActionBar = 2131624386;
+			
+			// aapt resource value: 0x7F0E01C3
+			public const int Theme_AppCompat_NoActionBar = 2131624387;
+			
+			// aapt resource value: 0x7F0E01C4
+			public const int Theme_Design = 2131624388;
+			
+			// aapt resource value: 0x7F0E01C5
+			public const int Theme_Design_BottomSheetDialog = 2131624389;
+			
+			// aapt resource value: 0x7F0E01C6
+			public const int Theme_Design_Light = 2131624390;
+			
+			// aapt resource value: 0x7F0E01C7
+			public const int Theme_Design_Light_BottomSheetDialog = 2131624391;
+			
+			// aapt resource value: 0x7F0E01C8
+			public const int Theme_Design_Light_NoActionBar = 2131624392;
+			
+			// aapt resource value: 0x7F0E01C9
+			public const int Theme_Design_NoActionBar = 2131624393;
+			
+			// aapt resource value: 0x7F0E01CA
+			public const int Theme_MaterialComponents = 2131624394;
+			
+			// aapt resource value: 0x7F0E01CB
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624395;
+			
+			// aapt resource value: 0x7F0E01CC
+			public const int Theme_MaterialComponents_Bridge = 2131624396;
+			
+			// aapt resource value: 0x7F0E01CD
+			public const int Theme_MaterialComponents_CompactMenu = 2131624397;
+			
+			// aapt resource value: 0x7F0E01CE
+			public const int Theme_MaterialComponents_DayNight = 2131624398;
+			
+			// aapt resource value: 0x7F0E01CF
+			public const int Theme_MaterialComponents_DayNight_BottomSheetDialog = 2131624399;
+			
+			// aapt resource value: 0x7F0E01D0
+			public const int Theme_MaterialComponents_DayNight_Bridge = 2131624400;
+			
+			// aapt resource value: 0x7F0E01D1
+			public const int Theme_MaterialComponents_DayNight_DarkActionBar = 2131624401;
+			
+			// aapt resource value: 0x7F0E01D2
+			public const int Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = 2131624402;
+			
+			// aapt resource value: 0x7F0E01D3
+			public const int Theme_MaterialComponents_DayNight_Dialog = 2131624403;
+			
+			// aapt resource value: 0x7F0E01DB
+			public const int Theme_MaterialComponents_DayNight_DialogWhenLarge = 2131624411;
+			
+			// aapt resource value: 0x7F0E01D4
+			public const int Theme_MaterialComponents_DayNight_Dialog_Alert = 2131624404;
+			
+			// aapt resource value: 0x7F0E01D5
+			public const int Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = 2131624405;
+			
+			// aapt resource value: 0x7F0E01D6
+			public const int Theme_MaterialComponents_DayNight_Dialog_Bridge = 2131624406;
+			
+			// aapt resource value: 0x7F0E01D7
+			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize = 2131624407;
+			
+			// aapt resource value: 0x7F0E01D8
+			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = 2131624408;
+			
+			// aapt resource value: 0x7F0E01D9
+			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth = 2131624409;
+			
+			// aapt resource value: 0x7F0E01DA
+			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = 2131624410;
+			
+			// aapt resource value: 0x7F0E01DC
+			public const int Theme_MaterialComponents_DayNight_NoActionBar = 2131624412;
+			
+			// aapt resource value: 0x7F0E01DD
+			public const int Theme_MaterialComponents_DayNight_NoActionBar_Bridge = 2131624413;
+			
+			// aapt resource value: 0x7F0E01DE
+			public const int Theme_MaterialComponents_Dialog = 2131624414;
+			
+			// aapt resource value: 0x7F0E01E6
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624422;
+			
+			// aapt resource value: 0x7F0E01DF
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131624415;
+			
+			// aapt resource value: 0x7F0E01E0
+			public const int Theme_MaterialComponents_Dialog_Alert_Bridge = 2131624416;
+			
+			// aapt resource value: 0x7F0E01E1
+			public const int Theme_MaterialComponents_Dialog_Bridge = 2131624417;
+			
+			// aapt resource value: 0x7F0E01E2
+			public const int Theme_MaterialComponents_Dialog_FixedSize = 2131624418;
+			
+			// aapt resource value: 0x7F0E01E3
+			public const int Theme_MaterialComponents_Dialog_FixedSize_Bridge = 2131624419;
+			
+			// aapt resource value: 0x7F0E01E4
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624420;
+			
+			// aapt resource value: 0x7F0E01E5
+			public const int Theme_MaterialComponents_Dialog_MinWidth_Bridge = 2131624421;
+			
+			// aapt resource value: 0x7F0E01E7
+			public const int Theme_MaterialComponents_Light = 2131624423;
+			
+			// aapt resource value: 0x7F0E01E8
+			public const int Theme_MaterialComponents_Light_BarSize = 2131624424;
+			
+			// aapt resource value: 0x7F0E01E9
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624425;
+			
+			// aapt resource value: 0x7F0E01EA
+			public const int Theme_MaterialComponents_Light_Bridge = 2131624426;
+			
+			// aapt resource value: 0x7F0E01EB
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624427;
+			
+			// aapt resource value: 0x7F0E01EC
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624428;
+			
+			// aapt resource value: 0x7F0E01ED
+			public const int Theme_MaterialComponents_Light_Dialog = 2131624429;
+			
+			// aapt resource value: 0x7F0E01F5
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624437;
+			
+			// aapt resource value: 0x7F0E01EE
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624430;
+			
+			// aapt resource value: 0x7F0E01EF
+			public const int Theme_MaterialComponents_Light_Dialog_Alert_Bridge = 2131624431;
+			
+			// aapt resource value: 0x7F0E01F0
+			public const int Theme_MaterialComponents_Light_Dialog_Bridge = 2131624432;
+			
+			// aapt resource value: 0x7F0E01F1
+			public const int Theme_MaterialComponents_Light_Dialog_FixedSize = 2131624433;
+			
+			// aapt resource value: 0x7F0E01F2
+			public const int Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = 2131624434;
+			
+			// aapt resource value: 0x7F0E01F3
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624435;
+			
+			// aapt resource value: 0x7F0E01F4
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = 2131624436;
+			
+			// aapt resource value: 0x7F0E01F6
+			public const int Theme_MaterialComponents_Light_LargeTouch = 2131624438;
+			
+			// aapt resource value: 0x7F0E01F7
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624439;
+			
+			// aapt resource value: 0x7F0E01F8
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624440;
+			
+			// aapt resource value: 0x7F0E01F9
+			public const int Theme_MaterialComponents_NoActionBar = 2131624441;
+			
+			// aapt resource value: 0x7F0E01FA
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624442;
 			
 			// aapt resource value: 0x7F0E022C
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624492;
+			public const int Widget_AppCompat_ActionBar = 2131624492;
 			
 			// aapt resource value: 0x7F0E022D
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624493;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131624493;
 			
 			// aapt resource value: 0x7F0E022E
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624494;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131624494;
 			
 			// aapt resource value: 0x7F0E022F
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624495;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131624495;
 			
 			// aapt resource value: 0x7F0E0230
-			public const int Widget_AppCompat_ActionButton = 2131624496;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131624496;
 			
 			// aapt resource value: 0x7F0E0231
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624497;
+			public const int Widget_AppCompat_ActionButton = 2131624497;
 			
 			// aapt resource value: 0x7F0E0232
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624498;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624498;
 			
 			// aapt resource value: 0x7F0E0233
-			public const int Widget_AppCompat_ActionMode = 2131624499;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131624499;
 			
 			// aapt resource value: 0x7F0E0234
-			public const int Widget_AppCompat_ActivityChooserView = 2131624500;
+			public const int Widget_AppCompat_ActionMode = 2131624500;
 			
 			// aapt resource value: 0x7F0E0235
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624501;
+			public const int Widget_AppCompat_ActivityChooserView = 2131624501;
 			
 			// aapt resource value: 0x7F0E0236
-			public const int Widget_AppCompat_Button = 2131624502;
-			
-			// aapt resource value: 0x7F0E023C
-			public const int Widget_AppCompat_ButtonBar = 2131624508;
-			
-			// aapt resource value: 0x7F0E023D
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624509;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131624502;
 			
 			// aapt resource value: 0x7F0E0237
-			public const int Widget_AppCompat_Button_Borderless = 2131624503;
+			public const int Widget_AppCompat_Button = 2131624503;
 			
-			// aapt resource value: 0x7F0E0238
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624504;
-			
-			// aapt resource value: 0x7F0E0239
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624505;
-			
-			// aapt resource value: 0x7F0E023A
-			public const int Widget_AppCompat_Button_Colored = 2131624506;
-			
-			// aapt resource value: 0x7F0E023B
-			public const int Widget_AppCompat_Button_Small = 2131624507;
+			// aapt resource value: 0x7F0E023D
+			public const int Widget_AppCompat_ButtonBar = 2131624509;
 			
 			// aapt resource value: 0x7F0E023E
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624510;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624510;
+			
+			// aapt resource value: 0x7F0E0238
+			public const int Widget_AppCompat_Button_Borderless = 2131624504;
+			
+			// aapt resource value: 0x7F0E0239
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624505;
+			
+			// aapt resource value: 0x7F0E023A
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624506;
+			
+			// aapt resource value: 0x7F0E023B
+			public const int Widget_AppCompat_Button_Colored = 2131624507;
+			
+			// aapt resource value: 0x7F0E023C
+			public const int Widget_AppCompat_Button_Small = 2131624508;
 			
 			// aapt resource value: 0x7F0E023F
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624511;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624511;
 			
 			// aapt resource value: 0x7F0E0240
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624512;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624512;
 			
 			// aapt resource value: 0x7F0E0241
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624513;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131624513;
 			
 			// aapt resource value: 0x7F0E0242
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624514;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131624514;
 			
 			// aapt resource value: 0x7F0E0243
-			public const int Widget_AppCompat_EditText = 2131624515;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624515;
 			
 			// aapt resource value: 0x7F0E0244
-			public const int Widget_AppCompat_ImageButton = 2131624516;
+			public const int Widget_AppCompat_EditText = 2131624516;
 			
 			// aapt resource value: 0x7F0E0245
-			public const int Widget_AppCompat_Light_ActionBar = 2131624517;
+			public const int Widget_AppCompat_ImageButton = 2131624517;
 			
 			// aapt resource value: 0x7F0E0246
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624518;
+			public const int Widget_AppCompat_Light_ActionBar = 2131624518;
 			
 			// aapt resource value: 0x7F0E0247
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624519;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624519;
 			
 			// aapt resource value: 0x7F0E0248
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624520;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624520;
 			
 			// aapt resource value: 0x7F0E0249
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624521;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624521;
 			
 			// aapt resource value: 0x7F0E024A
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624522;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624522;
 			
 			// aapt resource value: 0x7F0E024B
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624523;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624523;
 			
 			// aapt resource value: 0x7F0E024C
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624524;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624524;
 			
 			// aapt resource value: 0x7F0E024D
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624525;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624525;
 			
 			// aapt resource value: 0x7F0E024E
-			public const int Widget_AppCompat_Light_ActionButton = 2131624526;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624526;
 			
 			// aapt resource value: 0x7F0E024F
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624527;
+			public const int Widget_AppCompat_Light_ActionButton = 2131624527;
 			
 			// aapt resource value: 0x7F0E0250
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624528;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624528;
 			
 			// aapt resource value: 0x7F0E0251
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624529;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624529;
 			
 			// aapt resource value: 0x7F0E0252
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624530;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624530;
 			
 			// aapt resource value: 0x7F0E0253
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624531;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624531;
 			
 			// aapt resource value: 0x7F0E0254
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624532;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624532;
 			
 			// aapt resource value: 0x7F0E0255
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624533;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624533;
 			
 			// aapt resource value: 0x7F0E0256
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624534;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624534;
 			
 			// aapt resource value: 0x7F0E0257
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624535;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624535;
 			
 			// aapt resource value: 0x7F0E0258
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624536;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131624536;
 			
 			// aapt resource value: 0x7F0E0259
-			public const int Widget_AppCompat_Light_SearchView = 2131624537;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624537;
 			
 			// aapt resource value: 0x7F0E025A
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624538;
+			public const int Widget_AppCompat_Light_SearchView = 2131624538;
 			
 			// aapt resource value: 0x7F0E025B
-			public const int Widget_AppCompat_ListMenuView = 2131624539;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624539;
 			
 			// aapt resource value: 0x7F0E025C
-			public const int Widget_AppCompat_ListPopupWindow = 2131624540;
+			public const int Widget_AppCompat_ListMenuView = 2131624540;
 			
 			// aapt resource value: 0x7F0E025D
-			public const int Widget_AppCompat_ListView = 2131624541;
+			public const int Widget_AppCompat_ListPopupWindow = 2131624541;
 			
 			// aapt resource value: 0x7F0E025E
-			public const int Widget_AppCompat_ListView_DropDown = 2131624542;
+			public const int Widget_AppCompat_ListView = 2131624542;
 			
 			// aapt resource value: 0x7F0E025F
-			public const int Widget_AppCompat_ListView_Menu = 2131624543;
+			public const int Widget_AppCompat_ListView_DropDown = 2131624543;
 			
 			// aapt resource value: 0x7F0E0260
-			public const int Widget_AppCompat_PopupMenu = 2131624544;
+			public const int Widget_AppCompat_ListView_Menu = 2131624544;
 			
 			// aapt resource value: 0x7F0E0261
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624545;
+			public const int Widget_AppCompat_PopupMenu = 2131624545;
 			
 			// aapt resource value: 0x7F0E0262
-			public const int Widget_AppCompat_PopupWindow = 2131624546;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624546;
 			
 			// aapt resource value: 0x7F0E0263
-			public const int Widget_AppCompat_ProgressBar = 2131624547;
+			public const int Widget_AppCompat_PopupWindow = 2131624547;
 			
 			// aapt resource value: 0x7F0E0264
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624548;
+			public const int Widget_AppCompat_ProgressBar = 2131624548;
 			
 			// aapt resource value: 0x7F0E0265
-			public const int Widget_AppCompat_RatingBar = 2131624549;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624549;
 			
 			// aapt resource value: 0x7F0E0266
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624550;
+			public const int Widget_AppCompat_RatingBar = 2131624550;
 			
 			// aapt resource value: 0x7F0E0267
-			public const int Widget_AppCompat_RatingBar_Small = 2131624551;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131624551;
 			
 			// aapt resource value: 0x7F0E0268
-			public const int Widget_AppCompat_SearchView = 2131624552;
+			public const int Widget_AppCompat_RatingBar_Small = 2131624552;
 			
 			// aapt resource value: 0x7F0E0269
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624553;
+			public const int Widget_AppCompat_SearchView = 2131624553;
 			
 			// aapt resource value: 0x7F0E026A
-			public const int Widget_AppCompat_SeekBar = 2131624554;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131624554;
 			
 			// aapt resource value: 0x7F0E026B
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624555;
+			public const int Widget_AppCompat_SeekBar = 2131624555;
 			
 			// aapt resource value: 0x7F0E026C
-			public const int Widget_AppCompat_Spinner = 2131624556;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131624556;
 			
 			// aapt resource value: 0x7F0E026D
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624557;
+			public const int Widget_AppCompat_Spinner = 2131624557;
 			
 			// aapt resource value: 0x7F0E026E
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624558;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131624558;
 			
 			// aapt resource value: 0x7F0E026F
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624559;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624559;
 			
 			// aapt resource value: 0x7F0E0270
-			public const int Widget_AppCompat_TextView = 2131624560;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131624560;
 			
 			// aapt resource value: 0x7F0E0271
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624561;
+			public const int Widget_AppCompat_TextView = 2131624561;
 			
 			// aapt resource value: 0x7F0E0272
-			public const int Widget_AppCompat_Toolbar = 2131624562;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624562;
 			
 			// aapt resource value: 0x7F0E0273
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624563;
+			public const int Widget_AppCompat_Toolbar = 2131624563;
 			
 			// aapt resource value: 0x7F0E0274
-			public const int Widget_Compat_NotificationActionContainer = 2131624564;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624564;
 			
 			// aapt resource value: 0x7F0E0275
-			public const int Widget_Compat_NotificationActionText = 2131624565;
+			public const int Widget_Compat_NotificationActionContainer = 2131624565;
 			
 			// aapt resource value: 0x7F0E0276
-			public const int Widget_Design_AppBarLayout = 2131624566;
+			public const int Widget_Compat_NotificationActionText = 2131624566;
 			
 			// aapt resource value: 0x7F0E0277
-			public const int Widget_Design_BottomNavigationView = 2131624567;
+			public const int Widget_Design_AppBarLayout = 2131624567;
 			
 			// aapt resource value: 0x7F0E0278
-			public const int Widget_Design_BottomSheet_Modal = 2131624568;
+			public const int Widget_Design_BottomNavigationView = 2131624568;
 			
 			// aapt resource value: 0x7F0E0279
-			public const int Widget_Design_CollapsingToolbar = 2131624569;
+			public const int Widget_Design_BottomSheet_Modal = 2131624569;
 			
 			// aapt resource value: 0x7F0E027A
-			public const int Widget_Design_FloatingActionButton = 2131624570;
+			public const int Widget_Design_CollapsingToolbar = 2131624570;
 			
 			// aapt resource value: 0x7F0E027B
-			public const int Widget_Design_NavigationView = 2131624571;
+			public const int Widget_Design_FloatingActionButton = 2131624571;
 			
 			// aapt resource value: 0x7F0E027C
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624572;
+			public const int Widget_Design_NavigationView = 2131624572;
 			
 			// aapt resource value: 0x7F0E027D
-			public const int Widget_Design_Snackbar = 2131624573;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624573;
 			
 			// aapt resource value: 0x7F0E027E
-			public const int Widget_Design_TabLayout = 2131624574;
+			public const int Widget_Design_Snackbar = 2131624574;
 			
 			// aapt resource value: 0x7F0E027F
-			public const int Widget_Design_TextInputEditText = 2131624575;
+			public const int Widget_Design_TabLayout = 2131624575;
 			
 			// aapt resource value: 0x7F0E0280
-			public const int Widget_Design_TextInputLayout = 2131624576;
+			public const int Widget_Design_TextInputEditText = 2131624576;
 			
 			// aapt resource value: 0x7F0E0281
-			public const int Widget_MaterialComponents_ActionBar_Primary = 2131624577;
+			public const int Widget_Design_TextInputLayout = 2131624577;
 			
 			// aapt resource value: 0x7F0E0282
-			public const int Widget_MaterialComponents_ActionBar_PrimarySurface = 2131624578;
+			public const int Widget_MaterialComponents_ActionBar_Primary = 2131624578;
 			
 			// aapt resource value: 0x7F0E0283
-			public const int Widget_MaterialComponents_ActionBar_Solid = 2131624579;
+			public const int Widget_MaterialComponents_ActionBar_PrimarySurface = 2131624579;
 			
 			// aapt resource value: 0x7F0E0284
-			public const int Widget_MaterialComponents_ActionBar_Surface = 2131624580;
+			public const int Widget_MaterialComponents_ActionBar_Solid = 2131624580;
 			
 			// aapt resource value: 0x7F0E0285
-			public const int Widget_MaterialComponents_AppBarLayout_Primary = 2131624581;
+			public const int Widget_MaterialComponents_ActionBar_Surface = 2131624581;
 			
 			// aapt resource value: 0x7F0E0286
-			public const int Widget_MaterialComponents_AppBarLayout_PrimarySurface = 2131624582;
+			public const int Widget_MaterialComponents_AppBarLayout_Primary = 2131624582;
 			
 			// aapt resource value: 0x7F0E0287
-			public const int Widget_MaterialComponents_AppBarLayout_Surface = 2131624583;
+			public const int Widget_MaterialComponents_AppBarLayout_PrimarySurface = 2131624583;
 			
 			// aapt resource value: 0x7F0E0288
-			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox = 2131624584;
+			public const int Widget_MaterialComponents_AppBarLayout_Surface = 2131624584;
 			
 			// aapt resource value: 0x7F0E0289
-			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131624585;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox = 2131624585;
 			
 			// aapt resource value: 0x7F0E028A
-			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131624586;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131624586;
 			
 			// aapt resource value: 0x7F0E028B
-			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131624587;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131624587;
 			
 			// aapt resource value: 0x7F0E028C
-			public const int Widget_MaterialComponents_Badge = 2131624588;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131624588;
 			
 			// aapt resource value: 0x7F0E028D
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624589;
+			public const int Widget_MaterialComponents_Badge = 2131624589;
 			
 			// aapt resource value: 0x7F0E028E
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624590;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131624590;
 			
 			// aapt resource value: 0x7F0E028F
-			public const int Widget_MaterialComponents_BottomAppBar_PrimarySurface = 2131624591;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624591;
 			
 			// aapt resource value: 0x7F0E0290
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624592;
+			public const int Widget_MaterialComponents_BottomAppBar_PrimarySurface = 2131624592;
 			
 			// aapt resource value: 0x7F0E0291
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624593;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131624593;
 			
 			// aapt resource value: 0x7F0E0292
-			public const int Widget_MaterialComponents_BottomNavigationView_PrimarySurface = 2131624594;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624594;
 			
 			// aapt resource value: 0x7F0E0293
-			public const int Widget_MaterialComponents_BottomSheet = 2131624595;
+			public const int Widget_MaterialComponents_BottomNavigationView_PrimarySurface = 2131624595;
 			
 			// aapt resource value: 0x7F0E0294
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624596;
+			public const int Widget_MaterialComponents_BottomSheet = 2131624596;
 			
 			// aapt resource value: 0x7F0E0295
-			public const int Widget_MaterialComponents_Button = 2131624597;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624597;
 			
 			// aapt resource value: 0x7F0E0296
-			public const int Widget_MaterialComponents_Button_Icon = 2131624598;
+			public const int Widget_MaterialComponents_Button = 2131624598;
 			
 			// aapt resource value: 0x7F0E0297
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624599;
+			public const int Widget_MaterialComponents_Button_Icon = 2131624599;
 			
 			// aapt resource value: 0x7F0E0298
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624600;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624600;
 			
 			// aapt resource value: 0x7F0E0299
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624601;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624601;
 			
 			// aapt resource value: 0x7F0E029A
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624602;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131624602;
 			
 			// aapt resource value: 0x7F0E029B
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Flush = 2131624603;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624603;
 			
 			// aapt resource value: 0x7F0E029C
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624604;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Flush = 2131624604;
 			
 			// aapt resource value: 0x7F0E029D
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624605;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624605;
 			
 			// aapt resource value: 0x7F0E029E
-			public const int Widget_MaterialComponents_Button_TextButton_Snackbar = 2131624606;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624606;
 			
 			// aapt resource value: 0x7F0E029F
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624607;
+			public const int Widget_MaterialComponents_Button_TextButton_Snackbar = 2131624607;
 			
 			// aapt resource value: 0x7F0E02A0
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624608;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624608;
 			
 			// aapt resource value: 0x7F0E02A1
-			public const int Widget_MaterialComponents_CardView = 2131624609;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624609;
 			
 			// aapt resource value: 0x7F0E02A2
-			public const int Widget_MaterialComponents_CheckedTextView = 2131624610;
-			
-			// aapt resource value: 0x7F0E02A7
-			public const int Widget_MaterialComponents_ChipGroup = 2131624615;
+			public const int Widget_MaterialComponents_CardView = 2131624610;
 			
 			// aapt resource value: 0x7F0E02A3
-			public const int Widget_MaterialComponents_Chip_Action = 2131624611;
-			
-			// aapt resource value: 0x7F0E02A4
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624612;
-			
-			// aapt resource value: 0x7F0E02A5
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624613;
-			
-			// aapt resource value: 0x7F0E02A6
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624614;
+			public const int Widget_MaterialComponents_CheckedTextView = 2131624611;
 			
 			// aapt resource value: 0x7F0E02A8
-			public const int Widget_MaterialComponents_CircularProgressIndicator = 2131624616;
+			public const int Widget_MaterialComponents_ChipGroup = 2131624616;
+			
+			// aapt resource value: 0x7F0E02A4
+			public const int Widget_MaterialComponents_Chip_Action = 2131624612;
+			
+			// aapt resource value: 0x7F0E02A5
+			public const int Widget_MaterialComponents_Chip_Choice = 2131624613;
+			
+			// aapt resource value: 0x7F0E02A6
+			public const int Widget_MaterialComponents_Chip_Entry = 2131624614;
+			
+			// aapt resource value: 0x7F0E02A7
+			public const int Widget_MaterialComponents_Chip_Filter = 2131624615;
 			
 			// aapt resource value: 0x7F0E02A9
-			public const int Widget_MaterialComponents_CircularProgressIndicator_ExtraSmall = 2131624617;
+			public const int Widget_MaterialComponents_CircularProgressIndicator = 2131624617;
 			
 			// aapt resource value: 0x7F0E02AA
-			public const int Widget_MaterialComponents_CircularProgressIndicator_Medium = 2131624618;
+			public const int Widget_MaterialComponents_CircularProgressIndicator_ExtraSmall = 2131624618;
 			
 			// aapt resource value: 0x7F0E02AB
-			public const int Widget_MaterialComponents_CircularProgressIndicator_Small = 2131624619;
+			public const int Widget_MaterialComponents_CircularProgressIndicator_Medium = 2131624619;
 			
 			// aapt resource value: 0x7F0E02AC
-			public const int Widget_MaterialComponents_CollapsingToolbar = 2131624620;
+			public const int Widget_MaterialComponents_CircularProgressIndicator_Small = 2131624620;
 			
 			// aapt resource value: 0x7F0E02AD
-			public const int Widget_MaterialComponents_CompoundButton_CheckBox = 2131624621;
+			public const int Widget_MaterialComponents_CollapsingToolbar = 2131624621;
 			
 			// aapt resource value: 0x7F0E02AE
-			public const int Widget_MaterialComponents_CompoundButton_RadioButton = 2131624622;
+			public const int Widget_MaterialComponents_CompoundButton_CheckBox = 2131624622;
 			
 			// aapt resource value: 0x7F0E02AF
-			public const int Widget_MaterialComponents_CompoundButton_Switch = 2131624623;
+			public const int Widget_MaterialComponents_CompoundButton_RadioButton = 2131624623;
 			
 			// aapt resource value: 0x7F0E02B0
-			public const int Widget_MaterialComponents_ExtendedFloatingActionButton = 2131624624;
+			public const int Widget_MaterialComponents_CompoundButton_Switch = 2131624624;
 			
 			// aapt resource value: 0x7F0E02B1
-			public const int Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = 2131624625;
+			public const int Widget_MaterialComponents_ExtendedFloatingActionButton = 2131624625;
 			
 			// aapt resource value: 0x7F0E02B2
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624626;
+			public const int Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = 2131624626;
 			
 			// aapt resource value: 0x7F0E02B3
-			public const int Widget_MaterialComponents_Light_ActionBar_Solid = 2131624627;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131624627;
 			
 			// aapt resource value: 0x7F0E02B4
-			public const int Widget_MaterialComponents_LinearProgressIndicator = 2131624628;
+			public const int Widget_MaterialComponents_Light_ActionBar_Solid = 2131624628;
 			
 			// aapt resource value: 0x7F0E02B5
-			public const int Widget_MaterialComponents_MaterialButtonToggleGroup = 2131624629;
+			public const int Widget_MaterialComponents_LinearProgressIndicator = 2131624629;
 			
 			// aapt resource value: 0x7F0E02B6
-			public const int Widget_MaterialComponents_MaterialCalendar = 2131624630;
+			public const int Widget_MaterialComponents_MaterialButtonToggleGroup = 2131624630;
 			
 			// aapt resource value: 0x7F0E02B7
-			public const int Widget_MaterialComponents_MaterialCalendar_Day = 2131624631;
-			
-			// aapt resource value: 0x7F0E02BB
-			public const int Widget_MaterialComponents_MaterialCalendar_DayTextView = 2131624635;
+			public const int Widget_MaterialComponents_MaterialCalendar = 2131624631;
 			
 			// aapt resource value: 0x7F0E02B8
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Invalid = 2131624632;
-			
-			// aapt resource value: 0x7F0E02B9
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131624633;
-			
-			// aapt resource value: 0x7F0E02BA
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Today = 2131624634;
+			public const int Widget_MaterialComponents_MaterialCalendar_Day = 2131624632;
 			
 			// aapt resource value: 0x7F0E02BC
-			public const int Widget_MaterialComponents_MaterialCalendar_Fullscreen = 2131624636;
+			public const int Widget_MaterialComponents_MaterialCalendar_DayTextView = 2131624636;
+			
+			// aapt resource value: 0x7F0E02B9
+			public const int Widget_MaterialComponents_MaterialCalendar_Day_Invalid = 2131624633;
+			
+			// aapt resource value: 0x7F0E02BA
+			public const int Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131624634;
+			
+			// aapt resource value: 0x7F0E02BB
+			public const int Widget_MaterialComponents_MaterialCalendar_Day_Today = 2131624635;
 			
 			// aapt resource value: 0x7F0E02BD
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderCancelButton = 2131624637;
+			public const int Widget_MaterialComponents_MaterialCalendar_Fullscreen = 2131624637;
 			
 			// aapt resource value: 0x7F0E02BE
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = 2131624638;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderCancelButton = 2131624638;
 			
 			// aapt resource value: 0x7F0E02BF
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderDivider = 2131624639;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = 2131624639;
 			
 			// aapt resource value: 0x7F0E02C0
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderLayout = 2131624640;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderDivider = 2131624640;
 			
 			// aapt resource value: 0x7F0E02C1
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection = 2131624641;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderLayout = 2131624641;
 			
 			// aapt resource value: 0x7F0E02C2
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = 2131624642;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection = 2131624642;
 			
 			// aapt resource value: 0x7F0E02C3
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderTitle = 2131624643;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = 2131624643;
 			
 			// aapt resource value: 0x7F0E02C4
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = 2131624644;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderTitle = 2131624644;
 			
 			// aapt resource value: 0x7F0E02C5
-			public const int Widget_MaterialComponents_MaterialCalendar_Item = 2131624645;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = 2131624645;
 			
 			// aapt resource value: 0x7F0E02C6
-			public const int Widget_MaterialComponents_MaterialCalendar_MonthNavigationButton = 2131624646;
+			public const int Widget_MaterialComponents_MaterialCalendar_Item = 2131624646;
 			
 			// aapt resource value: 0x7F0E02C7
-			public const int Widget_MaterialComponents_MaterialCalendar_MonthTextView = 2131624647;
+			public const int Widget_MaterialComponents_MaterialCalendar_MonthNavigationButton = 2131624647;
 			
 			// aapt resource value: 0x7F0E02C8
-			public const int Widget_MaterialComponents_MaterialCalendar_Year = 2131624648;
-			
-			// aapt resource value: 0x7F0E02CB
-			public const int Widget_MaterialComponents_MaterialCalendar_YearNavigationButton = 2131624651;
+			public const int Widget_MaterialComponents_MaterialCalendar_MonthTextView = 2131624648;
 			
 			// aapt resource value: 0x7F0E02C9
-			public const int Widget_MaterialComponents_MaterialCalendar_Year_Selected = 2131624649;
-			
-			// aapt resource value: 0x7F0E02CA
-			public const int Widget_MaterialComponents_MaterialCalendar_Year_Today = 2131624650;
+			public const int Widget_MaterialComponents_MaterialCalendar_Year = 2131624649;
 			
 			// aapt resource value: 0x7F0E02CC
-			public const int Widget_MaterialComponents_NavigationRailView = 2131624652;
+			public const int Widget_MaterialComponents_MaterialCalendar_YearNavigationButton = 2131624652;
+			
+			// aapt resource value: 0x7F0E02CA
+			public const int Widget_MaterialComponents_MaterialCalendar_Year_Selected = 2131624650;
+			
+			// aapt resource value: 0x7F0E02CB
+			public const int Widget_MaterialComponents_MaterialCalendar_Year_Today = 2131624651;
 			
 			// aapt resource value: 0x7F0E02CD
-			public const int Widget_MaterialComponents_NavigationRailView_Colored = 2131624653;
+			public const int Widget_MaterialComponents_NavigationRailView = 2131624653;
 			
 			// aapt resource value: 0x7F0E02CE
-			public const int Widget_MaterialComponents_NavigationRailView_Colored_Compact = 2131624654;
+			public const int Widget_MaterialComponents_NavigationRailView_Colored = 2131624654;
 			
 			// aapt resource value: 0x7F0E02CF
-			public const int Widget_MaterialComponents_NavigationRailView_Compact = 2131624655;
+			public const int Widget_MaterialComponents_NavigationRailView_Colored_Compact = 2131624655;
 			
 			// aapt resource value: 0x7F0E02D0
-			public const int Widget_MaterialComponents_NavigationRailView_PrimarySurface = 2131624656;
+			public const int Widget_MaterialComponents_NavigationRailView_Compact = 2131624656;
 			
 			// aapt resource value: 0x7F0E02D1
-			public const int Widget_MaterialComponents_NavigationView = 2131624657;
+			public const int Widget_MaterialComponents_NavigationRailView_PrimarySurface = 2131624657;
 			
 			// aapt resource value: 0x7F0E02D2
-			public const int Widget_MaterialComponents_PopupMenu = 2131624658;
+			public const int Widget_MaterialComponents_NavigationView = 2131624658;
 			
 			// aapt resource value: 0x7F0E02D3
-			public const int Widget_MaterialComponents_PopupMenu_ContextMenu = 2131624659;
+			public const int Widget_MaterialComponents_PopupMenu = 2131624659;
 			
 			// aapt resource value: 0x7F0E02D4
-			public const int Widget_MaterialComponents_PopupMenu_ListPopupWindow = 2131624660;
+			public const int Widget_MaterialComponents_PopupMenu_ContextMenu = 2131624660;
 			
 			// aapt resource value: 0x7F0E02D5
-			public const int Widget_MaterialComponents_PopupMenu_Overflow = 2131624661;
+			public const int Widget_MaterialComponents_PopupMenu_ListPopupWindow = 2131624661;
 			
 			// aapt resource value: 0x7F0E02D6
-			public const int Widget_MaterialComponents_ProgressIndicator = 2131624662;
+			public const int Widget_MaterialComponents_PopupMenu_Overflow = 2131624662;
 			
 			// aapt resource value: 0x7F0E02D7
-			public const int Widget_MaterialComponents_ShapeableImageView = 2131624663;
+			public const int Widget_MaterialComponents_ProgressIndicator = 2131624663;
 			
 			// aapt resource value: 0x7F0E02D8
-			public const int Widget_MaterialComponents_Slider = 2131624664;
+			public const int Widget_MaterialComponents_ShapeableImageView = 2131624664;
 			
 			// aapt resource value: 0x7F0E02D9
-			public const int Widget_MaterialComponents_Snackbar = 2131624665;
+			public const int Widget_MaterialComponents_Slider = 2131624665;
 			
 			// aapt resource value: 0x7F0E02DA
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624666;
+			public const int Widget_MaterialComponents_Snackbar = 2131624666;
 			
 			// aapt resource value: 0x7F0E02DB
-			public const int Widget_MaterialComponents_Snackbar_TextView = 2131624667;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624667;
 			
 			// aapt resource value: 0x7F0E02DC
-			public const int Widget_MaterialComponents_TabLayout = 2131624668;
+			public const int Widget_MaterialComponents_Snackbar_TextView = 2131624668;
 			
 			// aapt resource value: 0x7F0E02DD
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624669;
+			public const int Widget_MaterialComponents_TabLayout = 2131624669;
 			
 			// aapt resource value: 0x7F0E02DE
-			public const int Widget_MaterialComponents_TabLayout_PrimarySurface = 2131624670;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624670;
 			
 			// aapt resource value: 0x7F0E02DF
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624671;
+			public const int Widget_MaterialComponents_TabLayout_PrimarySurface = 2131624671;
 			
 			// aapt resource value: 0x7F0E02E0
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624672;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624672;
 			
 			// aapt resource value: 0x7F0E02E1
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624673;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624673;
 			
 			// aapt resource value: 0x7F0E02E2
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624674;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624674;
 			
 			// aapt resource value: 0x7F0E02E3
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624675;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624675;
 			
 			// aapt resource value: 0x7F0E02E4
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624676;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624676;
 			
 			// aapt resource value: 0x7F0E02E5
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = 2131624677;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624677;
 			
 			// aapt resource value: 0x7F0E02E6
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = 2131624678;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = 2131624678;
 			
 			// aapt resource value: 0x7F0E02E7
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624679;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = 2131624679;
 			
 			// aapt resource value: 0x7F0E02E8
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624680;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624680;
 			
 			// aapt resource value: 0x7F0E02E9
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = 2131624681;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624681;
 			
 			// aapt resource value: 0x7F0E02EA
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = 2131624682;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = 2131624682;
 			
 			// aapt resource value: 0x7F0E02EB
-			public const int Widget_MaterialComponents_TextView = 2131624683;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = 2131624683;
 			
 			// aapt resource value: 0x7F0E02EC
-			public const int Widget_MaterialComponents_TimePicker = 2131624684;
+			public const int Widget_MaterialComponents_TextView = 2131624684;
 			
 			// aapt resource value: 0x7F0E02ED
-			public const int Widget_MaterialComponents_TimePicker_Button = 2131624685;
+			public const int Widget_MaterialComponents_TimePicker = 2131624685;
 			
 			// aapt resource value: 0x7F0E02EE
-			public const int Widget_MaterialComponents_TimePicker_Clock = 2131624686;
+			public const int Widget_MaterialComponents_TimePicker_Button = 2131624686;
 			
 			// aapt resource value: 0x7F0E02EF
-			public const int Widget_MaterialComponents_TimePicker_Display = 2131624687;
+			public const int Widget_MaterialComponents_TimePicker_Clock = 2131624687;
 			
 			// aapt resource value: 0x7F0E02F0
-			public const int Widget_MaterialComponents_TimePicker_Display_TextInputEditText = 2131624688;
+			public const int Widget_MaterialComponents_TimePicker_Display = 2131624688;
 			
 			// aapt resource value: 0x7F0E02F1
-			public const int Widget_MaterialComponents_TimePicker_ImageButton = 2131624689;
+			public const int Widget_MaterialComponents_TimePicker_Display_TextInputEditText = 2131624689;
 			
 			// aapt resource value: 0x7F0E02F2
-			public const int Widget_MaterialComponents_TimePicker_ImageButton_ShapeAppearance = 2131624690;
+			public const int Widget_MaterialComponents_TimePicker_ImageButton = 2131624690;
 			
 			// aapt resource value: 0x7F0E02F3
-			public const int Widget_MaterialComponents_Toolbar = 2131624691;
+			public const int Widget_MaterialComponents_TimePicker_ImageButton_ShapeAppearance = 2131624691;
 			
 			// aapt resource value: 0x7F0E02F4
-			public const int Widget_MaterialComponents_Toolbar_Primary = 2131624692;
+			public const int Widget_MaterialComponents_Toolbar = 2131624692;
 			
 			// aapt resource value: 0x7F0E02F5
-			public const int Widget_MaterialComponents_Toolbar_PrimarySurface = 2131624693;
+			public const int Widget_MaterialComponents_Toolbar_Primary = 2131624693;
 			
 			// aapt resource value: 0x7F0E02F6
-			public const int Widget_MaterialComponents_Toolbar_Surface = 2131624694;
+			public const int Widget_MaterialComponents_Toolbar_PrimarySurface = 2131624694;
 			
 			// aapt resource value: 0x7F0E02F7
-			public const int Widget_MaterialComponents_Tooltip = 2131624695;
+			public const int Widget_MaterialComponents_Toolbar_Surface = 2131624695;
 			
 			// aapt resource value: 0x7F0E02F8
-			public const int Widget_Support_CoordinatorLayout = 2131624696;
+			public const int Widget_MaterialComponents_Tooltip = 2131624696;
+			
+			// aapt resource value: 0x7F0E02F9
+			public const int Widget_Support_CoordinatorLayout = 2131624697;
 			
 			static Style()
 			{

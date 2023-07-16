@@ -37,6 +37,20 @@ namespace Habit_Tracker
                 return _connection.InsertAsync(habit);
             }
         }
+        public void SaveHabitsAsync (List<Habit> habits) 
+        {
+            foreach(Habit h in habits) 
+            {
+                if (h.ID != 0)
+                {
+                    _connection.UpdateAsync(h);
+                }
+                else
+                {
+                    _connection.InsertAsync(h);
+                }
+            }
+        }
 
         public Task<int> DeliteHabitAsync(Habit habit)
         {
@@ -54,6 +68,19 @@ namespace Habit_Tracker
         public Task<int> GetHabitCount()
         {
             return _connection.Table<Habit>().CountAsync();
+        }
+        public Task<int> SaveDayAsync(DayModel day)
+        {
+            return _connection.InsertAsync(day);
+        }
+        public Task<int> DeliteDayAsync(DayModel day)
+        {
+            return _connection.DeleteAsync(day);
+        }
+        public Task<Habit> GetDayAsync(int id)
+        {
+            return _connection.Table<Habit>()
+                .Where(i => i.ID == id).FirstOrDefaultAsync();
         }
     }
 }

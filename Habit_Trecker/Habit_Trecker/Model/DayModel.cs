@@ -15,7 +15,7 @@ namespace Habit_Tracker.Model
 
         public int Day { get; set; }
 
-        public string Month { get; set; }
+        public int Month { get; set; }
 
         [Indexed]
         public int HabitID { get; set; }

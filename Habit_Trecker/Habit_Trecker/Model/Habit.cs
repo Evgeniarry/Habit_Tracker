@@ -12,6 +12,7 @@ namespace Habit_Tracker.Model
         public string Description { get; set; }
         public int Progress { get; set; }
         public string Image { get; set; }
+        public bool IsSelected { get; set; }
 
         [Ignore]
         public List<DayModel> Days { get; set; }=new List<DayModel>();
