@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using Xamarin.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Habit_Tracker
 {
@@ -15,14 +16,18 @@ namespace Habit_Tracker
 
         public MainPage()
         {
+            
             InitializeComponent();
             labelDate.Text = DateTime.Now.ToString("d MMMM yyyy", CultureInfo.GetCultureInfo("ru"));
+            
         }
 
         List<Habit> hab;
-
+        int count;
         protected override async void OnAppearing()
         {
+            count = await App.DB.GetNoDoneHabits();
+            noneDone.Text = ($"Привет, у тебя осталость \nвсего {count} задачи на сегодня!");
             hab = await App.DB.GetHabitsAsync();
             habitViewModel = new HabitViewModel(hab);
             BindingContext = habitViewModel;
@@ -33,7 +38,6 @@ namespace Habit_Tracker
             await Navigation.PushAsync(new AddHabit());  
         }
 
-        int selectedCount = 0;
 
         private async void Switch_Toggled(object sender, ToggledEventArgs e)
         {
@@ -47,15 +51,15 @@ namespace Habit_Tracker
                 habit.IsSelected = true;
                 model.HabitID = habit.ID;
                 await App.DB.SaveDayAsync(model);
-                selectedCount++;
             }
             else
             {
                 habit.IsSelected = false;
-                selectedCount--;
             }
             await App.DB.SaveHabitAsync(habit);
-            await DisplayAlert("mess", selectedCount.ToString(), "ok");
+            count = await App.DB.GetNoDoneHabits();
+            noneDone.Text = ($"Привет, у тебя осталость \nвсего {count} задачи на сегодня!");
+            //await DisplayAlert("mess", count.ToString(), "ok");
         }
 
         private void FavoriteCommand()

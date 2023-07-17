@@ -7,7 +7,7 @@
         <Color x:Key="DarkButtonTextColor">White</Color>
             <Style x:Key="FABPrimary" TargetType="Button">
                 <Setter Property="CornerRadius" Value="100"/>
-                <Setter Property="BackgroundColor" Value="#663ABA"/>
+                <Setter Property="BackgroundColor" Value="#ba663ABA"/>
                 <Setter Property="HeightRequest" Value="55"/>
                 <Setter Property="WidthRequest" Value="55"/>
                 <Setter Property="HorizontalOptions" Value="EndAndExpand"/>
@@ -15,8 +15,9 @@
                 <Setter Property="Padding" Value="2"/>
                 <Setter Property="Margin" Value="0,0,15,15"/>
                 <Setter Property="TextColor" Value="{StaticResource DarkButtonTextColor}"/>
-                <Setter Property="FontSize" Value="32"/>
+                <Setter Property="FontSize" Value="34"/>
             </Style>
+        <Color x:Key="BackgroundColorLight">#efefefef</Color>
     </Application.Resources>
     
 </Application>

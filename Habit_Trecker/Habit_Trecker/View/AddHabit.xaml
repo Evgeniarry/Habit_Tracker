@@ -78,27 +78,28 @@
 
         <StackLayout RadioButtonGroup.GroupName="animals"
                  Orientation="Horizontal">
-            <RadioButton Value="Cat" x:Name="Cat" CheckedChanged="ImageChanged">
+            <RadioButton Value="book" CheckedChanged="ImageChanged">
                 <RadioButton.Content>
-                    <Image Source="cat.png"
+                    <Image Source="book.png"
                            HorizontalOptions="Center"
                            VerticalOptions="CenterAndExpand" />
                 </RadioButton.Content>
             </RadioButton>
-            <RadioButton Value="Dog" x:Name="Dog" CheckedChanged="ImageChanged">
+            <RadioButton Value="clean" CheckedChanged="ImageChanged">
                 <RadioButton.Content>
-                    <Image Source="dog.png"
+                    <Image Source="clean"
                            HorizontalOptions="Center"
                            VerticalOptions="CenterAndExpand" />
                 </RadioButton.Content>
             </RadioButton>
-            <RadioButton Value="Elephant" x:Name="Elephant" CheckedChanged="ImageChanged" IsChecked="True">
+            <RadioButton Value="clock" CheckedChanged="ImageChanged" IsChecked="True">
                 <RadioButton.Content>
-                    <Image Source="elephant.png"
+                    <Image Source="clock.png"
                            HorizontalOptions="Center"
                            VerticalOptions="CenterAndExpand" />
                 </RadioButton.Content>
             </RadioButton>
+            
         </StackLayout>
 
         <Button Text="Добавить привычку" 

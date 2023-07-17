@@ -25,7 +25,18 @@ namespace Habit_Tracker
             return _connection.Table<Habit>()
                 .Where(i => i.ID == id).FirstOrDefaultAsync();
         }
-
+        public async Task<int> GetNoDoneHabits()
+        {
+            int count = 0;
+            List<Habit> list = new List<Habit>();
+            list = await GetHabitsAsync();
+            foreach (Habit hab in list) 
+            {
+                if (hab.IsSelected == false)
+                    count++;
+            }
+            return count;
+        }
         public Task<int> SaveHabitAsync(Habit habit)
         {
             if (habit.ID != 0)

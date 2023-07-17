@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <resources>
   <style name="MainTheme" parent="MainTheme.Base">
-    <item name="colorPrimary">#8196F3</item>
-    <item name="android:colorPrimaryDark">#8196F3</item>
+    <item name="colorPrimary">#ba663ABA</item>
+    <item name="android:colorPrimaryDark">#ba663ABA</item>
 	  <item name="android:windowActionBar">true</item>
 	  <item name="android:windowFullscreen">true</item>
-      <item name="colorAccent">#FF9081</item>
+      <item name="colorAccent">#E5BD30</item>
 	  <item name="android:windowBackground">@drawable/gradient</item>
   </style>
 	<style name="MyTheme.Splash" parent ="Theme.AppCompat.Light.NoActionBar">
