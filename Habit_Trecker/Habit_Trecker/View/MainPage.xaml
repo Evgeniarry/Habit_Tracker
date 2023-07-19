@@ -90,75 +90,8 @@
     </ContentPage.Content>
 </ContentPage>
 
-
-
-<!--<RelativeLayout>
-    <Image
-            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
-            Property=Width,Factor=1}"
-            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,
-            Property=Height,Factor=0.268}" 
-            Source="MainBackground.png"/>
-
-    <Grid RelativeLayout.WidthConstraint=
-              "{ConstraintExpression Type=RelativeToParent, Property=Width}"
-            RelativeLayout.HeightConstraint=
-              "{ConstraintExpression Type=RelativeToParent, Property=Height}"
-              Margin="0, 220,0,0">
-
-        <StackLayout Margin="10, 10">
-            <Label x:Name="labelDate" 
-                       FontFamily="Roboto" 
-                       FontSize="22" 
-                       TextColor="#616161" 
-                       FontAttributes="Bold"/>
-        </StackLayout>
-
-        <CollectionView x:Name="habitsCollection" 
-                            ItemsSource="{Binding HabitsList}"
-                            SelectionMode="Single"
-                            SelectionChanged="OnSelectionChanged">
-            <CollectionView.ItemsLayout>
-                <LinearItemsLayout Orientation="Vertical"
-                                       ItemSpacing="10"/>
-            </CollectionView.ItemsLayout>
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Grid BackgroundColor="White"
-                              Padding="10">
-
-                        <StackLayout Orientation="Horizontal" >
-
-                            <Image Source="{Binding Image}"
-                                       HeightRequest="40"
-                                       WidthRequest="40"
-                                       Margin="10,0"/>
-
-                            <Label Text="{Binding Name}" 
-                                       FontSize="20" 
-                                       Margin="30, 10"/>
-
-                            <Switch BindingContext="{Binding .}"
-                                        IsToggled="{Binding IsSelected}"
-                                        VerticalOptions="Center" 
-                                        HorizontalOptions="EndAndExpand"  
-                                        Toggled="Switch_Toggled">
-                            </Switch>
-
-                        </StackLayout>
-                    </Grid>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-
-        
-    </Grid>
-</RelativeLayout>-->
-
-
-
-
-
+    
+    
 <!--<SwipeView>
     <SwipeView.LeftItems>
         <SwipeItems Mode="Execute">

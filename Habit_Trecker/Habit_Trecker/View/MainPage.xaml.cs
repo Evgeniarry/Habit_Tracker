@@ -53,7 +53,6 @@ namespace Habit_Tracker
             await Navigation.PushAsync(new AddHabit());  
         }
 
-
         private async void Switch_Toggled(object sender, ToggledEventArgs e)
         {
             DayModel model = new DayModel();
@@ -86,12 +85,6 @@ namespace Habit_Tracker
             await App.DB.SaveHabitAsync(habit);
             count = await App.DB.GetNoDoneHabits();
             noneDone.Text = LabelCount(count);
-            //await DisplayAlert("mess", count.ToString(), "ok");
-        }
-
-        private void FavoriteCommand()
-        {
-
         }
 
         private async void OnSelectionChanged(object sender, SelectionChangedEventArgs e)

@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using Xamarin.Forms;
-using Habit_Tracker.Model;
 
 namespace Habit_Tracker
 {

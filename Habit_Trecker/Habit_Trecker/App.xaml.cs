@@ -20,24 +20,13 @@ namespace Habit_Tracker
                 return db;
             }
         }
-        //public int count;
-        //public async void Count()
-        //{
-        //    List<Habit> hab = await DB.GetHabitsAsync();
-        //    count = hab.Count;
-        //}
+
         public App()
         {
-            
             InitializeComponent();
-            //Count();
-            //if (count != 0)
             
-                MainPage = new NavigationPage(new HelloPage());
+            MainPage = new NavigationPage(new HelloPage());
             
-            //else
-            //    MainPage = new NavigationPage(new HelloPage());
-
         }
         
 

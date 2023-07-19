@@ -13,7 +13,7 @@
 	  <item name="colorSwitchThumbNormal">#bfb3c7</item>
 
 	  <!-- цвет дорожки для неактивного состояния (30% прозрачности) -->
-	  <item name="android:colorForeground">#c5bacc</item>
+	  <item name="android:colorForeground">#63566b</item>
 	  <item name="android:windowBackground">@drawable/gradient</item>
   </style>
 	<style name="MyTheme.Splash" parent ="Theme.AppCompat.Light.NoActionBar">

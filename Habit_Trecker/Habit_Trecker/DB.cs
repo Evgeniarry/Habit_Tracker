@@ -1,6 +1,7 @@
 ﻿using Habit_Tracker.Model;
 using SQLite;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Threading.Tasks;
 
 namespace Habit_Tracker
@@ -49,21 +50,6 @@ namespace Habit_Tracker
             }
         }
 
-        public void SaveHabitsAsync (List<Habit> habits) 
-        {
-            foreach(Habit h in habits) 
-            {
-                if (h.ID != 0)
-                {
-                    _connection.UpdateAsync(h);
-                }
-                else
-                {
-                    _connection.InsertAsync(h);
-                }
-            }
-        }
-
         public Task<int> DeliteHabitAsync(Habit habit)
         {
             return _connection.DeleteAsync(habit);
@@ -89,10 +75,11 @@ namespace Habit_Tracker
         {
             return _connection.DeleteAsync(day);
         }
-        public Task<Habit> GetDayAsync(int id)
-        {
-            return _connection.Table<Habit>()
-                .Where(i => i.ID == id).FirstOrDefaultAsync();
-        }
     }
 }
+
+//public Task<Habit> GetDayAsync(int id)
+//{
+//    return _connection.Table<Habit>()
+//        .Where(i => i.ID == id).FirstOrDefaultAsync();
+//}
