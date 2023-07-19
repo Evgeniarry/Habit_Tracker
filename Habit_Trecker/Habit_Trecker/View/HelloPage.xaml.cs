@@ -20,7 +20,6 @@ namespace Habit_Tracker
 
         public async void Load()
         {
-            List<DayModel> list = await App.DB.GetDaysAsync(0);
             int c = await App.DB.GetDaysCount();
             c += await App.DB.GetHabitCount();
             if (c != 0)
