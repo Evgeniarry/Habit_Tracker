@@ -17,21 +17,24 @@ namespace Habit_Tracker
         {
             Habit habit = new Habit();
 
-            if (NameHabit.Text.Trim().Length < 1)
+            if (string.IsNullOrWhiteSpace(NameHabit.Text))
             {
-                await DisplayAlert("Error", "Минимальная длина названия 1 символов", "OK");
+                await DisplayAlert("Ошибка", "Введите название", "OK");
                 return;
             }
-            else if (Description.Text.Trim().Length < 1)
+            else if (string.IsNullOrWhiteSpace(Description.Text))
             {
-                await DisplayAlert("Error", "Минимальная длина описания 1 символов", "OK");
+                await DisplayAlert("Ошибка", "Введите описание", "OK");
                 return;
             }
-            habit.Name = NameHabit.Text.Trim();
-            habit.Description = Description.Text.Trim();
-            habit.Image = image;
-            habit.IsSelected = false;
-            await App.DB.SaveHabitAsync(habit);
+
+                habit.Description = Description.Text.Trim();
+                habit.Name = NameHabit.Text.Trim();
+                habit.Image = image;
+                habit.DateHabit = DateTime.Now;
+                habit.IsSelected = false;
+                await App.DB.SaveHabitAsync(habit);
+                await DisplayAlert("Привычка", "Новая привычка добавлена", "OK");
 
             NameHabit.Text = "";
             Description.Text = "";

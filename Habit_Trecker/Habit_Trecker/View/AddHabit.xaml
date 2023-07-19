@@ -3,6 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Habit_Tracker.AddHabit"
              Title="Новая привычка">
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Новая привычка"
+                   FontSize="20"
+                   TextColor="#fcf7ff"
+                   FontAttributes="Bold"/>
+            <ImageButton Source="doneWhite" 
+                         WidthRequest="30"
+                         HeightRequest="30"
+                         BackgroundColor="#00000000"
+                         HorizontalOptions="EndAndExpand"
+                         Margin="0,0,15,0"
+                         Clicked="AddHabitButton"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
     <ContentPage.Resources>
         <ControlTemplate x:Key="RadioButtonTemplate">
             <Frame BorderColor="#00F3F2F1"
@@ -72,37 +87,99 @@
     </ContentPage.Resources>
         
     <StackLayout Margin="15">
-        <Entry x:Name="NameHabit" Placeholder="Название привычки"/>
-        <Editor x:Name="Description" Placeholder="Описание привычки" HeightRequest="200"/>
-        <Label Text="Иконка" />
+        <Entry x:Name="NameHabit" Placeholder="Название привычки" PlaceholderColor="#8d7999"
+               TextColor="#63566b" FontAttributes="Bold"/>
+        <Editor x:Name="Description" Placeholder="Описание привычки" PlaceholderColor="#8d7999"
+                HeightRequest="150" TextColor="#63566b" FontAttributes="Bold"/>
+        <Label Margin="5,0" Text="Иконка" TextColor="#63566b" FontAttributes="Bold" FontSize="17"/>
 
-        <StackLayout RadioButtonGroup.GroupName="animals"
-                 Orientation="Horizontal">
-            <RadioButton Value="book" CheckedChanged="ImageChanged">
+            <Grid RadioButtonGroup.GroupName="animals"
+                  Margin="10,10"
+                  ColumnSpacing="20"
+                  RowSpacing="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <RadioButton Value="book" CheckedChanged="ImageChanged" IsChecked="True" Grid.Column="0" Grid.Row="0">
                 <RadioButton.Content>
                     <Image Source="book.png"
                            HorizontalOptions="Center"
                            VerticalOptions="CenterAndExpand" />
                 </RadioButton.Content>
             </RadioButton>
-            <RadioButton Value="clean" CheckedChanged="ImageChanged">
+            <RadioButton Value="clean" CheckedChanged="ImageChanged" IsChecked="false" Grid.Column="0" Grid.Row="1">
                 <RadioButton.Content>
                     <Image Source="clean"
                            HorizontalOptions="Center"
                            VerticalOptions="CenterAndExpand" />
                 </RadioButton.Content>
             </RadioButton>
-            <RadioButton Value="clock" CheckedChanged="ImageChanged" IsChecked="True">
+            <RadioButton Value="clock" CheckedChanged="ImageChanged" IsChecked="false" Grid.Column="0" Grid.Row="2">
                 <RadioButton.Content>
                     <Image Source="clock.png"
                            HorizontalOptions="Center"
                            VerticalOptions="CenterAndExpand" />
                 </RadioButton.Content>
             </RadioButton>
-            
-        </StackLayout>
+            <RadioButton Value="run" CheckedChanged="ImageChanged" IsChecked="false" Grid.Column="1" Grid.Row="0">
+                <RadioButton.Content>
+                    <Image Source="run.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Value="sleep" CheckedChanged="ImageChanged" IsChecked="false" Grid.Column="1" Grid.Row="1">
+                <RadioButton.Content>
+                    <Image Source="sleep.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Value="water" CheckedChanged="ImageChanged" IsChecked="false" Grid.Column="1" Grid.Row="2">
+                <RadioButton.Content>
+                    <Image Source="water.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Value="yoga" CheckedChanged="ImageChanged" IsChecked="false" Grid.Column="2" Grid.Row="0">
+                <RadioButton.Content>
+                    <Image Source="yoga.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Value="laptop" CheckedChanged="ImageChanged" IsChecked="false" Grid.Column="2" Grid.Row="1">
+                <RadioButton.Content>
+                    <Image Source="laptop.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Value="drum" CheckedChanged="ImageChanged" IsChecked="false" Grid.Column="2" Grid.Row="2">
+                <RadioButton.Content>
+                    <Image Source="drum.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand" />
+                </RadioButton.Content>
+            </RadioButton>
+                </Grid>
+       
 
-        <Button Text="Добавить привычку" 
-                Clicked="AddHabitButton"/>
+        <!--<Button BackgroundColor="#00000000"
+                Margin="0,0,100,0"
+                ImageSource="done" 
+                Text="Добавить привычку" 
+                TextColor="#3b3240"
+                FontSize="18"
+                FontAttributes="Bold"
+                Clicked="AddHabitButton"/>-->
     </StackLayout>
 </ContentPage>

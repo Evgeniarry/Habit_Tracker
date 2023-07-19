@@ -33,7 +33,10 @@ namespace Habit_Tracker.View
             if ((!string.IsNullOrWhiteSpace(habit.Name)) && (!string.IsNullOrWhiteSpace(habit.Description)))
             {
                 await App.DB.SaveHabitAsync(habit);
+                await DisplayAlert("Привычка", "Изменения сохранены", "OK");
             }
+            else
+                await DisplayAlert("Привычка", "Добавьте название и описание", "OK");
         }
 
         private async void DeliteHabitButton(object sender, EventArgs e)

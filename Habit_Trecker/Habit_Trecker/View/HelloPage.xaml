@@ -13,9 +13,9 @@
                    HorizontalOptions="CenterAndExpand"
                    VerticalOptions="CenterAndExpand"/>
             <Frame Margin="45,0,45,45" CornerRadius="20"
+                   Opacity="0.92"
                    Padding="0" HasShadow="True">
             <Button Text="Начать"
-                    
                     TextColor="#EBE6DB"
                     FontSize="30"
                     FontAttributes="Bold"

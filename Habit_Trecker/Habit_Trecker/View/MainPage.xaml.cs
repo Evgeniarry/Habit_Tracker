@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using Xamarin.Forms;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Habit_Tracker
 {
@@ -16,23 +15,39 @@ namespace Habit_Tracker
 
         public MainPage()
         {
-            
+
             InitializeComponent();
             labelDate.Text = DateTime.Now.ToString("d MMMM yyyy", CultureInfo.GetCultureInfo("ru"));
-            
+
         }
 
         List<Habit> hab;
         int count;
         protected override async void OnAppearing()
         {
-            count = await App.DB.GetNoDoneHabits();
-            noneDone.Text = ($"Привет, у тебя осталость \nвсего {count} задачи на сегодня!");
             hab = await App.DB.GetHabitsAsync();
             habitViewModel = new HabitViewModel(hab);
             BindingContext = habitViewModel;
+            count = await App.DB.GetNoDoneHabits();
+            noneDone.Text = LabelCount(count);
         }
-        
+
+        public String LabelCount(int c)
+        {
+            if ((c == 0) && (hab.Count > 0))
+                return "Все задачи выполнены!";
+            else if (c == 0)
+                return "У тебя ещё нет ни одной \nпривычки, самое время\nдобавить первую привычку.";
+            else if ((c == 13) || (c == 14) || (c == 12) || (c == 11))
+                return $"Привет, у тебя осталость \nвсего {c} задач на сегодня!";
+            else if (c%10 == 1)
+                return $"Привет, у тебя осталась \nвсего {c} задача на сегодня!";
+            else if ((c % 10 == 2) || (c % 10 == 3) || (c % 10 == 4))
+                return $"Привет, у тебя осталось \nвсего {c} задачи на сегодня!";
+            else
+                return $"Привет, у тебя осталость \nвсего {c} задач на сегодня!";
+        }
+
         async void OnButtonClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AddHabit());  
@@ -44,21 +59,33 @@ namespace Habit_Tracker
             DayModel model = new DayModel();
             Habit habit = (Habit)((Switch)sender).BindingContext;
             Switch switch1 = (Switch)sender;
+            model.Day = DateTime.Now.Day;
+            model.Month = DateTime.Now.Month;
+            model.Year = DateTime.Now.Year;
+            habit.DateHabit = DateTime.Now;
+            model.HabitID = habit.ID;
             if (switch1.IsToggled)
             {
-                model.Day = DateTime.Now.Day;
-                model.Month = DateTime.Now.Month;
                 habit.IsSelected = true;
-                model.HabitID = habit.ID;
                 await App.DB.SaveDayAsync(model);
             }
             else
             {
                 habit.IsSelected = false;
+                List<DayModel> dayModels= await App.DB.GetDaysAsync(habit.ID);
+                foreach (DayModel day in dayModels) 
+                { 
+                    if ((day.Day == model.Day) &&
+                        (day.Month == model.Month) && 
+                        (day.Year == model.Year))
+                    {
+                        await App.DB.DeliteDayAsync(day);
+                    }
+                }
             }
             await App.DB.SaveHabitAsync(habit);
             count = await App.DB.GetNoDoneHabits();
-            noneDone.Text = ($"Привет, у тебя осталость \nвсего {count} задачи на сегодня!");
+            noneDone.Text = LabelCount(count);
             //await DisplayAlert("mess", count.ToString(), "ok");
         }
 

@@ -15,7 +15,7 @@
                 <Setter Property="Padding" Value="2"/>
                 <Setter Property="Margin" Value="0,0,15,15"/>
                 <Setter Property="TextColor" Value="{StaticResource DarkButtonTextColor}"/>
-                <Setter Property="FontSize" Value="34"/>
+                <Setter Property="FontSize" Value="32"/>
             </Style>
         <Color x:Key="BackgroundColorLight">#efefefef</Color>
     </Application.Resources>

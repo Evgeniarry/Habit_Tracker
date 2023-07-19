@@ -6,15 +6,30 @@
     <StackLayout Margin="15">
         <Entry x:Name="NameHabit" 
                Placeholder="Название привычки"
-               Text="{Binding Name}"/>
+               Text="{Binding Name}"
+               PlaceholderColor="#8d7999"
+               TextColor="#63566b" 
+               FontAttributes="Bold"/>
         <Editor x:Name="Description" 
                 Placeholder="Описание привычки" 
-                HeightRequest="200"
-                Text="{Binding Description}"/>
+                HeightRequest="150"
+                Text="{Binding Description}"
+                PlaceholderColor="#8d7999"
+                TextColor="#63566b" 
+                FontAttributes="Bold"/>
 
-        <Button Text="Сохранить привычку" 
+        <Button BackgroundColor="#00000000"
+                Margin="0,0,180,0"
+                ImageSource="done" 
+                Text="Сохранить" 
+                TextColor="#63566b"
                 Clicked="SaveHabitButton"/>
-        <Button Text="Удалить привычку"
+
+        <Button BackgroundColor="#00000000"
+                ImageSource="trash"
+                Margin="0,0,180,0"
+                Text="Удалить"
+                TextColor="#63566b"
                 Clicked="DeliteHabitButton"/>
     </StackLayout>
 </ContentPage>
