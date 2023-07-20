@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:views="clr-namespace:XCalendar.Forms.Views;assembly=XCalendar.Forms"
              x:Class="Habit_Tracker.View.StatisticPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Orientation="Horizontal">
+            
+            <Label x:Name="WeekProgress" TextColor="#63566b"/>
+            <Label x:Name="MonthProgress" TextColor="#63566b"/>
+            <Label x:Name="YearProgress" TextColor="#63566b"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

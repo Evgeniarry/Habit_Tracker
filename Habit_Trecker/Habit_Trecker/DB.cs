@@ -77,9 +77,3 @@ namespace Habit_Tracker
         }
     }
 }
-
-//public Task<Habit> GetDayAsync(int id)
-//{
-//    return _connection.Table<Habit>()
-//        .Where(i => i.ID == id).FirstOrDefaultAsync();
-//}

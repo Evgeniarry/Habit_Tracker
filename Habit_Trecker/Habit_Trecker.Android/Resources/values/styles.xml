@@ -8,7 +8,6 @@
       <item name="colorAccent">#E5BD30</item>
 	  <!-- активное состояние (30% прозрачности для фона) -->
 	  <item name="colorControlActivated">#E5BD30</item>
-
 	  <!-- неактивное состояние ползунка -->
 	  <item name="colorSwitchThumbNormal">#bfb3c7</item>
 

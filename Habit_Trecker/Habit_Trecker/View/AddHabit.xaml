@@ -93,7 +93,7 @@
                 HeightRequest="150" TextColor="#63566b" FontAttributes="Bold"/>
         <Label Margin="5,0" Text="Иконка" TextColor="#63566b" FontAttributes="Bold" FontSize="17"/>
 
-            <Grid RadioButtonGroup.GroupName="animals"
+        <Grid RadioButtonGroup.GroupName="animals"
                   Margin="10,10"
                   ColumnSpacing="20"
                   RowSpacing="20">
@@ -170,16 +170,6 @@
                            VerticalOptions="CenterAndExpand" />
                 </RadioButton.Content>
             </RadioButton>
-                </Grid>
-       
-
-        <!--<Button BackgroundColor="#00000000"
-                Margin="0,0,100,0"
-                ImageSource="done" 
-                Text="Добавить привычку" 
-                TextColor="#3b3240"
-                FontSize="18"
-                FontAttributes="Bold"
-                Clicked="AddHabitButton"/>-->
+        </Grid>
     </StackLayout>
 </ContentPage>

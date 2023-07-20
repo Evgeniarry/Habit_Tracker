@@ -7,23 +7,14 @@ namespace Habit_Tracker
 	{
 		public HelloPage ()
 		{
-			InitializeComponent ();
-            Load();
+            InitializeComponent ();
         }
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MainPage());
+            Navigation.RemovePage(this);
         }
 
-        public async void Load()
-        {
-            int c = await App.DB.GetDaysCount();
-            c += await App.DB.GetHabitCount();
-            if (c != 0)
-            {
-                await Navigation.PushAsync(new MainPage());
-            }
-        }
     }
 }

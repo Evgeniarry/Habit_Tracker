@@ -2,8 +2,27 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Habit_Tracker.View.EditPage"
-             Title="Изменение привычки">
+             Title="{Binding Name}">
     <StackLayout Margin="15">
+        <Frame BackgroundColor="#cff8f5fa" CornerRadius="30">
+
+            <Grid>
+                <Label Text="Успешность привычки" 
+               TextColor="#63566b"
+               FontAttributes="Bold"
+               FontSize="18"
+               Margin="5,0,0,0"
+                Grid.Row="0" Grid.ColumnSpan ="3"   />
+                <Label Text="Неделя"  FontSize="20" FontAttributes="Bold" TextColor="#63566b" Grid.Row="2" Grid.Column="0" Margin="5,0,0,0"/>
+                <Label x:Name="WeekProgress" TextColor="#E5BD30" FontSize="25" FontAttributes="Bold" Grid.Row="1" Grid.Column="0" Margin="5,0,0,0"/>
+                <Label Text="Месяц"  FontSize="20" FontAttributes="Bold" TextColor="#63566b" Grid.Row="2" Grid.Column="1"/>
+                <Label x:Name="MonthProgress" TextColor="#E5BD30"  FontSize="25" FontAttributes="Bold" Grid.Row="1" Grid.Column="1"/>
+                <Label Text="Год"  FontSize="20" FontAttributes="Bold" TextColor="#63566b" Grid.Row="2" Grid.Column="2"/>
+                <Label x:Name="YearProgress" TextColor="#E5BD30"  FontSize="25" FontAttributes="Bold" Grid.Row="1" Grid.Column="2"/>
+            </Grid>
+        </Frame>
+        <Frame BackgroundColor="#cff8f5fa" CornerRadius="30">
+            <StackLayout>
         <Entry x:Name="NameHabit" 
                Placeholder="Название привычки"
                Text="{Binding Name}"
@@ -31,5 +50,9 @@
                 Text="Удалить"
                 TextColor="#63566b"
                 Clicked="DeliteHabitButton"/>
+        <!--<Button Clicked="Button_Clicked"    ></Button>-->
+            </StackLayout>
+        </Frame>
+        
     </StackLayout>
 </ContentPage>

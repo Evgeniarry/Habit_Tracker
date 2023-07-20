@@ -1,10 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 using System.IO;
-using System.Threading;
-using Habit_Tracker.View;
-using System.Collections.Generic;
 
 namespace Habit_Tracker
 {
@@ -21,14 +17,16 @@ namespace Habit_Tracker
             }
         }
 
+        public App(int c)
+        {
+            InitializeComponent();
+            MainPage = new NavigationPage(new MainPage());
+        }
         public App()
         {
             InitializeComponent();
-            
             MainPage = new NavigationPage(new HelloPage());
-            
         }
-        
 
         protected override void OnStart()
         {

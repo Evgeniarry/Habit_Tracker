@@ -63,6 +63,16 @@ namespace Habit_Tracker
             model.Year = DateTime.Now.Year;
             habit.DateHabit = DateTime.Now;
             model.HabitID = habit.ID;
+            List<DayModel> dayModels = await App.DB.GetDaysAsync(habit.ID);
+            foreach (DayModel day in dayModels)
+            {
+                if ((day.Day == model.Day) &&
+                    (day.Month == model.Month) &&
+                    (day.Year == model.Year))
+                {
+                    await App.DB.DeliteDayAsync(day);
+                }
+            }
             if (switch1.IsToggled)
             {
                 habit.IsSelected = true;
@@ -71,16 +81,7 @@ namespace Habit_Tracker
             else
             {
                 habit.IsSelected = false;
-                List<DayModel> dayModels= await App.DB.GetDaysAsync(habit.ID);
-                foreach (DayModel day in dayModels) 
-                { 
-                    if ((day.Day == model.Day) &&
-                        (day.Month == model.Month) && 
-                        (day.Year == model.Year))
-                    {
-                        await App.DB.DeliteDayAsync(day);
-                    }
-                }
+                
             }
             await App.DB.SaveHabitAsync(habit);
             count = await App.DB.GetNoDoneHabits();

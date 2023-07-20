@@ -14,10 +14,13 @@ namespace Habit_Tracker.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
+            int a = App.DB.GetDaysCount().Result+ App.DB.GetHabitCount().Result;
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            LoadApplication(new App());
+            if (a>0)
+                LoadApplication(new App(a));
+            else
+                LoadApplication(new App());
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
